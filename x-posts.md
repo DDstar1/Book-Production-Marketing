@@ -104,3 +104,106 @@ His own campaign: $30/day, 19 leads, ~$27 each.
 But both used instant forms — bot-bait. A 20x gap is a question, not an answer.
 
 Verify what a lead is before you celebrate.
+
+## 2026-07-29 (second batch)
+
+Drafts for manuscript sections 11-20.
+
+**11. The launch spike**
+
+Every launch graph is the same shape: green spike on day 1, flatline by day 30.
+
+Founders now pay agencies $100-$1,000+ to "optimize" a directory launch.
+
+Best description I've read: borrowed attention with a hangover.
+
+Ask what's still working in 30 days.
+
+More in the book →
+
+**12. Who to sell to first**
+
+"They have no CRM to migrate" is a convenience argument.
+
+"They burn hours prepping one expensive deal" is a pain argument.
+
+Only one of those changes how someone works.
+
+One founder sold to 3 segments at once and closed nobody for a full quarter.
+
+The book →
+
+**13. Selling against a capital purchase**
+
+He's asking shipping ports to replace expensive hardware with software. 150+ messages before anyone
+replied.
+
+What landed wasn't a feature. It was $0 capex — no committee, no equipment budget fight.
+
+Sell the approval path.
+
+More →
+
+**14. What $0 actually buys**
+
+With no budget there are two good bets:
+
+A list so narrow that every conversation is with someone who has the problem today.
+
+Or an asset that compounds — one founder's free rhyming dictionary now brings ~100 users a day.
+
+What kills you is the broad effort in between.
+
+**15. The free pilot**
+
+Building it free for your first customer removes their risk — and the signal you were trying to buy.
+
+Sharpest line in the thread: what breaks isn't your list of what you won't take, it's free itself.
+
+Agree the baseline and the number that converts it. First.
+
+**16. Signed ≠ paid**
+
+They didn't decide not to pay you. The invoice failed a silent validation step — no PO, wrong cost
+centre, vendor record never finished — and dropped out of the run.
+
+Nobody tells you.
+
+Get the AP contact at signing, not the person who liked your demo.
+
+**17. The referral plateau**
+
+Ten years of referral growth isn't proof you can acquire customers.
+
+It's proof that people who already know you will vouch for you.
+
+When it flattens, more of the same won't fix it. You need the first channel that reaches strangers.
+
+The book →
+
+**18. 100 leads. 12 arrivals.**
+
+A med spa: 100 leads → 40 bookings → 10-12 people who actually showed up.
+
+They already had a call centre, an SMS at booking, an SMS two days out, and a call that morning.
+
+The fix wasn't more reminders. They were reporting leads, so the platform kept buying form-fillers.
+
+**19. New ad platform, old mistake**
+
+"Get in early, before it gets expensive" is doing most of the persuading.
+
+$47 CPM. $8k spent, leads awful. Three-week pilots quietly killed.
+
+Early doesn't mean cheap. It means unmeasured.
+
+Write the stopping rule before the first dollar goes in.
+
+**20. You're renting that channel**
+
+Biggest traffic source restricted overnight. 5+ tickets auto-closed as "Resolved." One agent said 24
+hours, the next said 4-8 weeks.
+
+Progress only came after paying for priority support.
+
+If you can't reach a human, it's rented. Keep a second channel warm.
