@@ -1,96 +1,103 @@
 # Last Run Status
 
-**Run timestamp:** 2026-07-29 (scheduled task: `daily-saas-book-content-pipeline`)
-**Result:** ⚠️ Partial — repo scaffolded, but **no content produced**. Source gathering is blocked.
+**Run timestamp:** 2026-07-29 08:59 local (UTC+01:00) — scheduled task `daily-saas-book-content-pipeline`
+**Result:** ✅ Success — 10 new sections written from 10 real threads.
 
 ---
 
 ## Summary
 
-| Metric | Count |
+| Metric | Value |
 |---|---|
-| Search queries issued | 6 |
-| Threads found | 0 |
-| Threads fetched | 0 |
-| Threads used | 0 |
-| Sections added | 0 |
-| X post drafts added | 0 |
-| `book/SaaS-Marketing-Book.txt` resynced | ✅ yes |
+| Source path used | `scripts/reddit_scraper.py` (Playwright, headed) — **no** WebSearch/WebFetch fallback needed |
+| Subreddits scraped | r/SaaS, r/startups, r/Entrepreneur, r/marketing (4 of 4) |
+| Posts scraped | 60 (15 per subreddit, `--sort new`) |
+| Posts used | 10 |
+| Sections added | 10 |
+| X post drafts added | 10 |
+| CAPTCHA / block encountered | None on any subreddit |
+| `book/SaaS-Marketing-Book.txt` resynced | ✅ yes (byte-identical to `manuscript.md`, 20,989 bytes) |
+| Raw scrape data deleted before staging | ✅ yes |
 | Push succeeded | see "Push" below |
 
-This was the **first run** — the repo contained only `README.md`. All expected files were created:
-`manuscript.md`, `sources-used.md`, `x-posts.md`, `LAST-RUN-STATUS.md`, `book/`.
+This run supersedes the earlier 2026-07-29 attempt, which produced zero sections because Reddit was
+unreachable via WebSearch/WebFetch/browser pane. The `scripts/reddit_scraper.py` path did not exist
+at that time; it works, and it is the only source path this run used. The placeholder
+"no entries / no sources / no drafts" blocks under the `2026-07-29` headers in `manuscript.md`,
+`sources-used.md`, and `x-posts.md` were replaced in place rather than a second same-date header
+being appended.
 
 ---
 
-## Blocker: Reddit is unreachable from this environment
+## Scraper run
 
-Reddit was tried on all three available surfaces. All three failed. These are access-control
-blocks, not transient network errors, so **retrying on the same path will not help**.
+The task's prescribed single command **failed partway through** and had to be re-run split by
+subreddit. Details below — this is the one thing worth a human's attention.
 
-**1. WebSearch, with domain filter** — `allowed_domains: ["reddit.com", "www.reddit.com"]`:
-
-```
-API Error: 400 The following domains are not accessible to our user agent:
-['reddit.com', 'reddit.com'].
-Read more: https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
-```
-
-**2. WebFetch** — tried `www.reddit.com`, `old.reddit.com`, and `reddit.com`, in both HTML and
-`.json` forms. Each returned:
+### Attempt 1 — the command as specified
 
 ```
-Claude Code is unable to fetch from www.reddit.com
-Claude Code is unable to fetch from old.reddit.com
-Claude Code is unable to fetch from reddit.com
+python scripts/reddit_scraper.py --subreddits SaaS startups Entrepreneur marketing --sort new \
+  --limit 15 --comments -1 --headed --captcha-wait 120 --out reddit_dump.json --posts-dir scraped_posts
 ```
 
-**3. Browser pane** — `preview_start` at `https://www.reddit.com/r/SaaS/top/?t=month`:
+r/SaaS scraped cleanly (15 posts). r/startups then died on a transient DNS failure and took the
+whole process with it:
 
 ```
-Browser pane opened at about:blank; https://reddit.com is blocked by policy.
-Use `navigate` to try a different URL.
+playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.reddit.com/r/startups/new/
+Call log:
+  - navigating to "https://www.reddit.com/r/startups/new/", waiting until "domcontentloaded"
 ```
 
-**4. Unfiltered WebSearch** (no `allowed_domains`, `site:reddit.com/...` and plain-language
-phrasings) returned **zero** reddit.com URLs across 3 queries — the search index excludes Reddit for
-this user agent. Results were only third-party blogs, Substacks, and SaaStr articles.
+Because `scripts/reddit_scraper.py` writes its JSON only after all subreddits finish, the 15 r/SaaS
+posts already in memory were lost with the crash. Nothing was written to disk.
 
-### Why no content was written anyway
+### Attempt 2 — same script, one process per subreddit
 
-Writing sections without reading real threads would require inventing threads, URLs, quotes, or
-metrics. That is a hard constraint of this task, so the correct output was zero sections rather than
-plausible-looking fabrications. No mirror or proxy was used to reach Reddit either — surface 3 is an
-explicit policy block, and routing around it would be circumventing that control.
+The scraper must not be modified by this task, so instead of patching the error handling, it was
+invoked four times, once per subreddit, each with its own `--out` file
+(`dump_saas.json`, `dump_startups.json`, `dump_entrepreneur.json`, `dump_marketing.json`) and a
+shared `--posts-dir scraped_posts`. One subreddit failing then costs only that subreddit.
+
+All four succeeded: 15 posts each, 60 total, full `selftext` and nested `comments` trees. No block
+page, no CAPTCHA, no `--captcha-wait` window ever opened. The DNS failure did not recur.
+
+**Suggested fix for a human (out of scope for this task, `scripts/reddit_scraper.py` is off-limits
+to it):** wrap the `scrape_subreddit(...)` call in `main()` in a try/except so one subreddit's
+failure cannot discard the others, and/or write `--out` incrementally after each subreddit. Until
+then, the per-subreddit invocation above is the reliable way to run this pipeline.
 
 ---
 
-## Decision needed from a human
+## Sourcing notes
 
-The Reddit block looks durable (Reddit blocks AI crawlers at robots.txt level, plus a local policy
-block). Left as-is, **this pipeline will produce nothing on every future run.** Three options:
+- `--sort new` returns very fresh threads, so most had low scores and few comments. Selection favoured
+  posts carrying a specific, first-hand go-to-market story over vote count. All 10 have either a
+  substantial `selftext` body or a comment tree with concrete tactical advice, usually both.
+- r/marketing is largely career, agency, and industry chatter rather than founder GTM; several of its
+  15 posts had empty `selftext` (link/image posts). Exactly one r/marketing thread was usable, so the
+  batch is weighted toward r/SaaS (5) and r/startups (3), plus r/Entrepreneur (1) and r/marketing (1).
+- Two threads in the scrape (one r/startups, one r/Entrepreneur) were the same founder writing about
+  the same hardware product. Only the r/Entrepreneur one was used, to avoid two sections resting on a
+  single person's account. The unused r/startups thread — content-first distribution with zero ad
+  budget — is **not** logged in `sources-used.md` and remains available to a future run.
+- Nothing was invented. Every number, quote, and detail in the 10 sections traces to the scraped JSON.
+  Quotes are all under 15 words, at most one per section. No usernames or personal details published.
 
-1. **Allowlist Reddit for this task.** If the browsing-policy block is org-configurable, unblocking
-   `reddit.com` for the browser pane restores the pipeline exactly as designed. Note the WebSearch
-   and WebFetch blocks are upstream (Anthropic's crawler respects Reddit's robots.txt) and would
-   *not* be lifted by a local policy change — the browser pane is the only realistic path.
-2. **Use the official Reddit API** with a registered app + OAuth token, which is the supported way
-   to read Reddit programmatically. This needs credentials, which the pipeline must never commit —
-   they would have to live in the environment.
-3. **Change the source corpus.** Hacker News is reachable right now and carries comparable
-   founder-GTM material. Verified working this run:
-   `https://hn.algolia.com/api/v1/search_by_date?query=SaaS%20first%20customers&tags=story`
-   returned real, live results (e.g. threads titled *"My SaaS finally made a sale"* and
-   *"Ask HN: Should I Promote My SaaS to get first 100 Customers without budget"*).
-   Indie Hackers was also probed but returned an empty body to WebFetch.
+---
 
-**Option 3 was deliberately not taken unilaterally.** The task specifies r/SaaS, r/startups,
-r/Entrepreneur, and r/marketing throughout, the dedup ledger is structured around subreddit + thread
-URL, and the prescribed attribution line is *"via a founder thread on r/SaaS"*. Swapping the source
-platform changes what the book is built from — an editorial call for the human, not a silent
-substitution, especially on the first run, which sets the manuscript's voice and precedent.
+## Files touched
 
-If option 3 is approved, the task file should be updated so future runs use it by default.
+`manuscript.md`, `sources-used.md`, `x-posts.md`, `LAST-RUN-STATUS.md`, `book/SaaS-Marketing-Book.txt`.
+
+Deleted after use, before staging: `dump_saas.json`, `dump_startups.json`, `dump_entrepreneur.json`,
+`dump_marketing.json`, `scraped_posts/`. (`reddit_dump.json` was never created — attempt 1 crashed
+before writing it.) Also removed `scripts/__pycache__/`, a byproduct of running the scraper.
+
+`scripts/` is untracked in git and was **left untracked** — it falls outside this task's allowed file
+set, so `git add -A` was followed by unstaging it rather than committing the human's tool into the
+public repo. A human may want to commit `scripts/reddit_scraper.py` deliberately.
 
 ---
 
@@ -98,26 +105,12 @@ If option 3 is approved, the task file should be updated so future runs use it b
 
 | Step | Error |
 |---|---|
-| 2. Source gathering (WebSearch, filtered) | `API Error: 400 The following domains are not accessible to our user agent: ['reddit.com', 'reddit.com']` |
-| 2. Source gathering (WebFetch) | `Claude Code is unable to fetch from www.reddit.com` / `old.reddit.com` / `reddit.com` |
-| 2. Source gathering (Browser) | `https://reddit.com is blocked by policy` |
-| 3. Manuscript synthesis | Skipped — no sources. Writing sections would have required fabrication. |
-| 5. Social copy | Skipped — no sections to write posts for. |
+| 2. Source gathering (attempt 1, all four subreddits in one process) | `playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.reddit.com/r/startups/new/` — killed the run after r/SaaS, discarded all in-memory posts, wrote no output |
 
-Steps 0, 1, 4, 6, and 7 completed normally.
+No other errors. Steps 0, 1, 3, 4, 5, 6, and 7 completed normally.
 
 ---
 
 ## Push
 
-✅ **Succeeded**, first attempt, no rebase needed.
-
-```
-To https://github.com/DDstar1/Book-Production-Marketing.git
-   f23dfcf..0895425  main -> main
-```
-
-Commit: `0895425 Daily content: 0 new sections (2026-07-29)`
-
-Note: `git add -A` also picked up `.claude/scheduled_tasks.lock`, which falls outside this task's
-allowed file set. It was unstaged before committing and left untracked.
+<!-- PUSH RESULT -->
