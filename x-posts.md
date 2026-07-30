@@ -314,3 +314,105 @@ Nobody in the thread thought the code was the problem. The problem is that no on
 Expiry date and owner, before you promise it.
 
 The book →
+
+## 2026-07-30 (second batch)
+
+**31. Nobody wants a channel**
+
+Client walks in demanding SEO. You can see it's the wrong tool. You say so. They leave.
+
+"Clients don't actually want SEO or Meta ads. They want more customers."
+
+Stop arguing about the instrument. Agree loudly on the destination.
+
+More in the book →
+
+**32. Two channels, five hours a week**
+
+Full-time job, side product. A consultant told one founder to run ads and post content simultaneously.
+
+"Don't pay to amplify a message you haven't validated organically yet."
+
+Don't choose between channels. Order them.
+
+The book →
+
+**33. Priced so low nobody believes you**
+
+He offered the same AI models at ~20% of list price. Free credit, no card needed.
+
+First reply: "Scam alert."
+
+When price is your only differentiator, price becomes your credibility problem. Cheap gets explained for you.
+
+More →
+
+**34. There's a free way to do it already**
+
+His extension summarises YouTube videos — something you can already do free with three tabs and a transcript.
+
+$100 MRR anyway.
+
+He doesn't sell summarising. He sells not switching tabs, and the 20-video job the free path can't do.
+
+The book →
+
+**35. When one user can't use your product**
+
+Group trip planner. One person subscribing is worthless if their four friends don't join.
+
+So the free tier is deliberately generous — cripple it and the group never forms.
+
+Bill the organiser's third trip, not their first.
+
+More →
+
+**36. Who controls your cost floor?**
+
+Selling parts at cost to win the install job. Classic loss leader.
+
+Except he'd be buying from competitors. "They set your cost floor."
+
+Your acquisition channel exists at a rival's discretion until they notice.
+
+More in the book →
+
+**37. They copied your ad**
+
+Competitor cloned his product, then launched near-identical Meta ads.
+
+Best reply in the thread: they copied the winning ad, not the 40 dead ones that taught you why it wins.
+
+They have your snapshot. You have the process.
+
+The book →
+
+**38. Is it ready?**
+
+Beautiful demo, thin tests, edge cases are vibes, nobody owns the agent-written parts.
+
+Wrong question. "Ready" isn't a feature list, it's a promise you can keep.
+
+Can it run a week unwatched? Sell one workflow you'll honour.
+
+More →
+
+**39. Distribution first**
+
+Rare founder problem: hundreds of customer relationships, technicians already trained, and no finished product.
+
+The insight buried in his post — customers convert when their old equipment dies.
+
+Your sales calendar is inherited, not chosen.
+
+The book →
+
+**40. Ask for the cheap thing**
+
+Asking your network to introduce you to a buyer spends their credibility. That's why nobody replies.
+
+Asking what they think of your pitch costs them nothing.
+
+Introductions arrive as a by-product, offered rather than extracted.
+
+More in the book →

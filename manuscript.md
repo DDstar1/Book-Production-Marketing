@@ -915,3 +915,346 @@ somebody's budget, keep it structurally easy to remove, and decide up front what
 it a place in the product. Do that and the occasional bridge is a legitimate sales tool. Skip it and
 your roadmap slowly becomes a maintenance contract for deals you closed two years ago.
 *(via a founder thread on r/startups)*
+
+## Entries — 2026-07-30 (second batch)
+
+### 31. The client asks for a channel, but nobody wants a channel
+
+**The pain.** They arrive knowing exactly what they want to buy. They want SEO. They want paid social.
+You can see within twenty minutes that it is the wrong instrument for their problem, and when you say
+so, they go somewhere that will just do it.
+
+**The struggle.** An agency owner described the loop in almost exactly those terms, and the
+frustration in the post is the useful part: they are technically strong, they can see the mistake
+coming, and telling the truth costs them the account. The two available moves both end badly. Refuse,
+and lose the work to whoever will nod. Comply, and run a campaign you already know will underperform —
+at which point the failure is filed under your name anyway, because you were the marketer in the room.
+Being right and unhired is not a strategy, and being paid for work you predicted would fail is not one
+either.
+
+**What worked.** The thread's best reply reframed the whole problem in two sentences: "Clients don't
+actually want SEO or Meta ads. They want more customers." The channel was never the purchase. It is a
+guess the buyer made about how to reach the outcome, and guesses can be discussed without anyone being
+contradicted. So you stop arguing about the instrument and start agreeing loudly about the destination
+— restate what they are actually trying to achieve, get them to confirm it, and only then put their
+channel and your channel side by side as two routes to that same agreed number. Two commenters added
+the practical constraint. Education has a ceiling: past a certain point, correcting a buyer's
+understanding of marketing reads as an attack on their judgement or as evidence you have misunderstood
+their business. So frame it at the level they are at now, in their vocabulary, and let the first
+month's data make the argument you were not allowed to make out loud. Bring numbers, not opinions —
+back the claim with why this route reaches the outcome and their route probably does not.
+
+**The lesson.** Never negotiate about the channel. Negotiate about the outcome, then treat every
+channel — theirs and yours — as a testable hypothesis about how to get there. It converts a
+disagreement about your expertise, which you can only lose, into a shared question about evidence,
+which you can win in four weeks. This is the same discipline the whole book keeps circling: sell the
+result, describe the mechanism only as far as the buyer needs it.
+*(via a founder thread on r/marketing)*
+
+### 32. Two channels, five hours a week
+
+**The pain.** You have a full-time job and a product on the side. Every credible source says do
+content and do ads, and you have enough hours in the week to do roughly one of them badly.
+
+**The struggle.** A founder building a sports-travel site while employed full time took the question
+to a government-backed business consultant, who advised running paid ads and posting on social at the
+same time. Reasonable advice in the abstract, useless against the actual constraint. Their instinct was
+ads-only, and the reasoning was honest: ads run while you sleep, so the hours go into the site
+instead. Content has no such property — it expands to fill whatever time exists, and for someone with
+five or six spare hours a week it can consume the entire allocation and still look unfinished.
+
+**What worked.** The replies split, which is itself informative, but they converged on a sequence
+rather than a split. The sharpest line in the thread is the one to keep: "Don't pay to amplify a
+message you haven't validated organically yet." Ads buy speed, not judgement — they cannot tell you
+which message deserves scaling, and if the landing page is not already converting, a bigger budget
+just moves more people past the same broken page. So the practical shape most commenters landed on was
+a time-boxed loop: one batch of sixty to ninety minutes a week producing two or three posts around a
+single question or destination, then take whatever language actually earned replies, saves or email
+signups and put *that* into the ad copy. Keep a small paid test running only if you can track
+something beyond clicks, and review both channels at four weeks. One commenter reframed the whole
+thing around demand shape rather than channel choice — this is a market where interest spikes when
+fixtures and schedules are announced and again a few weeks before the date, so spend belongs in those
+windows and the quiet weeks belong to content. The rest of the year, ads mostly burn budget.
+
+**The lesson.** With severely limited hours, do not choose between channels — order them. Organic is
+where you find out what to say, paid is where you pay to say it more often, and doing them in that
+order costs less than doing both at once. Then look at your category's calendar before your own: if
+demand arrives in bursts, a flat annual spend is the most expensive way to buy it.
+*(via a founder thread on r/startups)*
+
+### 33. Priced so low that nobody believes you
+
+**The pain.** You have found a genuine cost advantage and priced accordingly. You expected the price
+to be the reason people said yes. It has become the reason they say no.
+
+**The struggle.** A developer offering a resale route to well-known AI models posted an offer built
+entirely on price — the same named models at roughly a fifth of the published rates, plus free trial
+credit and no card required. Everything about the post is designed to remove risk. The first reply was
+"20% of price. Scam alert." The second reply was the same objection, phrased politely: at that price,
+how is this sustainable without cutting corners? Both commenters had skipped straight past the offer
+to reverse-engineer the margin, and neither of them was hostile — they were doing exactly what a
+competent buyer does. The founder's answers were reasonable and did nothing, because by then the
+conversation was about their credibility rather than their product.
+
+**What worked.** What is worth extracting here is the mechanism, not a fix, because the thread does
+not contain one. In a category with a public reference price, a number far below it is not read as a
+discount — it is read as evidence of a hidden substitution. The buyer's question is never "is this
+cheap?" but "what did they take out?" That is why the post's most-repeated defensive line, a promise
+that the routes are not quietly downgraded to smaller models, appears at all: the founder had already
+met the objection before, and answering it in advance still did not defuse it, because a claim about
+your own honesty is not inspectable. Contrast that with section 28, where four checkable statements
+about a data boundary did the work that reassurance could not. The one substantive comment in the
+thread points at the same gap from the buyer's side: cost per task was never what stopped them, it was
+a route quietly queueing under load while their job sat there timing out. That is the real question
+behind "scam alert" — not the margin, but which dimension of service was traded away to fund the
+price.
+
+**The lesson.** When price is your entire differentiator, price becomes your credibility problem. A
+number the market cannot explain gets explained for you, and the explanation is always that something
+was removed. So publish the reason the price is possible in terms a buyer can verify, and compete
+explicitly on the dimension they actually fear losing — publish the concurrency behaviour, the latency
+under load, the failure modes. Free credit lets someone test whether it works. It never tells them
+whether it will keep working, and that is the objection you have to answer.
+*(via a founder thread on r/micro_saas)*
+
+### 34. Selling against a free workaround people are already using
+
+**The pain.** Your product does something the buyer can already do for nothing. They know it, you know
+it, and every pitch that leads with the capability walks straight into "I already do that with tools I
+have."
+
+**The struggle.** A founder shipping a browser extension that summarises YouTube videos in bulk was in
+exactly that position, and the post is unusually honest about it. The free path is well known — general
+AI assistants, notebook tools, raw transcripts — and they had used it themselves for months. The
+capability was not scarce. Two other things in the post matter more than the product. First, the volume:
+this was described as one of hundreds of tools they had launched and tested, most of which failed, and
+the reason to look at this one is that it got noticeably more traffic. Second, the milestone is $100
+MRR, which is small enough that the founder calls it tiny — worth stating plainly, because this is not
+a scaling story, it is a story about finding the one attempt that got traction.
+
+**What worked.** The pitch does not sell summarisation. It sells the removal of "the constant copying,
+pasting, uploading, and switching between tabs" — the friction of the free workflow, described in the
+sequence a user actually experiences it. Then the differentiator is a job the free path cannot do at
+all: not summarising one video, but running twenty search results or an entire playlist into one
+structured report of recurring points, disagreements and recommendations. That is the whole move.
+Where the free tool is merely inconvenient, you compete on friction. Where it stops working entirely
+— at volume, in this case — you compete on capability, and that is where the pricing lives. The other
+transferable detail is that the winning positioning was found by launching many small things and
+watching which one drew traffic, not by reasoning about it up front.
+
+**The lesson.** A free alternative does not disqualify your product; it defines your pitch. Write down
+the exact steps someone performs today with the free path, and sell either the compression of those
+steps or the thing that becomes impossible when the job gets ten times bigger. Never sell the
+capability itself — that is the part they already have.
+*(via a founder thread on r/micro_saas)*
+
+### 35. The free tier is the product when one person cannot use it alone
+
+**The pain.** Your product only works when a group uses it. One person signing up and paying achieves
+nothing, because the value does not exist until four other people join them.
+
+**The struggle.** A solo developer building a coordination tool for groups planning trips together
+named the problem in one line: "traditional PLG assumes single-player value first." Every standard
+growth playbook assumes an individual can adopt the product, get value alone, and expand from there.
+Here the unit of adoption is a group, and the organiser — the person who would pay — gets nothing at
+all until their friends are inside it. The competition makes it harder. There is no incumbent to
+displace, only a working assembly of a shared document, a bill-splitting app, a group chat and
+somebody's camera roll. Nobody is unhappy enough to switch, but everyone who has organised a group
+trip recognises the pain immediately.
+
+**What worked.** The decision the founder made is the interesting one, and it runs against instinct:
+make the free tier genuinely useful rather than a crippled trial — two full active trips with generous
+photo and document limits, enough for most casual users to finish a real trip inside it. The reasoning
+is exactly right for this shape of product. If the free tier is restricted enough to force an upgrade,
+it is also restricted enough to stop the group forming, and no group means no value for anyone,
+including the person who would have paid. So the free tier stops being a lead-generation trick and
+becomes the distribution mechanism itself: the organiser's job is to get four people in, and every
+limit you put in their way is friction on your own acquisition. Payment then lands where the repeat
+use is — unlimited trips and export, which only matter to someone on their third trip, i.e. the
+organiser who has already recruited a group twice. Worth noting what the founder did not claim: iOS is
+unbuilt with no promised date, and they said so rather than announcing it.
+
+**The lesson.** When adoption is collective, the free tier is not marketing spend, it is the product's
+delivery mechanism, and crippling it costs you the group rather than converting the individual. Charge
+for the second and third use, not the first, and identify the one person in the group whose repeat
+behaviour you can actually bill — build the paid tier for them and let everyone else in for free.
+*(via a founder thread on r/micro_saas)*
+
+### 36. The loss leader whose cost floor somebody else controls
+
+**The pain.** The thing customers want to buy from you is not the thing you make money on. So you
+consider selling the popular thing at cost, purely to get the customer in front of the profitable
+service.
+
+**The struggle.** A vehicle-repair operator laid this out plainly: demand is for the parts, the money
+is in fitting them, and the plan was to resell parts at or below what competitors charge with
+installation attached. Every marketer recognises the shape — a loss leader, the free tier, the cheap
+hardware that sells the subscription. What the thread supplied was the list of ways it goes wrong for
+a small operator, and it is worth reading as a checklist for anyone about to run a free or at-cost
+tier. The version that fails is specifically the one described in the post: buying from your
+competitors and reselling at their price.
+
+**What worked.** Several commenters converged on the same rule — the store is a customer acquisition
+channel, not a profit centre — and then attached conditions. Zero margin is not zero cost: payment
+processing fees, returns, warranty exposure and the admin of stock all sit underneath the "no profit"
+price, so the loss is larger than the discount and the service margin has to cover the difference,
+not merely exist. Inventory is the second trap: at zero markup, dead stock is pure loss, so stock only
+what turns over fast and make everything slow a special order or a drop-ship. Third, and the sharpest
+point in the thread: if you buy from competitors, your supply chain is controlled by people whose
+customers you are taking. "They set your cost floor." The moment they notice, they can price you out
+or cut you off entirely, which means the whole acquisition channel exists at a rival's discretion. One
+commenter asked the question that reframes it as a product problem rather than a pricing one: what
+happens to the warranty when a part you bought at retail fails a month after you fitted it? And the
+recommended sequence was to test one narrow category first and confirm people actually take the
+upsell, before building the whole storefront.
+
+**The lesson.** A loss leader is a channel, so price it like one and audit it like one: know the true
+fully-loaded cost of the free thing, know the attach rate that makes it pay, and prove that attach
+rate on a small category before you scale it. Above all, check who controls your cost floor. If the
+input to your acquisition channel is bought from a competitor — or resold from a supplier who can
+reprice you at will — you do not own the channel, and the day they notice is the day it closes.
+*(via a founder thread on r/Entrepreneur)*
+
+### 37. They copied the winning ad, not the forty that failed
+
+**The pain.** A competitor has taken your product, and now the same creative you spent months honing
+is running against you in the same ad auction, on the same platform, to the same audience.
+
+**The struggle.** A founder posted from the middle of exactly that, angry and specific: a digital
+product and its accompanying tool duplicated, and near-identical Meta ads launched to promote the
+copy. The instinct is to make it stop. The thread's experienced voices were consistent that this is
+mostly not available — copying arrives the moment you show traction, sometimes from a competitor,
+sometimes from a company you were working with, and in one case from an investor who entered due
+diligence and launched a rival. What makes it worse than ordinary competition is that your marketing
+is public by construction. The ad you are running is visible to anyone who wants to look, which means
+your best-performing creative is the most exposed asset you have.
+
+**What worked.** The comment that reframes the whole problem is about what is actually visible: they
+"copied the winning ad but not the 40 dead ones" that taught you why it wins. What a competitor can
+take is a snapshot. What they cannot take is the process that produced it — the failed variants, the
+audience tests, the reasons each one died. So they are stuck maintaining your last good answer while
+you move to the next one, and the only way to lose that race is to stop shipping and start defending.
+Several people added the same point from other angles: copying is a position behind you, it validates
+that the market is real, and if the copycat does something you are not doing, take it back. The
+practical instruction in the thread was blunt — ship something they cannot match, then point your own
+ads at what is new, because a copycat can only compete on price and price loses to whoever moves
+faster. One reply named the durable advantage: talk to your users. They will tell you what they
+actually do, which is information a copycat does not have because they have your interface but not
+your customers. And an honest caveat, because someone raised it: this all assumes you have the capacity
+to keep out-shipping them, which is not universal.
+
+**The lesson.** Your creative is copyable and your test history is not. Treat the winning ad as a
+perishable asset rather than an achievement, keep a queue of things a copyist has no way to anticipate,
+and put your energy into the two things that do not transfer — the rate at which you learn and the
+relationship with the people paying you. Being copied is expensive and infuriating, but it is also the
+first solid evidence that what you built is worth having.
+*(via a founder thread on r/Entrepreneur)*
+
+### 38. "Ready to sell" is a promise, not a feature list
+
+**The pain.** The demo is beautiful. Customers click through it and nod. And you cannot tell whether
+you have a product or a very convincing prototype that will fall over the first time somebody depends
+on it.
+
+**The struggle.** A founder building with coding agents described the state precisely: the interface
+came together, the flows look right, everyone feels close — and underneath it the architecture
+decisions were rushed, the tests are thin, edge cases are guesses, and nobody quite owns the generated
+parts, because the agent wrote them. The go-to-market question sitting inside that engineering
+question is the one this book cares about: keep selling and clean up later, or stop selling until the
+debt is paid. Both answers are wrong as stated, because "ready" is being treated as a property of the
+codebase when it is actually a property of what you are willing to promise.
+
+**What worked.** The thread produced two tests far more useful than any completeness checklist. The
+first is operational: "Ask whether it can run for a week without anyone watching it." If something
+breaks at three in the morning, do you hear it from an alarm or from a customer, and can anyone roll
+it back without waking the person who prompted that part into existence? That gap — not feature
+coverage — is what separates a demo from a product, and most of it is operational rather than
+architectural. The second test is commercial, and it is the one to write on the wall: the line is the
+promise you are willing to put in front of a paying user. Which means a thin product can be sold today
+provided the promise is scoped to match it — one supported workflow, a recovery path that does not
+silently destroy their work, and stated hours when a human will answer. Anything outside that scope is
+experimental even though the screen exists. Other commenters supplied the boundaries. Manual onboarding
+and production held up by people's goodwill means you are not there yet. Infrastructure is where the
+money actually burns, so that is the part worth designing properly while the rest stays scrappy. And
+one voice argued there is no line at all, only risk — document it, rank it against the feature backlog,
+fix the worst now.
+
+**The lesson.** Do not ask whether the product is finished. Ask what you can promise and still keep,
+then sell exactly that and nothing more. A narrow promise honoured beats a broad one improvised, and
+the honest scope is also your best qualification tool — the customers who need more than you can
+promise today are the ones who would have churned loudly and told everyone why.
+*(via a founder thread on r/startups)*
+
+### 39. Distribution first is a real advantage, and it does not set the schedule
+
+**The pain.** Most founders have a product and no way to reach anyone. Occasionally it is the other way
+round — you have the relationships, the field engineers and the industry standing, and what frightens
+you is everything between "it works on the bench" and "we can ship, install, support and warranty it."
+
+**The struggle.** A founder described that inversion in detail. They already run a company in the
+sector that installs and services competing systems, hold granted patent claims, have relationships
+with hundreds of potential customer sites, several willing to host beta installations, and technicians
+already trained on rivals' equipment. Demand is not the question. Their fear is capital burned in the
+gap: tooling, first inventory runs, certification, consultants — all of it potentially spent just
+before a hardware revision makes it worthless. They listed the pieces themselves and then named the
+actual problem, which is the sentence worth keeping: "knowing the names of all these pieces" is not the
+same as knowing their order, their owner, or when it becomes correct to spend seriously on each. The
+post drew no replies at all, which is its own small lesson about where to take a question this
+specific.
+
+**What worked.** What this story contributes is a market-timing insight the founder states almost in
+passing, and it deserves to be the headline. They do not expect customers to rip out working
+equipment. They expect them to convert when the incumbent system breaks, becomes obsolete or reaches
+replacement age. That single observation determines everything commercial about this business. The
+buying window is set by the failure curve of hardware somebody else installed, which means the sales
+calendar is not something the company chooses — it is inherited, roughly predictable, and mostly
+already visible to a firm that services those units for a living. It also explains why the beta
+installations are the highest-value asset in the plan and worth more than any consultant: they are
+simultaneously the engineering test that de-risks the tooling spend and the reference sites that make
+the replacement conversation easy when each window opens. And the existing service organisation is not
+a nice-to-have, it is the moat — it means the switching cost for a customer is nearly zero, because the
+people who already maintain their current system would be maintaining the new one.
+
+**The lesson.** Existing distribution is the most undervalued asset in early-stage go-to-market, and it
+buys you the one thing money cannot: permission to talk to real buyers before the product is finished.
+But it does not compress the sales cycle. When you are replacing installed equipment, work out what
+governs the replacement moment — contract end, failure rate, obsolescence, a compliance deadline — and
+build the plan around that calendar instead of your launch date. Then use pilots to do double duty:
+each one should retire a technical risk and create a reference at the same time.
+*(via a founder thread on r/startups)*
+
+### 40. Ask the network for perspective, not for introductions
+
+**The pain.** You have a list of people who might genuinely help — old classmates, former colleagues,
+an alumni directory. You draft the message asking for an introduction to a buyer, and it sits there,
+because you can feel how much you are asking for.
+
+**The struggle.** A founder working an alumni network for customer access and early pitch feedback
+asked what else it is good for, and the replies were more sceptical than encouraging. Shared
+institution is a weak tie: unless the school was very small or unusually tight-knit, few people feel
+any urgency to help a stranger who happens to share it. One commenter noted that at large public
+universities the network barely functions. Another said outreach through alumni channels can read as
+the move of someone who could not get traction outside them. And a third raised the constraint that
+actually stops most of these messages being answered — in a nervous job market, people are
+disinclined to raise their heads for anything that carries risk. An introduction carries risk. It
+spends the introducer's credibility on you.
+
+**What worked.** The founder's own reply is the technique, and it is the most useful thing in the
+thread. Asking someone to buy, or to introduce you to a buyer, creates pressure; "asking for
+perspective usually doesn't." So invert the ask. Instead of requesting access, request their read:
+how would you evaluate this pitch, where does the argument fall apart, how does this actually get
+bought in your industry. That request costs the recipient nothing they cannot afford, which is why it
+gets answered, and it returns something a forced introduction usually does not — the vocabulary buyers
+in that sector actually use, the objection you were not expecting, and an honest read on whether your
+pitch survives contact with someone who knows the field. Introductions then arrive as a by-product,
+offered rather than extracted, from people who have already engaged with the substance and can
+therefore vouch for it without risk. One reply asked the right sceptical question, and it is worth
+holding onto: how many actually reply? Nobody in the thread knew, which is the honest state of the
+evidence.
+
+**The lesson.** Weak ties will spend attention on you but not credibility. Ask for the cheap thing —
+their opinion, their read on your pitch, how their industry buys — and let the expensive thing follow
+if it earns it. The perspective is frequently worth more than the introduction anyway: an early pitch
+usually fails on its framing rather than its access, and a stranger who owes you nothing is the
+cheapest place to find that out.
+*(via a founder thread on r/startups)*
