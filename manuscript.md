@@ -1258,3 +1258,387 @@ if it earns it. The perspective is frequently worth more than the introduction a
 usually fails on its framing rather than its access, and a stranger who owes you nothing is the
 cheapest place to find that out.
 *(via a founder thread on r/startups)*
+
+## Entries — 2026-07-30 (third batch)
+
+### 41. The accidental A/B test between a demo and a signup form
+
+**The pain.** Fifty demos in six weeks, warm feedback on nearly all of them, two closed. The same
+product on the website, given a proper run of cold traffic: ten signups, zero cards. It is easy to read
+that as a traffic problem, and almost everyone does.
+
+**The struggle.** A founder posted the whole funnel with the numbers attached, which is rare enough to
+be worth studying. A directory listing came with ad credit, and the credit bought roughly 234 clicks
+onto the site — cheap-looking traffic that was actually running at about $6.78 a click, so the credit
+was gone in around 72 of them. Ten people signed up. None paid. The first assumption was the obvious
+one: the product is not compelling. Then they looked at where the ten actually stopped, and the shape
+was nothing like the assumption. Two left at the first step. One left mid-setup. Five completed the
+entire onboarding — source, angle, a written brief about themselves and their voice — and then stopped
+dead at the payment screen. Nobody who finished the work entered a card. Those five were not
+unconvinced. They had done everything asked of them. They were simply being asked to pay before the
+product had done the one impressive thing it does.
+
+**What worked.** The founder named the defect precisely: the aha moment was sitting behind the paywall
+instead of in front of it, so the funnel ran do work, do more work, pay, then finally see value. Cold
+traffic will not take that trade — you are "converting on faith, and cold traffic has none." The fix
+was to let a user run one real project and see actual output before any payment ask, then move the card
+to the moment they try to act on that output — schedule it, export it, publish it — which is the point
+of peak desire rather than the point of peak effort. The setup brief stayed, but reframed as something
+that improves the very next thing you see rather than a toll booth in front of the reveal. And the
+detail that turns this from a tactic into a principle is the comparison the founder made by accident.
+Why did fifty demos convert and self-serve convert nobody? Because in a demo, the magic is shown before
+anyone mentions money. A demo is value-first by construction; that signup flow was its exact inverse.
+Same product, same price, same paywall — the only variable that changed was whether value landed before
+or after the ask. Two honest caveats from the founder, both worth keeping: at ten signups the
+conversion rate is meaningless, and on inspection most of those signups were testers, bots or randoms,
+with exactly one real lead in the batch — someone who had seen the product mentioned on LinkedIn.
+
+**The lesson.** If your demo converts and your signup flow does not, stop blaming the traffic and
+compare the order of events. A salesperson naturally shows value first and asks for money second; a
+signup form, left to itself, does the opposite. Find the single moment your product becomes obviously
+worth having, put nothing in front of it, and place the card exactly where the user tries to keep, send
+or act on what they just made.
+*(via a founder thread on r/startups)*
+
+### 42. Cut the price from $180 to $29 and nothing moved
+
+**The pain.** Sales are zero, so you assume it is too expensive. You discount. Still zero. You discount
+again, hard enough that it should be an impulse buy, and it is still zero — and now you have no idea
+what you are even testing.
+
+**The struggle.** A web developer took over marketing for a client's single-product physical store and
+posted the whole ladder. About $1,500 spent across Meta, Reddit and TikTok over three and a half
+months. Real diligence on targeting: interest audiences built around specific buyer types, stacked and
+then narrowed from tens of millions down to one or two million with AND conditions, automatic
+placements overridden to force feeds rather than Reels. No lookalike audience was possible, because a
+lookalike needs seed buyers and the store had none. And the price went from $360 struck through, to
+$180, all the way down to $29. Almost nothing moved. At $29 people would not add it to the cart. Their
+own conclusion was that the targeting was broken.
+
+**What worked.** The thread's replies moved the diagnosis somewhere more useful, and so did the
+founder's own tracking, which is the most valuable thing in the post. Roughly a third of organic
+visitors scrolled deep into the page; with paid it was about one in twenty. "Cheap clicks, wrong
+people." That single comparison says the traffic was not merely unconverted, it was uninterested — the
+paid audience never even read the page. Meanwhile four sales had arrived in three and a half months,
+every one traceable to a handful of honest, unpitched posts written in places where the product's
+actual users hang out, and one of those produced a sale within a day or two. The commenters were
+blunter than the founder wanted. One refused to let the product off the hook — with results like that,
+a product problem cannot be ruled out. Another argued the campaign construction, not the targeting, was
+the fault: narrowing with AND conditions, forcing placements and laddering the price down were all the
+wrong levers, and a small test that lets the platform find the buyers often beats hand-drilled
+audiences precisely when you have no customer data to drill with. The price ladder is the real evidence
+here, though, and it points one way. If dropping the price by 84% does not move the cart, price was
+never the objection. Nobody wanted it at any price, or nobody who saw it was a buyer.
+
+**The lesson.** Discounting is a test, so read it like one. When a large price cut produces no change in
+behaviour, you have proved that price is not the constraint, and every further cut just destroys margin
+while you look for a problem that lives somewhere else — the audience, the offer or the product. Before
+spending on paid, get the engagement signal from a channel that already works: if a third of organic
+visitors read your page and one in twenty paid visitors do, that ratio, not the cost per click, is the
+number telling you whether you have bought attention or just impressions.
+*(via a founder thread on r/marketing)*
+
+### 43. Sixty stores, one customer
+
+**The pain.** You have the thing everyone says is impossible. Your product is on the shelf in a national
+chain, in dozens of locations, in two countries. And you are still, in the only sense that matters, a
+one-customer business.
+
+**The struggle.** A family running a premium home-fragrance brand described exactly that position: 60+
+locations of a major grocery chain plus a few independent boutiques, and that chain is their biggest
+customer by an enormous margin. The plan was to expand into other retail — the large lifestyle and
+homeware chains — and outreach to those buyers had produced nothing at all. Direct sales through their
+own store were possible but structurally worse: domestic shipping costs made them far less profitable
+per unit than wholesale, which pushes the business back towards the very concentration it is trying to
+escape. The economics themselves are healthy at the unit level, around $10 of margin on a $15 retail
+price. The risk is not the margin. It is the denominator.
+
+**What worked.** The thread's most-upvoted replies were unusually direct and they converge on one
+diagnosis. First, the concentration itself: a business whose revenue depends on a single buyer is worth
+much less than its revenue suggests, because the day that buyer delists you is the day the business is
+worth close to nothing — one commenter's conclusion was that if the goal is retirement money, selling
+now is the honest option. Second, and more useful for anyone earlier in the story, several people
+pointed out that landing the whale first sets a false expectation about how the rest of the market
+works. It looks like the hard part is over. It is not; the remaining chains are each a long, individual
+acquisition, and there is no strategy in waiting for more whales. Start smaller, where the decision
+cycle is short. Third, the sharpest reframe: a buyer's fear is not whether your product is good, it is
+whether it will sit on their shelf, so to get stocked "you need to demonstrate that they'd be stocking
+a product they won't be stuck with." That turns the whole problem from a pitching exercise into an
+evidence exercise, and it explains why the direct-to-consumer channel matters even at thinner margins —
+online demand and sell-through data in specific regions is precisely the proof a new buyer wants. One
+commenter described a brand that could not get picked up anywhere without an online presence, and was
+eventually taken online-first with in-store placement held back pending sales volume. That is the
+sequence, and it also answers the shipping-cost complaint: the direct channel's job is to produce
+evidence and a customer list, not only per-unit profit.
+
+**The lesson.** Distribution is not the same thing as demand, and one retailer is not a channel — it is
+a client with a termination clause. Treat every large account as concentration risk from the day you
+win it, and spend the good years buying independence: a second and third route to the same customer, a
+direct channel you own, and above all sell-through data. Shelf space is granted by buyers who fear dead
+stock, so the asset that opens the next chain is not a better pitch deck, it is proof that your product
+leaves the shelf on its own.
+*(via a founder thread on r/marketing)*
+
+### 44. The producer needed a calendar, not your story
+
+**The pain.** Press coverage feels like a lottery run by people who never reply. You write to a
+journalist about how interesting your company is, and nothing happens, and the conclusion you draw is
+that you need a bigger budget or a connection.
+
+**The struggle.** A publicist posted the mechanics behind a free television segment — their fortieth
+placement for a client — and what makes it useful is that the client's story was, on paper, no easier to
+sell than anyone else's. A non-profit whose founder appears in costume as a comic-book hero, raffles
+themed cars, and gives the proceeds to a charity that sends costumed visitors to sick children. That is
+either a great segment or an unanswered email, and the difference is not the story's quality. It is
+whether it arrives as a finished thing a producer can put on air.
+
+**What worked.** Four things did the work, and they generalise past PR entirely. First, timing: the
+segment ran close to a major comics convention, and the local stations were already running related
+stories, which the reporter mentioned as a positive. The story did not have to create interest; it
+attached to interest that already existed on somebody else's calendar. Second, the pitch was built like
+a product rather than a request — a headline framed as a story idea, a summary, images, links, contact
+details, all in one place. Third, the reach was systematic rather than hopeful: a press release issued
+nationwide and a purpose-built list of media contacts covering that theme, which will keep producing
+placements after this one. Fourth, and the step commenters singled out as the one most people skip, the
+response to the reporter was immediate and consisted of asking exactly what she needed for the segment
+and then supplying precisely that. A commenter put the underlying principle better than the post did:
+the story was already halfway built before the pitch went out. Another added the working constraint
+from the producer's side — the reliable pickups pair a calendar beat with something visual, because
+producers need both, quickly. And one asked the fair sceptical question, which nobody answered: how
+often does the timing hook carry it versus the pitch simply being good?
+
+**The lesson.** Earned media is not a favour you request, it is a piece of work you deliver to someone on
+a deadline. Find the beat already in their calendar — a season, an event, a regulation, an anniversary —
+and attach to it rather than competing with it. Then hand over a complete, visual, ready-to-use package
+and answer follow-ups within minutes with exactly what was asked for and nothing else. The same
+instinct works far outside journalism: newsletters, podcasts and conference organisers are all people
+with a slot to fill and no time to build your story for you.
+*(via a founder thread on r/Entrepreneur)*
+
+### 45. Twenty users, none of them evidence
+
+**The pain.** You are paying for your users. Every month the bill for their usage lands on your card,
+and every month you tell yourself it is buying traction — but you cannot say which of those people
+would still be there if the meter were running on them instead.
+
+**The struggle.** A founder running a private beta laid the situation out plainly: about twenty users on
+an AI product, model usage given away free, roughly $350 a month burned. The access has not been
+pointless — two conversations about larger pilots came out of it, which is a real result and the reason
+they were reluctant to change anything. The question they asked was whether to charge at least the cost
+of usage and watch who leaves. What makes this a marketing problem rather than a finance one is what
+the free access is doing to the information: with nobody paying, twenty active users tell you nothing
+about demand, and the burn buys attention rather than evidence.
+
+**What worked.** The thread was close to unanimous — charge now, at least at cost — and the reasoning
+was consistently about signal rather than revenue. The best statement of it: charging the token cost
+will not make money, but it "tells you who's actually using it vs who signed up because it was free,"
+and the worst case is losing people who were never going to pay. The corollary matters just as much:
+those two pilot conversations are the real signal, and eighteen free accounts are not. Several people
+supplied the mechanics for doing it without torching goodwill. Set an end date for free usage rather
+than changing terms overnight, and before it arrives show each user what their own last seven days
+actually cost — which converts an abstract price into a number they have already consumed, and is far
+more persuasive than any pricing page. Offer a paid month with a hard usage cap so nobody fears an
+unbounded bill. Keep the large pilot conversations on separate written budgets, so one heavy pilot
+cannot eat the allowance meant for self-serve users. On the cost side, the suggestions were to reduce
+the exposure structurally — cheaper or local models where quality permits, or letting customers bring
+their own key so usage stops being your liability at all. One dissent deserves recording, because it is
+legitimate: unsustainable pricing is a defensible way to buy early customers if someone is funding the
+burn deliberately and there is a real plan for reaching the price you eventually need. The failure mode
+is not subsidy, it is subsidy without an end date. And one commenter suggested passing off a cheaper
+model as an expensive one, which is worth naming only to reject: the moment your pricing depends on the
+customer not knowing what they are getting, you have a fraud rather than a business model.
+
+**The lesson.** Free users are a cost centre that produces no information. The first price you set is not
+mainly a revenue decision, it is the cheapest market-research instrument you will ever own — it sorts
+the people with the problem from the people with an account. Charge at cost if you must, but charge
+something, put an end date on any subsidy from the day you start it, and remember that a small number
+of buyers is a stronger result than a large number of guests.
+*(via a founder thread on r/startups)*
+
+### 46. When a weekend can rebuild your product, the product is not the moat
+
+**The pain.** A year ago there were a handful of competitors and they charged real money. Now five new
+tools launch in your space every day, the ones charging hundreds a month have cut their prices or
+pivoted, and somebody can approximate your app in a weekend. Every conversation turns into a price
+conversation.
+
+**The struggle.** A founder eleven months in described exactly that collapse and its effect on plans:
+the original sequence was to onboard a few clients and then launch a platform, and the industry caught
+up while they were still working through step one. The thread agreed on the diagnosis without much
+sympathy for the framing. The blunt version, and the most-upvoted comment: if somebody can rebuild your
+product in a weekend, you never had a moat. Another pushed back on the premise itself — a race to the
+bottom is what happens to products shipped without a market, and the real problem is more often a
+founder unwilling to put a value proposition in front of a customer than an oversupplied category.
+Both are right in a way that matters commercially: cheap and copyable is a positioning outcome, not a
+market condition you were handed.
+
+**What worked.** The founder's own answer is the interesting part, and it emerged from the one activity
+they said had been a cheat code all year — talking to customers, who "write their pitch for you."
+Repeated contact with buyers had shown them where the durable ground was: the moat is knowing the
+customer's business better than any dashboard can show, which is a form of value that cannot be
+regenerated from a screenshot. That leads to a concrete commercial position — serve customers at agency
+prices with software-shaped costs — and to a deliberate preference the founder stated as a trade they
+would happily make: one client worth twenty subscriptions, embedded in their operation, over two
+hundred subscribers who churn the moment somebody launches the same thing for $10 less. Commenters
+extended it the same direction from different angles: the sell is the outcome and the workflow you own
+alongside the client, not the capability; and in the enterprise segment the differentiator becomes the
+ability to sell rather than the feature list. Worth stating the cost honestly, because the thread did
+not: this position is slower, less leveraged, and much harder to scale than self-serve subscriptions.
+It is a choice about which kind of business you are running, not a growth hack.
+
+**The lesson.** When your category commoditises, the defensible thing is never the software — it is the
+depth of your understanding of one customer's operation, and the outcome you are accountable for.
+Price against the value of the outcome rather than against the cheapest tool that looks like yours, and
+build the relationship that a copycat cannot obtain by cloning your interface. If a weekend of work can
+reproduce your product, your job is not to build faster. It is to sell something that is not the
+product.
+*(via a founder thread on r/startups)*
+
+### 47. Three people promised, one signed up
+
+**The pain.** You launch. Several people had told you, enthusiastically, that they would sign up the
+moment it was live. It is live. One person did. And you cannot tell whether that is a catastrophe or a
+Tuesday.
+
+**The struggle.** A founder four days past launch posted the whole embarrassing arithmetic, including
+the detail that makes it human: the second account on the site was "just me pretending to be another
+person." Of the people who had said they would join, most had not. The one who did was using it every
+day and loved it. The panic in the post is about the gap between the promises and the behaviour, and
+the thread's most valuable contribution was to refuse the framing entirely. Nobody is cooked at four
+days. But the reason the promises evaporated is worth stating plainly, and one commenter did: people
+make cheap declarations of support, and the way to find out whether they meant it is to have asked for
+something with a cost attached — a pre-launch payment, a commitment, skin in the game — because
+enthusiasm without a price is not a forecast of anything.
+
+**What worked.** The consensus response was the opposite of what the founder expected, and it is the
+part to remember: one person who returns every day for four days is a far stronger result than fifty
+signups who poke the product once and vanish. The advice that followed was uniformly qualitative,
+because at n=1 there is nothing quantitative to say. Treat the coming week as a full-time job serving
+that one user. Interview them — not about features, but about the specific problem the product is
+solving and what they were doing before it existed. Then use that description to define who else has
+the same problem, and go find those people, because the person who already has the problem is the only
+reliable description of the market you have. Ask them for referrals and introductions, since a genuinely
+delighted user is the cheapest distribution available at this stage. And separately, ask the people who
+promised and never arrived why they did not — those answers are usually more informative than the happy
+user's, and much more uncomfortable. Two comments supplied the broader calibration: nobody caring is
+the normal outcome for the overwhelming majority of launches, and launch day is the start line rather
+than the finish — building was the easy half.
+
+**The lesson.** Stated intent is not demand; only behaviour is. Count users who came back, never users
+who said they would come. And when you have exactly one real user, that is not a small failure, it is a
+small sample of something real — so stop optimising the funnel, go and learn everything about why that
+one person stayed, and use their words to find the next ten.
+*(via a founder thread on r/startups)*
+
+### 48. Optimising for a crowd that never showed
+
+**The pain.** Months in, you look back and realise almost all the anxiety went into questions nobody
+ever asked you about — the name, the logo, the framework, whether the thing was polished enough to be
+seen.
+
+**The struggle.** A founder a few months into building asked the room a good question: what did you
+stress over at the start that turned out not to matter? The answers arrived with unusual consistency,
+and they were all versions of the same shape. The name and the visual polish moved nothing. The colour
+scheme and logo were redone several times anyway, so the early agonising was wasted twice over. Nobody
+who used the product ever asked what it was built with. The business plan mattered far less than doing
+anything at all. And the single best line in the thread came from someone who had worried whether their
+system would hold up at ten thousand users while sitting at zero: they had "optimized for a crowd that
+never showed," and getting one person to care was always the actual problem.
+
+**What worked.** What lifts this above a list of regrets is the explanation one commenter gave for why
+smart people do this so reliably: customer acquisition is always the real problem, and we busy
+ourselves with other problems to hide from that one. That is the mechanism. Every item on the list —
+the naming, the polish, the stack, the scalability, the plan — is legible, controllable, and produces a
+visible sense of progress, whereas talking to a stranger who might not care is none of those things.
+Two people added a sharper correction that keeps this from becoming a platitude. The founder's own
+stated fix was to seek honest feedback, and one experienced reply gently pushed back on it: people are
+poor at explaining why they will not use something, and the most talkative respondents are frequently
+the least likely to ever pay. What was more informative was watching behaviour without being in the
+room — where people stopped, what they never clicked, whether they returned. So the correction is not
+merely "talk to users instead of polishing"; it is to prefer observed behaviour over reported opinion,
+and to treat an unfinished product in front of a real person as the instrument that generates it.
+
+**The lesson.** Rank your early work by how much fear it removes rather than how much progress it
+displays. The tasks that feel productive are usually the ones with no other human in them, and the
+things founders retrospectively call wasted effort are almost always exactly those. Ship it ugly, put
+it in front of someone who has the problem today, and if you are ever unsure which task matters, pick
+the one you have been quietly avoiding — it is almost certainly the one that touches a customer.
+*(via a founder thread on r/startups)*
+
+### 49. The comfort zone did not contain the revenue
+
+**The pain.** You are working hard and the number is not moving. The activities you are willing to do —
+posting, building, tweaking, planning — are all done to a decent standard, and the revenue still sits
+where it was.
+
+**The struggle.** A founder wrote about getting stuck before the first few thousand in revenue, and was
+honest about the reason in a way most posts are not. It was not the market or the product. It was that
+they had a fear of cold calling and cold emailing, and had been quietly routing around both. The result
+was months of effort inside the comfortable set of tasks, and no revenue, because — in their own words —
+"the stuff within my comfort level didn't get me to $3k." Once they accepted that and started making
+calls and sending the emails, that first milestone arrived fairly quickly. The next one, to $5k, felt
+like nothing by comparison, and the path beyond it looked clear enough that the fear had gone out of it
+entirely.
+
+**What worked.** The post's stated lesson is about milestones — that "0 to 1" is an unhelpfully abstract
+frame, and breaking the climb into tangible steps you can actually picture makes it far less
+intimidating. That is true and worth doing, but the thread's readers were sharper about what actually
+changed, and several said the same thing independently: the milestone framing was not the mechanism,
+picking up the phone was. You could keep the neat numeric ladder and remain exactly as stuck if you
+never do the uncomfortable part; what breaking it down really bought was permission to attempt the
+scary thing at a small enough scale to survive it. The most practical refinement in the thread turns
+this into something you can run weekly: set milestones on activities rather than outcomes, because you
+cannot control when revenue arrives but you can control whether the calls were made, the emails were
+sent and the follow-ups happened today. Another commenter named the compounding effect that makes the
+second milestone easier than the first — the early wins are not really revenue, they are evidence to
+yourself that the avoided actions move the number. Two useful corrections also surfaced. Several people
+noted the original phrase comes from a book about building genuinely novel companies and means
+something closer to product-market fit than to your first dollar. And one warned against the implied
+promise that it gets easy afterwards: the next stage is a different problem — rebuilding operations so
+the business does not collapse under its own weight — which kills plenty of companies that had no
+trouble finding customers.
+
+**The lesson.** When revenue is flat despite real effort, audit which activities you are actually
+avoiding rather than which ones you are doing badly. Set your targets on the things you control — calls
+made, emails sent, follow-ups completed this week — and let revenue be the lagging report it is. The
+first sales are worth more as proof than as money: they tell you that the uncomfortable activity works,
+which is the only thing that makes the second attempt cheap.
+*(via a founder thread on r/Entrepreneur)*
+
+### 50. Everyone knows to follow up
+
+**The pain.** Nothing on your marketing list is a mystery. Follow up with leads. Ask happy customers for
+a review. Publish something regularly. You know all of it, none of it is contentious, and in a busy week
+none of it happens.
+
+**The struggle.** An operator made this observation and it drew a large, argumentative thread — worth
+noting that several readers were sceptical of the post itself, and one dismissed it as the sort of
+frictionless wisdom that fills professional feeds. The scepticism is fair and the observation still
+holds, because the failure it describes is the most common one in small-company marketing. Businesses
+with simple systems and unglamorous discipline outgrow businesses with better tools and larger plans,
+and the difference is not insight. It is whether the fifth week of doing an unremarkable thing actually
+happens once everything else starts demanding attention.
+
+**What worked.** The comments were more useful than the post, and between them they form something like
+an operating manual. Start with the highest-value habit anyone named: speed of follow-up. One
+commenter's experience was that replying within about five minutes rather than an hour changed
+conversion substantially, and that most businesses lose leads to slow response rather than to a weak
+product. Then the mechanics of making a habit survive a bad week. Put the recurring activity on the
+calendar as a specific block — follow-ups Tuesday morning, marketing planning Thursday before you log
+off — so the decision is made before the willpower is needed. Weld new habits to something already in
+your routine, because anything that requires a separate task on a future day quietly gets dropped.
+Attach external stakes where you can: a date promised to a client gets done, which is unglamorous but
+effective. And the correction that makes all of it workable: consistency usually fails because people
+set the bar at doing it well rather than doing it at all. Two commenters supplied the measurement half.
+Log a real number after every sales call — an actual probability and a next date, not "went well" —
+which turns a pipeline from a feeling into something you can act on. And check monthly where good
+enquiries actually came from, since that single review is what stops effort accumulating in channels
+that never produced anything.
+
+**The lesson.** Most marketing plans do not fail on strategy, they fail on the fifth week. Choose fewer
+activities than you think you can sustain, put them in the calendar attached to something you already
+do, and set the standard at done rather than done well. Then measure two things only: how fast you
+respond to a new lead, and where the good ones came from. A small system executed every week beats a
+better one executed in bursts, and the gap between the two is most of the difference you see between
+similar companies.
+*(via a founder thread on r/Entrepreneur)*

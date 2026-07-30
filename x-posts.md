@@ -416,3 +416,105 @@ Asking what they think of your pitch costs them nothing.
 Introductions arrive as a by-product, offered rather than extracted.
 
 More in the book →
+
+## 2026-07-30 (third batch)
+
+**41. The accidental A/B test**
+
+50 demos, 2 closed. Same product on the site: 10 signups, 0 cards.
+
+Five of them finished the ENTIRE onboarding and stopped dead at the payment screen.
+
+A demo shows value before money. His signup form did the exact reverse.
+
+The book →
+
+**42. He cut the price 84%**
+
+$360 → $180 → $29. A brand new store, $1,500 in ads, still nobody added to cart.
+
+That's not a pricing problem. That's proof price was never the objection.
+
+His own tracking: 1/3 of organic visitors scrolled deep. Paid, 1 in 20.
+
+More →
+
+**43. 60 stores, one customer**
+
+Their product is on the shelf in 60+ Whole Foods locations. It's still a one-customer business.
+
+Best line in the thread: buyers need to know they won't be stuck with your stock.
+
+Sell-through data opens the next chain, not a better deck.
+
+The book →
+
+**44. 40 TV placements**
+
+A publicist explained how he keeps landing free segments.
+
+The story attached to an event already on the newsroom's calendar. The pitch arrived finished — headline, images, links.
+
+Then he asked the reporter exactly what she needed and sent it.
+
+More →
+
+**45. 20 users, none of them evidence**
+
+$350/mo of free AI usage. Twenty happy users. Zero information.
+
+Charging at cost doesn't make money — it tells you who's using it vs who signed up because it was free.
+
+Best trick in the thread: show each user what their last 7 days cost.
+
+The book →
+
+**46. Cloned in a weekend**
+
+Competitors dropped from $499/mo to nothing. Five lookalike tools launch daily.
+
+His answer after 11 months: the moat isn't the software, it's knowing the customer's business better than a dashboard can.
+
+One embedded client > 200 price shoppers.
+
+More →
+
+**47. Three promised, one showed**
+
+Four days post-launch. One real user, loving it, back every day. (The second account was him, pretending to be someone else.)
+
+Everyone told him that's better than 50 signups who vanish.
+
+Stated intent isn't demand. Only behaviour is.
+
+The book →
+
+**48. A crowd that never showed**
+
+Best reply in a thread about early-stage regrets: he stress-tested for 10,000 users while sitting at zero.
+
+Nobody asked about the logo. Nobody asked about the stack.
+
+Customer acquisition is the real problem — the rest is somewhere to hide from it.
+
+More →
+
+**49. The comfort zone had no revenue in it**
+
+He was stuck below $3k for months. Product was fine. Market was fine.
+
+He was avoiding cold calls and cold emails, and everything he was willing to do lived on the other side of that.
+
+Milestones on activities, not outcomes.
+
+The book →
+
+**50. Everyone knows to follow up**
+
+Nobody's marketing list is a mystery. Follow up. Ask for reviews. Post consistently.
+
+It fails in week five, not in the strategy doc.
+
+Calendar-block it, weld it to something you already do, and set the bar at done — not done well.
+
+More →
