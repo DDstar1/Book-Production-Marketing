@@ -207,3 +207,110 @@ hours, the next said 4-8 weeks.
 Progress only came after paying for priority support.
 
 If you can't reach a human, it's rented. Keep a second channel warm.
+
+## 2026-07-30
+
+Drafts for manuscript sections 21-30.
+
+**21. Vitamin or painkiller**
+
+"Looks cool, but we don't need it right now" is what a vitamin sounds like.
+
+The test isn't enthusiasm. It's whether someone already pays for a bad version: the Monday spreadsheet,
+the contractor doing it by hand.
+
+No workaround = no budget.
+
+More in the book →
+
+**22. First $1k, then stop**
+
+0 users → $1,000 in about a month. 64 discovery calls first. Distribution 100% manual — no cold email,
+no audience.
+
+Then they paused every channel to fix retention.
+
+Traffic into weak retention just multiplies the leaks.
+
+More →
+
+**23. 43 visitors, 0 signups**
+
+He launched to founders. His users are WordPress plugin devs. Almost no overlap.
+
+At a 1-3% signup rate, 43 visitors predicts under 1 signup. Zero was the boring outcome, not a verdict.
+
+He nearly rewrote the landing page over noise.
+
+The book →
+
+**24. Traffic isn't a funnel**
+
+Day 9: 159 visitors, ~4,000 requests, 8 signups.
+
+First thought: nobody wants this. Instead he read the logs for one evening.
+
+Onboarding asked a pile of questions before delivering any value. Plus a signup bug.
+
+More in the book →
+
+**25. Don't buy demand you can't serve**
+
+His app can't survive past ~1,000 daily users without $10-20k of hardware. Everyone told him to run ads.
+
+Ads buy volume. Volume is the one thing he can't serve.
+
+The real problem: 5 minutes to first value.
+
+More →
+
+**26. Paid, then cancelled the same day**
+
+First ever subscriber. Cancelled hours later. Reason: too expensive — at under €4/month.
+
+It's a tool you open for 30 seconds and close. A monthly bill fights that rhythm at any price.
+
+Price the usage shape.
+
+The book →
+
+**27. B2C has no list to buy**
+
+Cold email, prospecting tools, LinkedIn outreach — the whole playbook assumes the buyer is a company.
+
+One founder's first 1,000 came from posting the actual interface where his users already were, then
+reusing one video everywhere.
+
+More →
+
+**28. Security shows up early**
+
+You think you're still in the product conversation. Then: where does our data go?
+
+Fuzzy answer, dead deal.
+
+"Security can review an architecture boundary." It can't review vibes.
+
+Volunteer the boundary before the questionnaire arrives.
+
+More in the book →
+
+**29. Every buyer wants their own dashboard**
+
+Split by city. Only my accounts. My export fields. Each ask is small; together they eat your roadmap.
+
+The line isn't customer size — it's whether an engineer has to touch code.
+
+Filters are config. Joins are product.
+
+More →
+
+**30. "Temporary" needs a date**
+
+One deal, one missing feature, one week of work. Two years later you're still maintaining it.
+
+Nobody in the thread thought the code was the problem. The problem is that no one owns killing it.
+
+Expiry date and owner, before you promise it.
+
+The book →

@@ -598,3 +598,320 @@ told. Keep a second paid channel warm enough that it can absorb budget in a day 
 and keep building the assets nobody can restrict — your list, your site, your search presence, your
 direct relationships. And never take the workaround: opening a parallel account to escape a suspension
 converts a temporary problem into a permanent one. *(via a marketer's thread on r/marketing)*
+
+
+---
+
+## Entries — 2026-07-30
+
+### 21. The painkiller test is a search for an existing workaround
+
+**The pain.** You have built something people compliment and nobody urgently needs. Every demo ends
+warmly. No demo ends with a signature. Somewhere in the back of your mind you already know the word
+for what you have made, and it is "vitamin."
+
+**The struggle.** A founder thread asked the question directly: how do you get from nice-to-have to
+can't-live-without, and if you started with a vitamin, what told you? The answers that were no help
+were the ones about asking customers what they want — as one reply pointed out, people will list a
+million things they would like and never mention the one they are actually paying to work around. The
+answers that were useful all described the same failure mode from the inside. One founder knew they
+had built a vitamin when leads kept saying "looks cool, but we don't need it right now." Not a
+rejection, not an objection you can handle. Just a sentence that means the problem is real enough to
+recognise and not expensive enough to fix.
+
+**What worked.** The sharpest test in the thread has nothing to do with enthusiasm. Look for whether
+someone is already paying for a bad version of the fix: a spreadsheet somebody rebuilds every Monday,
+a contractor doing the job by hand, a step in the process that exists only because the problem does.
+That workaround *is* the pain, and it has a cost you can point at in a proposal. Where there is no
+workaround at all, people have quietly decided they can live without it, and no amount of explaining
+the value moves them. Two variants of the same signal came up repeatedly — someone ranting unprompted
+about how a thing sucks, and the budget-review version: the painkiller is whatever keeps somebody from
+being paged at two in the morning, and everything else gets cut. The founder who had lived through it
+fixed it by switching from a general capability to automating one manual bottleneck their buyers hit
+every single day.
+
+**The lesson.** Do not score demand on how interested people sound. Score it on evidence of spend —
+hours, headcount, contractors, subscriptions to something worse. And when you find no workaround
+anywhere, take the thread's best piece of advice seriously: change who you are selling to before you
+change what you have built. The same product often becomes a painkiller one segment over.
+*(via a founder thread on r/Entrepreneur)*
+
+### 22. The first thousand dollars is a signal, not permission to scale
+
+**The pain.** You finally have money in the account. Real strangers paid you. And now every instinct
+you have is screaming to pour everything into more traffic, right now, before the moment passes.
+
+**The struggle.** A team described the month before that moment honestly: no users, no sales, a
+landing page, a raw pitch, no polished product. They spent roughly two weeks turning the idea into
+something usable, listed it on an early-stage software marketplace, and crossed a thousand dollars in
+sales about two weeks after that. What is worth copying is not the marketplace. It is that they ran 64
+async and live conversations — founders, operators, go-to-market people, developers — before trying to
+scale anything, and the interviews were about specific daily work rather than "productivity": what
+interrupts you, where you lose the thread, how you recover today, which tools your workflow is
+scattered across, what still feels unresolved. Distribution was entirely manual: Reddit, X, LinkedIn,
+one-to-one conversations inside their own network. No cold email, no automation, no audience. The first
+purchases came from conversations, not from reach.
+
+**What worked.** The decision they made next is the reason the story is here. They already had more
+channels prepared and chose not to open them, because pushing traffic into weak retention just
+multiplies the leaks. Instead they stopped on activation, first-session value, repeat usage, product
+accuracy, and friction. The launch had also quietly changed the questions they were asking themselves.
+Before it, the question was always "what else should we build?" After it, the questions became why
+this specific person bought, why that one stopped coming back, and where the product fails to create
+value fast enough. Those are answerable questions, and answering them is cheaper than buying traffic.
+
+**The lesson.** First revenue tells you the pitch can land. It does not tell you the product holds.
+Those are separate proofs, and they fail for different reasons, so treat a first thousand as a signal
+worth investigating rather than a mandate to spend. And do the interviews before you need them — sixty
+conversations about how people actually spend their Tuesday will hand you positioning, priorities, and
+your first buyers, all from the same effort. *(via a founder thread on r/startups)*
+
+### 23. A launch to the wrong crowd is not a verdict on your product
+
+**The pain.** You launch on the site everyone launches on. Forty-three people visit. Nobody signs up.
+You open your landing page and start rewriting the headline.
+
+**The struggle.** A founder posted exactly those numbers — a launch, 43 visitors, zero signups — and
+then did the more valuable thing of explaining why the number was meaningless. Their users are
+WordPress plugin developers. The audience on the platform they chose is founders and early adopters.
+Almost no overlap. They picked it, in their own words, because it is the default thing you do, not
+because their people were there. Two structural problems compounded it: no audience going in, and no
+votes in the first hours, which means never surfacing in the feed at all, which means the launch may
+as well not have happened.
+
+**What worked.** The founder ran the arithmetic before touching anything. At a normal signup rate of
+one to three percent, 43 visitors predicts under one signup. Zero is the boring outcome, not a
+finding. Rewriting the landing page off that data would have been optimising against noise. There was
+a second, sharper catch. A flattering comment praised how the tool handled annotation placement on a
+messy dashboard screenshot; the founder checked the database and that person had never registered, so
+they could not have used it — they were reacting to the gallery images. Their conclusion is a rule
+worth stealing: "Check your own data before you believe a compliment." The plan that replaced the
+launch is unglamorous and correct — go where plugin developers actually gather, and use the tool on
+their own plugin so there is something real to show instead of a pitch. One reply supplied a
+comparable data point from a single well-chosen community post: several thousand impressions, over a
+hundred clicks, three signups.
+
+**The lesson.** Section 11 argued that a launch is an event rather than a channel. This is the finer
+version: a launch to the wrong crowd is not even an event, it is a null experiment, and null
+experiments cannot be interpreted. Before you change anything in response to a bad launch, check two
+denominators — how many of the right people saw it, and how many visitors a real conclusion would
+require. Absence of evidence and evidence of absence look identical on a dashboard and mean opposite
+things. *(via a founder thread on r/micro_saas)*
+
+### 24. Traffic is not a funnel, it is the top of one
+
+**The pain.** The numbers finally move. Hundreds of visits, thousands of requests, the graph pointing
+the right way. Then you open the registrations table and the honest total is single digits.
+
+**The struggle.** A founder nine days into a launch had 159 unique visitors and nearly four thousand
+requests in one day, and eight registrations to show for it. The first thought was the one everybody
+has in that seat: maybe nobody wants this. The default response to that thought is to go build another
+feature, which is both more comfortable than the alternative and completely unrelated to the problem.
+
+**What worked.** Instead of building, they spent an evening reading logs, and found two things. The
+signup flow asked founders a pile of questions before letting them do anything — as they put it, the
+product was optimised for collecting context instead of delivering value. And a registration bug was
+outright blocking some users from finishing. Both were fixed the same evening. Their own summary is
+the load-bearing sentence: "traffic doesn't matter if your onboarding leaks users." Worth noting the
+thread also surfaced a live risk in their setup — the product is free while they watch usage, with
+pricing deferred, and a commenter pointed out that a free tool with credits or model calls behind it
+needs limits in place before abuse finds it, not after.
+
+**The lesson.** When conversion is bad, resist the two most attractive explanations — no demand, or
+not enough features — until you have watched the path yourself. Every question you ask before the
+user has felt anything is a toll gate on a road they have no reason to trust yet. Reading the logs for
+one evening is unglamorous work that regularly beats a week of building, because it tells you where
+people stopped rather than what you wish they had wanted. *(via a founder thread on r/micro_saas)*
+
+### 25. Do not buy demand you cannot serve
+
+**The pain.** The product is live, the store listing is approved, and the only advice anyone has for
+you is to start advertising. You also happen to know that if the advertising works, the whole thing
+falls over.
+
+**The struggle.** A solo founder shipped a news-aggregation app that assembles a personalised audio
+briefing, after about three weeks in app review — a fortnight for the first pass, then 24-to-48-hour
+turnarounds on minor fixes. Their plan was a development-story blog to a professional network of
+around 1,200 connections, some paid advertising later, and a target of roughly 500 trial users
+converting to 100-200 paid within two to three months. But they were candid about a hard ceiling:
+the infrastructure is compute-heavy, and past about a thousand daily users it needs somewhere between
+ten and twenty thousand dollars of hardware. They did not want to explode.
+
+**What worked.** The most useful reply in the thread refused the framing entirely: this is not an
+advertising problem yet, because paid ads buy volume and volume is exactly the thing the hardware
+cannot serve. The lever that pays off first at this stage is creative quality and audience precision,
+not spend. A second reply went after the number that actually decides the outcome — what is the moment
+someone realises this is what they wanted? — and the founder's own answer named the real constraint:
+about five minutes from first launch to the first briefing arriving, because the audio takes two to
+three minutes to generate. That is the conversion problem. No ad budget survives a five-minute wait
+for first value. Two other corrections landed alongside it: the app had been live less than a day, so
+there was nothing to conclude yet, and if a few hundred people did land on the listing and nobody
+started a trial, that would be a messaging problem on the listing rather than an acquisition problem.
+And the 500-trials target is funnel arithmetic, not motivation — work backwards through it or it is
+just a wish with a deadline.
+
+**The lesson.** Capacity is part of go-to-market strategy, not an engineering detail downstream of it.
+If your unit economics or your servers cap you at a thousand users, precision beats volume and every
+dollar belongs in the first-run experience rather than the ad auction. Find the exact moment a user
+first feels the product work, measure how long it takes to arrive, and treat that number as your
+growth constraint — because it is. *(via a founder thread on r/Entrepreneur)*
+
+### 26. The first customer paid, then cancelled the same afternoon
+
+**The pain.** Months of wondering whether anyone will ever pay, and then someone does. A few hours
+later, before you have finished telling anybody, the cancellation email arrives.
+
+**The struggle.** That is a real sequence, described by a founder whose browser extension pulls
+colours, fonts, shadows and variables off any site and exports them as design tokens. First ever
+subscriber. Cancelled hours later. The reason given was that it was too expensive — for a price under
+four euros a month, less than a coffee. Taken at face value, that reason makes no sense, and taking it
+at face value is how founders end up cutting a price that was never the problem.
+
+**What worked.** The founder's reading is more interesting than the churn. This is a tool you open for
+thirty seconds, take what you need, and close. A recurring monthly charge sits badly against that
+rhythm, not because the number is large but because next month you are paying for a month in which you
+may not open it at all. "Too expensive" was probably a proxy for "I do not want a subscription to
+this." So the response was not a price cut but a change in which option gets promoted: push the
+lifetime licence for an intermittent-use tool and let the subscription be the side door. Worth being
+precise about the epistemic status here, because the founder was — this is one customer. It is a
+hypothesis with a sample size of one, and they said explicitly they were not changing pricing off a
+single data point. What it earns is a test, not a rewrite.
+
+**The lesson.** Price the shape of the usage, not the size of the number. Software people open once a
+quarter, or once per project, fights a monthly bill no matter how small it is, because every renewal
+is a fresh decision about a thing they are not currently using. Lifetime deals, credit packs, and
+per-project pricing exist for that pattern. And when a customer gives you a reason, treat it as a
+pointer rather than a diagnosis — the stated objection is rarely the real one, and the useful move is
+to ask what the price is being compared against. *(via a founder thread on r/micro_saas)*
+
+### 27. In B2C there is no list to buy
+
+**The pain.** Every piece of go-to-market advice you can find assumes you are selling to companies.
+You are not. Your users are individual people, and none of them are on a sales prospecting platform.
+
+**The struggle.** A founder building a consumer micro-SaaS named the asymmetry precisely: LinkedIn
+outreach, prospecting tools, cold email and networking all make sense when the buyer is a business,
+and none of them translate when the buyer is a person deciding something small about their own life.
+The B2B playbook is well documented because it is mechanical — a list, a message, a follow-up
+sequence. Consumer acquisition has no equivalent object to work through, which is why founders in this
+position often end up doing the B2B motions badly instead of doing something else well.
+
+**What worked.** The replies converged on the same substitution: where B2B uses a list, B2C uses a
+surface. Show the product working, in public, in the places where the behaviour already happens. One
+founder said their first thousand customers came from Reddit — posting the actual interface and what
+it does, rather than a pitch — then reused the same material on short-video platforms, summed up as
+create one video and use that everywhere. Others pointed at the same mechanic from different angles:
+study what competitors are already doing on those platforms and replicate the format; identify where
+your specific user gathers and show up there daily rather than broadly. And a developer-tool founder
+in the thread found their users in a developer community on X, which is the same rule applied to a
+narrower audience. Underneath all of it sits the definition that makes any of it work — one founder
+described their audience not by demographic but by behaviour: people who struggle with impulse buying.
+That is a targetable description. "Consumers" is not.
+
+**The lesson.** In consumer software, the artefact that does the work is a demonstration, not a
+message. Make one honest piece of material that shows the product solving the thing, put it where the
+behaviour already occurs, and repost it across every surface that will carry it — the cost of the
+second placement is nearly zero. And define your user by what they do, not who they are; "people who
+rebuild the same spreadsheet every Monday" can be found, and "small business owners" cannot.
+*(via a founder thread on r/micro_saas)*
+
+### 28. Security arrives before the demo is even useful
+
+**The pain.** You are deep in a good conversation about the workflow, the integration, the thing their
+team wants changed. Then somebody in the room asks where their data goes, and you hear yourself
+improvising.
+
+**The struggle.** A founder selling into larger software companies described the pattern: the security
+review starts far earlier than founders expect, and a fuzzy answer can end the opportunity while you
+still think you are in the product discussion. It is worse for anything with AI attached, because the
+genuinely useful version of the product needs context from the customer's own system — which endpoints
+exist, what fields they return, which roles can see which objects, which workflows the buyer wants to
+change. The buyer hears "AI" and pictures their customer records being copied into somebody else's
+platform. As the post concedes, they are sometimes right to worry, because plenty of tools are vague
+on exactly this point.
+
+**What worked.** The move is to replace reassurance with a boundary specific enough to be inspected.
+In their case: the tool reads API shapes and schemas rather than records; whatever it generates runs
+under the customer's own permissions; customer data never leaves the customer's environment; the model
+never needs to see the records in order to build the mapping. Four claims, each one either true or
+false, each one something a security team can actually evaluate. Their summary of why that changes the
+conversation is the line to remember — "Security can review an architecture boundary." Vibes are not
+reviewable. Two replies added the commercial half of it: if you touch customer data at all, raise the
+boundary before you are asked, because volunteering it reads as confidence while waiting to be asked
+reads as something you were hoping to avoid.
+
+**The lesson.** Treat the data boundary as positioning material, not compliance paperwork. Write the
+four or five sentences that describe exactly what your system reads, what it stores, where it runs and
+under whose permissions, and put them in the deck, the docs and the second call — before the security
+questionnaire arrives. In enterprise software the reviewable answer beats the reassuring one every
+time, and specificity given voluntarily is one of the cheapest forms of credibility available to a
+small company. *(via a founder thread on r/startups)*
+
+### 29. Every buyer wants their own version of the same screen
+
+**The pain.** The reporting screen was finished months ago. Now every larger deal arrives with a
+polite list of changes to it, and each one is small enough that saying no feels unreasonable.
+
+**The struggle.** A founder laid out how it creeps up. The first dashboard is obvious and works for
+the first few customers. Then bigger buyers start asking for their version: split this by country and
+city, let the account manager see only their own accounts, save a view for the Monday meeting, put the
+fields finance cares about in the export, hide the parts their team will never use. None of these is a
+large feature. Collectively they turn the default dashboard into a guess the product team made six
+months ago. Both obvious responses fail. Letting every request become a one-off report buries customer
+success in small changes and leaves product with no idea which asks repeat. Answering "wait for the
+roadmap" keeps the product clean and leaves the buyer without the view they need to run the workflow
+they are paying you for.
+
+**What worked.** The thread produced an unusually clean operating rule, and it is not about customer
+size. Let the customer-facing team create saved, customer-specific views — but log the request
+underneath, so that five customers asking for the same split becomes a product decision instead of
+five tickets. Then draw the line by cost of change rather than by who asked: anything that is a
+filter, a saved view, or an export becomes a configuration option even if only one customer wanted it,
+because configuration is cheap to carry. Anything that needs an engineer to touch code — a new data
+source, a new join, an external system, a genuinely different workflow — gets scoped and priced as its
+own integration and tracked separately from the roadmap. As one commenter put it, mixing those two
+categories is what turns customisation into technical debt, not the customisation itself. Several
+people also advocated the blunt version for anyone who is not selling a reporting product: one
+dashboard for everybody plus a very good export, and let the customer slice it in the tool they
+already use.
+
+**The lesson.** Customisation requests are not a nuisance to be minimised; they are the highest-quality
+demand signal you will ever receive, arriving pre-attached to a buyer with money. The discipline is
+sorting them: cheap-to-clone stays a saved view forever, engineer-required graduates to product or
+becomes a priced integration, and repeated requests always beat loud ones. Track the underlying ask,
+not the ticket. *(via a founder thread on r/startups)*
+
+### 30. The temporary feature needs an expiry date before it needs code
+
+**The pain.** A deal is sitting on one missing capability. Building it properly is a quarter of work.
+Building a version that gets you through this one account is a week, and everyone in the room can see
+it.
+
+**The struggle.** A founder asked whether people build a temporary feature to buy roadmap time, and
+the answers were near-unanimous in a way that is worth noticing: nobody thought the code was the
+problem. The failure is always governance. One operator described maintaining exactly such a feature
+for years because the account was large and nobody wanted to risk it, with the corollary that
+customers form their workflows around your product's limitations, so the thing you built as a bridge
+becomes load-bearing for someone. Another named the deeper trap plainly — far more B2B startups get
+stuck maintaining custom work they convinced themselves was temporary than are ever hurt by saying no,
+and "sales wants sales" is not a reason to commit engineering to something outside the roadmap.
+
+**What worked.** Section 7 covered how to sell a capability you have not built yet. This is the other
+half: how to build one without it quietly becoming permanent. The thread's conditions, in order of how
+often they came up. Give it an expiry date and a named owner *before* anyone promises it to a customer.
+Write down what gets reused, what stays manual, what the support ceiling is, and the date on which it
+either folds into the core product or gets switched off. Contain the blast radius: one feature flag,
+one customer identifier, a thin adapter — never a customer-specific branch, and never let it touch
+shared onboarding, billing or reporting until a second customer asks for the same thing. Keep it
+commercially separate, as a paid pilot with an acceptance test and an explicit support limit, and never
+let it appear in the standard product commitments. Two tells that it has stopped being temporary: sales
+starts demonstrating it as a normal feature, and nobody owns the decision to promote it or kill it.
+One commenter's summary is the whole section in a line: the smell is not temporary code, it is
+temporary code with no exit condition.
+
+**The lesson.** "Temporary" is a claim about the future, so it needs a date, an owner and a kill
+switch, or it is just a word you said in a meeting. Charge enough that the workaround is visible in
+somebody's budget, keep it structurally easy to remove, and decide up front what evidence would earn
+it a place in the product. Do that and the occasional bridge is a legitimate sales tool. Skip it and
+your roadmap slowly becomes a maintenance contract for deals you closed two years ago.
+*(via a founder thread on r/startups)*
