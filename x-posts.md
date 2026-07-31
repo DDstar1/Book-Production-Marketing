@@ -518,3 +518,101 @@ It fails in week five, not in the strategy doc.
 Calendar-block it, weld it to something you already do, and set the bar at done — not done well.
 
 More →
+
+## 2026-07-31
+
+**51 — Seven months building, two months reading about launching**
+
+"Launch" is the word that makes founders wait.
+
+7 months building. Then 2 months reading books about launching, unable to apply any of it.
+
+There's no launch when nobody knows you exist. Only the first 20 conversations — available today.
+
+More in the book.
+
+---
+
+**52 — For sale: everything except the customers**
+
+A founder listed his finished SaaS this week.
+
+$220 lifetime revenue. ~50 users. Asking $2,800 — roughly what it'd cost to rebuild the code.
+
+He said it plainly: distribution is a different job than building.
+
+The market prices a codebase at what a codebase costs. It isn't much.
+
+---
+
+**53 — The rejections were the most useful reply you got**
+
+Most VCs ignored him. A few replied: we don't fund your stage, or your region.
+
+Best comment in the thread: your list is wrong, not your outreach.
+
+A no that tells you why is the only free audit of your targeting you'll ever get.
+
+More in the book.
+
+---
+
+**54 — Renting the relationship you don't have**
+
+Some markets don't reject your message. They reject unknown vendors before reading it.
+
+An industry advisor isn't a shortcut there — in utilities and pharma it's the entry requirement.
+
+Just know what you're borrowing: not a list, a reputation. Every intro spends some.
+
+---
+
+**55 — Two clients in the pipeline and a ceiling nobody mentioned**
+
+New cleaning business. First client: $225-400 a turnover, 5-8 times a month. Great start.
+
+Top comment wasn't congratulations. It was: go commercial — those clients aren't emotionally attached to the property.
+
+Your first segment sets your ceiling. Pick it deliberately.
+
+---
+
+**56 — The audience does not want to leave the app**
+
+"Send your IG followers to YouTube" skips one thing: an outbound click is a bad outcome for the platform, so off-ramps get buried.
+
+Go native per platform. Spend your one off-platform ask on a list you actually own.
+
+More in the book.
+
+---
+
+**57 — The free tier stopped being free**
+
+Free tiers used to cost bandwidth. Now an average free AI user runs ~$2.80/month.
+
+At 5% conversion into a $20-50 plan, the math stops working.
+
+The fix isn't a rule about free tiers. It's moving the persuasion to the page, where a visitor costs nothing.
+
+---
+
+**58 — They'll forgive a rough version; they won't forgive silence**
+
+Five years shipping hardware + software. His most transferable line was a marketing one:
+
+Your update cadence is a feature.
+
+Users going quiet aren't judging your current version. They're deciding whether anyone still works on it.
+
+More in the book.
+
+---
+
+**59 — Fluent in unhinged**
+
+Every listing in the field said "social media coordinator." Theirs said "brainrot specialist — fluent in unhinged."
+
+Hundreds of applications overnight. 30 interviews. 3 hires.
+
+Write in the reader's language, not your category's. Then budget for the sorting.

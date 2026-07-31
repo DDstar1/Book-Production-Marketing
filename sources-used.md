@@ -114,3 +114,30 @@ sections 41-50.
 | 2026-07-30 | r/startups | What's something you thought would matter a lot when starting, but barely mattered in the end? (I will not promote) | https://www.reddit.com/r/startups/comments/1v7py38/whats_something_you_thought_would_matter_a_lot/ | Naming/polish/stack/scale anxiety is avoidance of customer acquisition; prefer observed behaviour over reported opinion |
 | 2026-07-30 | r/Entrepreneur | 0 To 1 Is a Myth | https://www.reddit.com/r/Entrepreneur/comments/1v2g78a/0_to_1_is_a_myth/ | Flat revenue despite real effort means an avoided activity; set milestones on controllable activities (calls, emails, follow-ups), not outcomes |
 | 2026-07-30 | r/Entrepreneur | Most businesses don't have a knowledge problem. They have a consistency problem. | https://www.reddit.com/r/Entrepreneur/comments/1v3jnaj/most_businesses_dont_have_a_knowledge_problem/ | Marketing plans fail on the fifth week, not on strategy: calendar-block the habit, set the bar at done, measure response speed and lead source |
+
+## 2026-07-31
+
+First scheduled run on this date. `scripts/reddit_scraper.py` returned 45 posts across r/startups,
+r/Entrepreneur and r/micro_saas (`--sort new`, limit 15 each); **r/SaaS returned 0 posts** — the fourth
+consecutive run in which it did so — and **r/marketing also returned 0 posts** this run, after 27
+already-known posts were skipped there. 205 already-known post IDs were loaded from the tables above
+plus prior scrapes, and 77 of them were encountered and skipped during the crawl. No CAPTCHA or block
+appeared. The threads below were used in the `## Entries — 2026-07-31` batch of `manuscript.md`,
+sections 51-59.
+
+Note: the r/Entrepreneur muscle-stimulation-hardware thread below appears to come from the same founder
+as the wearable thread used on 2026-07-29 (section 9). It is a different thread and a different angle
+(release cadence as retention, rather than segment discovery), so it was used, but future runs should
+treat further threads from that product as already well covered.
+
+| Date | Subreddit | Thread title | URL | Angle taken |
+|---|---|---|---|---|
+| 2026-07-31 | r/startups | I will not promote. I am a founder with a finished product, looking to learn how to sell. | https://www.reddit.com/r/startups/comments/1vb5t1r/i_will_not_promote_i_am_a_founder_with_a_finished/ | 7 months building then 2 months reading launch books: "launch" is the word causing the paralysis — one narrow segment, 20 places they complain, a paid pilot offer |
+| 2026-07-31 | r/micro_saas | Selling ShipClip, an AI launch-video generator. You paste a URL, you get a 1080p launch video. | https://www.reddit.com/r/micro_saas/comments/1vbi3nj/selling_shipclip_an_ai_launchvideo_generator_you/ | $220 lifetime revenue, ~50 users, asking $2,800 ≈ replacement cost of the code: the market prices a codebase cheaply and distribution is the scarce asset |
+| 2026-07-31 | r/startups | I have difficulties to get VCs reply. I will not promote | https://www.reddit.com/r/startups/comments/1vazo07/i_have_difficulties_to_get_vcs_reply_i_will_not/ | Rejections are targeting data — "your list is wrong not the outreach"; get LOIs/pilots before capital, and sell SMB before enterprise |
+| 2026-07-31 | r/startups | Anyone here got advisors as their way to get customers? I will not promote | https://www.reddit.com/r/startups/comments/1vb56li/anyone_here_got_advisors_as_their_way_to_get/ | Advisors in relationship-driven sectors (AEC/MEP, utilities, pharma): you are renting a reputation, not buying a list; each intro spends some of it |
+| 2026-07-31 | r/Entrepreneur | I started a cleaning business with my girlfriend! | https://www.reddit.com/r/Entrepreneur/comments/1v069fj/i_started_a_cleaning_business_with_my_girlfriend/ | The accidental first segment sets the ceiling: $225-400 turnovers in a 11am-3pm window vs commercial contracts; GBP + reviews as the local distribution engine |
+| 2026-07-31 | r/Entrepreneur | I've started questioning the whole "content ecosystem" advice. | https://www.reddit.com/r/Entrepreneur/comments/1v0phom/ive_started_questioning_the_whole_content/ | Platforms suppress off-ramps, so cross-posting funnels leak by design; go native per platform and spend the single off-platform ask on a list you own |
+| 2026-07-31 | r/micro_saas | Free Tiers still worth it? The Math says no. | https://www.reddit.com/r/micro_saas/comments/1vbkf83/free_tiers_still_worth_it_the_math_says_no/ | ~$2.80/month per free AI user vs 5% conversion at $20-50: when the demo costs real money, move persuasion to the landing page and meter the outcome |
+| 2026-07-31 | r/Entrepreneur | I built an app that physically controls muscles. Here's what shipping hardware + software for 6 years actually looks like. | https://www.reddit.com/r/Entrepreneur/comments/1v051nd/i_built_an_app_that_physically_controls_muscles/ | "Your update cadence is a feature" — silence, not roughness, is what loses early users; 50+ iterations as the uncopyable part |
+| 2026-07-31 | r/Entrepreneur | "Brainrot Specialist" job listing somehow got us a Quant from Rice and 2 UT business majors | https://www.reddit.com/r/Entrepreneur/comments/1uz6hbj/brainrot_specialist_job_listing_somehow_got_us_a/ | Copy written in the reader's dialect vs the category's; novelty buys reach not qualification — hundreds of applications → ~30 interviews → 3 hires |
