@@ -1,11 +1,10 @@
 # Last Run Status
 
-**Run timestamp:** 2026-07-31 10:24 local — scheduled task `daily-saas-book-content-pipeline`
-**Result:** ✅ Success — 9 new sections (51-59) written from 9 real threads, plus a meme.
+**Run timestamp:** 2026-08-04 10:29 local — scheduled task `daily-saas-book-content-pipeline`
+**Result:** ✅ Success — 10 new sections (60-69) written from 11 real threads, plus a meme.
 
-**First run on 2026-07-31.** `manuscript.md` ended at section 50 under
-`## Entries — 2026-07-30 (third batch)`, so this batch is labelled `## Entries — 2026-07-31` with
-numbering continuing at 51.
+**First run on 2026-08-04.** `manuscript.md` ended at section 59 under `## Entries — 2026-07-31`, so
+this batch is labelled `## Entries — 2026-08-04` with numbering continuing at 60.
 
 ---
 
@@ -13,141 +12,123 @@ numbering continuing at 51.
 
 | Metric | Value |
 |---|---|
-| Branch | `main`, clean pull (`--ff-only`), started at `e619424` |
-| Scraper | ran clean — **no CAPTCHA, no block** |
-| Already-known posts excluded | 205 loaded / **77 encountered and skipped** |
-| Posts scraped | **45** (r/SaaS 0, r/startups 15, r/Entrepreneur 15, r/marketing 0, r/micro_saas 15) |
-| Posts used | **9** |
-| Sections added | **9** (51-59) |
-| `book/SaaS-Marketing-Book.txt` resynced | ✅ yes (155,235 chars) |
-| X posts drafted | 9 (all < 280 chars) |
-| Meme generated | ✅ yes — Gru's Plan template (newly downloaded) |
-| Push to `origin/main` | ✅ succeeded |
+| Posts scraped (post-exclusion) | 60 |
+| Already-known posts excluded | 250 loaded; 48 skips logged on r/marketing alone |
+| Threads used | 11 |
+| Sections added | 10 (60-69) |
+| X drafts added | 10 (all under 280 chars) |
+| `book/SaaS-Marketing-Book.txt` resynced | Yes (189,315 bytes, identical to `manuscript.md`) |
+| Meme generated | Yes — `memes/cost-per-order-fell-2026-08-04.png` |
+| Push to `origin/main` | Succeeded on first attempt |
 
 ---
 
-## 0. Orient
+## Scraper outcome
 
-All expected files present; nothing had to be created. Both `scripts/reddit_scraper.py` and
-`scripts/meme_overlay.py` are present and were used unmodified.
+Command run as specified:
 
-## 1. Deduplication
+```
+python scripts/reddit_scraper.py --subreddits SaaS startups Entrepreneur marketing micro_saas \
+  --sort new --limit 15 --comments -1 --headed --captcha-wait 120 \
+  --out reddit_dump.json --posts-dir scraped_posts \
+  --exclude-urls-file sources-used.md manuscript.md
+```
 
-`sources-used.md` read in full — 50 threads already logged across four prior batches (2026-07-29 ×2,
-2026-07-30 ×3). No thread URL was reused. Two near-miss topic overlaps were checked and the angles
-deliberately steered away from existing coverage:
+**First attempt failed.** It collected r/SaaS (15 posts) and r/startups (15 posts), then crashed on
+r/Entrepreneur with repeated DNS resolution failures, before writing any output. Verbatim:
 
-- Section 57 (free tiers) sits near section 45 ("Losing money on each user"), which argued *charge
-  something as market research*. Section 57 deliberately takes the operational angle instead — free-tier
-  **design** once the demo itself costs money (cheaper model / credits / BYOK, and moving persuasion to
-  the landing page). It does not re-argue "charge something".
-- Section 58's source thread appears to come from the **same founder** as the wearable thread used on
-  2026-07-29 (section 9). Different thread, different angle (release cadence as retention vs. segment
-  discovery), so it was used — but this is flagged in `sources-used.md` so future runs treat that
-  product as already well covered.
+```
+[!] Timeout fetching https://www.reddit.com/r/startups/comments/1ve65am/how_much_equity_stake_is_fair_i_will_not_promote/
+[!] Error fetching https://www.reddit.com/r/startups/comments/1ve34lv/how_would_you_approach_gtm_initial_icps_are_ai/: Page.goto: net::ERR_NAME_NOT_RESOLVED
+[!] Error fetching https://www.reddit.com/r/startups/comments/1ve2pgs/hiringseekingoffering_jobs_cofounders_weekly/: Page.goto: net::ERR_NAME_NOT_RESOLVED
+...
+playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.reddit.com/r/Entrepreneur/new/
+```
 
-Two further scraped posts were rejected for topic overlap rather than quality: an r/Entrepreneur
-"biggest mistake was delaying decisions" thread and a "what was the hardest part starting out" thread,
-both of which restate section 48 (avoidance) and section 49 (comfort zone) closely enough to be
-repetition.
+**Retried once with the identical command and it completed.** Results of the successful run:
 
-## 2. Scraper outcome
+| Subreddit | Posts returned |
+|---|---|
+| r/SaaS | **0** |
+| r/startups | 15 |
+| r/Entrepreneur | 15 |
+| r/marketing | 15 (48 already-known posts skipped) |
+| r/micro_saas | 15 (10 of them empty — see below) |
 
-Command run exactly as specified (`--sort new --limit 15 --comments -1 --headed --captcha-wait 120`,
-excluding URLs from `sources-used.md` and `manuscript.md`).
+- 60 posts written to `reddit_dump.json` and to `scraped_posts/`.
+- 250 already-known post IDs were loaded from `sources-used.md` / `manuscript.md` / `scraped_posts/`
+  and excluded from the crawl.
+- **r/SaaS returned 0 posts** on the successful run — the fifth consecutive run in which it has come
+  back empty. It did return 15 posts on the crashed first attempt, so the subreddit is reachable; the
+  empty result looks like an intermittent listing-page failure rather than a block.
+- **10 of the 15 r/micro_saas posts came back with empty bodies and zero comments**, each preceded by
+  `Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE` on the individual post page. r/micro_saas
+  contributed no usable material this run.
+- **No CAPTCHA and no block page appeared** in either attempt, so `--captcha-wait 120` was never
+  exercised. Nothing was bypassed or automated around; the retry was a plain re-run of the same
+  command.
 
-- **No CAPTCHA and no block appeared** at any point; nothing had to clear.
-- **205 already-known post IDs** were loaded from the exclusion files and prior scrapes; **77 of them
-  were encountered and skipped** during the crawl (50 on r/Entrepreneur, 27 on r/marketing).
-- **45 posts scraped** in total:
-  - r/SaaS → **0 posts**. This is the **fourth consecutive run** in which r/SaaS has returned nothing.
-    No error is logged for it — the listing simply comes back empty. Worth a human look at whether the
-    scraper's r/SaaS listing selector still matches, since a four-run streak is no longer plausibly a
-    transient.
-  - r/startups → 15 posts
-  - r/Entrepreneur → 15 posts (50 already-known skipped)
-  - r/marketing → **0 posts** after 27 already-known posts were skipped — i.e. every post on the first
-    page of `new` had already been used by a previous run. This looks like genuine exhaustion of the
-    listing rather than a scraper fault.
-  - r/micro_saas → 15 posts
-- One transient fetch timeout was logged for a single r/micro_saas permalink
-  (`.../1vbilcu/do_small_teams_actually_need_a_simple/`); that post was a title-only stub with no body
-  and no comments, so nothing usable was lost.
+---
 
-No fallback to WebSearch/WebFetch was needed for source material. `reddit_dump.json` and
-`scraped_posts/` were left on disk as raw archive (both gitignored, not committed).
+## Content written
 
-## 3-4. Content
+Sections 60-69, under `## Entries — 2026-08-04`:
 
-- **Posts used: 9** (of 45 scraped). **Sections added: 9** — numbered 51-59 under
-  `## Entries — 2026-07-31`. Manuscript now runs to section 59.
-- Sources: r/startups ×3, r/Entrepreneur ×4, r/micro_saas ×2. All nine logged in `sources-used.md`
-  with permalink and angle.
-- Sections written this run:
-  1. **51** — Seven months building, two months reading about launching (r/startups)
-  2. **52** — For sale: everything except the customers (r/micro_saas)
-  3. **53** — The rejections were the most useful reply you got (r/startups)
-  4. **54** — Renting the relationship you do not have (r/startups)
-  5. **55** — Two clients in the pipeline and a ceiling nobody mentioned (r/Entrepreneur)
-  6. **56** — The audience does not want to leave the app (r/Entrepreneur)
-  7. **57** — The free tier stopped being free (r/micro_saas)
-  8. **58** — They will forgive a rough version; they will not forgive silence (r/Entrepreneur)
-  9. **59** — Fluent in unhinged (r/Entrepreneur)
-- The remaining 36 scraped posts were skipped as unusable: launch announcements with no story
-  (a $2 first sale, "I JUST GOT MY FIRST CUSTOMER!!!"), zero-comment self-promo listings, weekly sub
-  megathreads (Feedback Friday etc.), and non-GTM threads (founder-to-CEO succession, a
-  postdoc-vs-industry career question). No weak material was stretched to hit a quota.
-- `book/SaaS-Marketing-Book.txt` **resynced** — full plain-UTF-8 copy of `manuscript.md`
-  (155,235 chars). No `.docx` created or touched.
+| # | Section | Source |
+|---|---|---|
+| 60 | Distribution for people who hate being seen | r/startups |
+| 61 | If it takes ten minutes to explain, it is a feature list | r/startups |
+| 62 | Stop improving the pitch; remove the asks | r/startups |
+| 63 | The buyer is whoever screenshots the bill | r/startups |
+| 64 | Build for the user, charge the person who can pay next week | r/Entrepreneur |
+| 65 | He bought more customers than he earned | r/Entrepreneur |
+| 66 | You have hired four people to say a sentence that does not work | r/Entrepreneur |
+| 67 | Seven years of assets and no business | r/Entrepreneur (two threads, same founder) |
+| 68 | Price against what they do today, not against nothing | r/Entrepreneur |
+| 69 | The cost per order fell because the customer got worse | r/marketing |
 
-## 5. Social copy
+Judgement calls made autonomously this run:
 
-9 draft X posts appended to `x-posts.md` under `## 2026-07-31`, one per new section. All verified
-under 280 characters (longest: 279, section 52). None marked as threads.
+- Two r/Entrepreneur threads (`1vcn19b` and `1vdstf0`) are from the same founder about the same
+  investment-migration business. They were treated as one story and synthesised into a single section
+  (67) rather than two near-duplicate ones. Both URLs are recorded in `sources-used.md`, and that
+  business is flagged there as already well covered for future runs.
+- Two r/startups threads this run ("I can build anything, I have no idea how to get people to care"
+  and "how do you build distribution from scratch?") pose nearly the same question. Only the second
+  was used, because its comment tree carried the specific new angle (asynchronous written
+  distribution, and its ceiling). The first was left unused rather than stretched into a section.
+- `sources-used.md` was updated with a `## 2026-08-04` block: 11 rows, each with date, subreddit,
+  thread title, permalink and the angle taken.
+- `x-posts.md` was updated with a `## 2026-08-04` block: 10 drafts, one per section, each verified
+  under 280 characters.
+- `manuscript.md` was copied verbatim to `book/SaaS-Marketing-Book.txt`. No `.docx` was created or
+  touched.
 
-## 6. Meme
+---
 
-**Generated.** Template: **Gru's Plan** (4-panel 2×2), newly downloaded this run to
-`templates/grus-plan.jpg` from the blank-template URL read off the real Imgflip page
-(`https://imgflip.com/s/meme/Grus-Plan.jpg`, 700×449). Note: a first URL inferred from the page text
-(`i.imgflip.com/s/meme/...`) returned 404, so the page was opened in the browser and the actual `img`
-src was read directly before downloading — no fabricated URL was used.
+## Meme
 
-Story: section 51 (seven months building, two months reading launch books) — the clearest
-naive-assumption beat in the batch. Captions are original lines, no film dialogue:
-"Build the product for seven months" / "Read every book on launching" / "Nobody knows it exists" /
-"Nobody knows it exists" (the repeated final panel is the template's own format). Output:
-`memes/seven-months-building-2026-07-31.png`. Rendered at `--font-size 26` after two auto-sized
-attempts clipped the bottom-panel text; final image verified visually, nothing cut off.
+**Generated:** `memes/cost-per-order-fell-2026-08-04.png`, from section 69 — the clearest
+expectation-vs-reality beat written this run (scale the budget, watch the cost per order fall,
+discover the cheaper audience is the worse audience).
 
-## 7. Push
+- Template: `templates/grus-plan.jpg`, **already saved in `templates/` from a previous run**, so it
+  was reused as intended and nothing was downloaded from Imgflip this run.
+- Command: `--layout 2x2` (genuine 4-panel grid), four original captions, `--font-size 26`.
+- The rendered output was inspected: text is legible and sits inside the panels.
 
-Committed as `Daily content: 9 new sections (2026-07-31 10:24)` and pushed to `origin/main` on the
-first attempt — no rebase needed. `templates/grus-plan.jpg` and
-`memes/seven-months-building-2026-07-31.png` were committed alongside the text changes;
-`reddit_dump.json` and `scraped_posts/` stayed out of the commit as intended.
+---
+
+## Push
+
+`git add -A`, committed as `Daily content: 10 new sections (2026-08-04 10:29)`, pushed to
+`origin/main`. Succeeded on the first attempt; no rebase retry was needed.
+
+`reddit_dump.json` and `scraped_posts/` were left on disk and are gitignored, so they were not staged.
+
+---
 
 ## Errors
 
-None beyond the two noted above (the r/SaaS 0-post streak and the single r/micro_saas fetch timeout),
-neither of which blocked the run. Verbatim scraper output:
-
-```
-  [!] Timeout fetching https://www.reddit.com/r/micro_saas/comments/1vbilcu/do_small_teams_actually_need_a_simple/
-Excluding 205 already-known post(s) from this run.
-Scraping r/SaaS (new, limit 15)...
-  -> 0 posts
-Scraping r/startups (new, limit 15)...
-  -> 15 posts
-Scraping r/Entrepreneur (new, limit 15)...
-  (skipped 50 already-known post(s) on r/Entrepreneur)
-  -> 15 posts
-Scraping r/marketing (new, limit 15)...
-  (skipped 27 already-known post(s) on r/marketing)
-  -> 0 posts
-Scraping r/micro_saas (new, limit 15)...
-  -> 15 posts
-
-Wrote 45 posts to C:\Users\USER\Desktop\Projects\SasSS distribution\reddit_dump.json
-Wrote 45 individual post files to C:\Users\USER\Desktop\Projects\SasSS distribution\scraped_posts
-```
+Only the scraper failures quoted above: the first-attempt DNS crash, the empty r/SaaS listing, and
+the 10 failed r/micro_saas post fetches. No other errors during the run.

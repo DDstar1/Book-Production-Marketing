@@ -141,3 +141,34 @@ treat further threads from that product as already well covered.
 | 2026-07-31 | r/micro_saas | Free Tiers still worth it? The Math says no. | https://www.reddit.com/r/micro_saas/comments/1vbkf83/free_tiers_still_worth_it_the_math_says_no/ | ~$2.80/month per free AI user vs 5% conversion at $20-50: when the demo costs real money, move persuasion to the landing page and meter the outcome |
 | 2026-07-31 | r/Entrepreneur | I built an app that physically controls muscles. Here's what shipping hardware + software for 6 years actually looks like. | https://www.reddit.com/r/Entrepreneur/comments/1v051nd/i_built_an_app_that_physically_controls_muscles/ | "Your update cadence is a feature" — silence, not roughness, is what loses early users; 50+ iterations as the uncopyable part |
 | 2026-07-31 | r/Entrepreneur | "Brainrot Specialist" job listing somehow got us a Quant from Rice and 2 UT business majors | https://www.reddit.com/r/Entrepreneur/comments/1uz6hbj/brainrot_specialist_job_listing_somehow_got_us_a/ | Copy written in the reader's dialect vs the category's; novelty buys reach not qualification — hundreds of applications → ~30 interviews → 3 hires |
+
+## 2026-08-04
+
+First scheduled run on this date. `scripts/reddit_scraper.py` failed partway through a first attempt
+with repeated DNS/network errors (`ERR_NAME_NOT_RESOLVED`) and crashed before writing any output; a
+single retry completed and returned 60 posts across r/startups, r/Entrepreneur, r/marketing and
+r/micro_saas (`--sort new`, limit 15 each). **r/SaaS returned 0 posts** on the retry — the fifth
+consecutive run in which it has come back empty. Ten of the fifteen r/micro_saas posts came back with
+empty bodies and no comments after `ERR_HTTP_RESPONSE_CODE_FAILURE` on the individual post pages, so
+that subreddit contributed almost nothing usable. 250 already-known post IDs were loaded from the
+tables above plus prior scrapes; 48 of them were encountered and skipped on r/marketing alone. No
+CAPTCHA or block page appeared at any point. The threads below were used in the
+`## Entries — 2026-08-04` batch of `manuscript.md`, sections 60-69.
+
+Note: the two immigration/investment-migration threads below come from the same founder and describe
+the same business. They were treated as one story and written up as a single section (67), with both
+URLs recorded. Future runs should treat that business as already well covered.
+
+| Date | Subreddit | Thread title | URL | Angle taken |
+|---|---|---|---|---|
+| 2026-08-04 | r/startups | how do you build distribution from scratch? (i will not promote) | https://www.reddit.com/r/startups/comments/1veasko/how_do_you_build_distribution_from_scratch_i_will/ | Distribution matched to temperament: written/asynchronous, commenting rather than posting, learning rather than promotion — plus the ~2h/day ceiling on a personal writing habit |
+| 2026-08-04 | r/startups | How best to stand out in an increasingly saturated market? (I will not promote) | https://www.reddit.com/r/startups/comments/1vedofo/how_best_to_stand_out_in_an_increasingly/ | "If you need time to explain the difference you have a feature list, not a position"; defending the incumbent's axis concedes it — narrow to one undeniable use case, keep the comparison for evaluators |
+| 2026-08-04 | r/startups | The trick that got a slow, change-averse customer to say yes: I stopped selling them anything and gave them an incentive instead. (I will not promote) | https://www.reddit.com/r/startups/comments/1ve8twi/the_trick_that_got_a_slow_changeaverse_customer/ | Enumerate every ask in the offer and remove them rather than out-arguing them; price is one ask of three — effort and internal/career risk survive "free" |
+| 2026-08-04 | r/startups | How would you approach GTM? Initial ICPs are AI startups that have already reached PMF (or are close) [I will not promote] | https://www.reddit.com/r/startups/comments/1ve34lv/how_would_you_approach_gtm_initial_icps_are_ai/ | An ICP made of internal states is unprospectable: convert to an observable trigger ("whoever screenshots the model bill"); sell against spend, charge for the diagnostic |
+| 2026-08-04 | r/Entrepreneur | Looking for Product and GTM feedback for my Parent / Teacher Reading tool! | https://www.reddit.com/r/Entrepreneur/comments/1vdooi3/looking_for_product_and_gtm_feedback_for_my/ | User and payer on different clocks: build for the teacher, charge the parent, run the district pilot as proof; publish the one number the buyer secretly doubts |
+| 2026-08-04 | r/Entrepreneur | Post Sale Analysis - 2 million dollar Web Hosting Business | https://www.reddit.com/r/Entrepreneur/comments/1vdn1gs/post_sale_analysis_2_million_dollar_web_hosting/ | 262 clients bought vs 133 earned organically: acquisition as a distribution channel in a fragmented recurring-revenue market, with margin compression and a ~1x exit as the cost |
+| 2026-08-04 | r/Entrepreneur | How important is making calls yourself? | https://www.reddit.com/r/Entrepreneur/comments/1vct4km/how_important_is_making_calls_yourself/ | Four hires, zero bookings, and the variable that keeps changing is the person; you cannot delegate a sales process you have never run |
+| 2026-08-04 | r/Entrepreneur | Anyone sold a niche business that never really got off the ground? | https://www.reddit.com/r/Entrepreneur/comments/1vcn19b/anyone_sold_a_niche_business_that_never_really/ | Seven years of build with near-zero revenue: assets have buyers, businesses have multiples; approach two or three firms already closing in the market, and run a 5-customer manual sprint first |
+| 2026-08-04 | r/Entrepreneur | Looking for advice on what do do next with a immigration business | https://www.reddit.com/r/Entrepreneur/comments/1vdstf0/looking_for_advice_on_what_do_do_next_with_a/ | Companion thread to the above from the same founder — used together in section 67; an arbitrary $25k asking price has no more support than an arbitrary $250k |
+| 2026-08-04 | r/Entrepreneur | How do you decide on pricing? | https://www.reddit.com/r/Entrepreneur/comments/1vdfq37/how_do_you_decide_on_pricing/ | Removing every anchor stalls the sale rather than freeing the price: supply the anchor yourself (cost of doing nothing / the manual alternative); expire early-adopter pricing on a customer count, not a date |
+| 2026-08-04 | r/marketing | Meta Advantage+ keeps finding cheaper COD customers while scaling. How would you handle this? | https://www.reddit.com/r/marketing/comments/1vdi6fw/meta_advantage_keeps_finding_cheaper_cod/ | CPA fell ₹120→₹70 on a budget increase because the audience changed: compute effective CPA including returns and call time, then report margin-adjusted values so the optimiser learns the difference |

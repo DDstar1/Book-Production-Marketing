@@ -2016,3 +2016,411 @@ own words instead, including the ones that sound unserious, and accept the trade
 attention than the offer deserves, so make sure the offer underneath it is real, and budget for the
 sorting.
 *(via a founder thread on r/Entrepreneur)*
+
+## Entries — 2026-08-04
+
+### 60. Distribution for people who hate being seen
+
+**The pain.** You have been able to build since you were a child. Give you an idea and a week and there
+is a working product at the end of it. And every piece of advice about the part that comes after
+assumes you are willing to become someone who posts daily, networks, and talks about themselves in
+public. You are not that person, you have known it for years, and so the products sit there.
+
+**The struggle.** A founder who had been coding since fifth grade laid this out plainly: years spent
+improving at building, almost none spent learning distribution, and an honest admission that the
+obstacle was temperament rather than ignorance. The thread that followed was one of the more useful
+ones on the subject, mostly because the first reply reframed the problem instead of answering it.
+Technical founders treat distribution as marketing, when at the start it is closer to research. Before
+reaching thousands of people you need enough conversations to know who has the problem, how they solve
+it today, and what would make them switch — and the messaging that feels impossible to write becomes
+almost mechanical once you can answer those three. The founder's own reply is the sentence to keep:
+they had been thinking about it as promotion instead of learning. That single substitution changes what
+the activity is. Promotion requires you to be interesting; learning only requires you to be curious,
+which is a much easier thing to ask of someone who dislikes attention.
+
+**What worked.** The most concrete answer came from another introvert and it is the least painful
+version of distribution available: they got their first users from commenting rather than posting. A
+week spent answering questions in founder communities where they genuinely knew the answer, no links
+and no pitching, until people started asking what they were building. The generalised form arrived in
+another reply — find the questions people already type about your problem and answer them properly, one
+a day, under your own name. That works for this personality because it is written and asynchronous, it
+inverts the direction of the ask, and it never requires you to interrupt anyone. Several others
+converged on the low-volume version of the same thing: pick ten or twenty people who already have the
+problem, ask how they handle it today, and let the answers tell you who buys and where they gather.
+One reply supplied the correction that keeps this honest, and it is the part most threads leave out.
+Commenting has a ceiling: it is a personal writing habit, you cannot sustain much past a couple of hours
+a day, and that caps how many people you can reach in a week. So it is the right first channel and the
+wrong only channel — the move is to reuse the same ideas in more durable formats once the answers start
+repeating, which they will, because most people ask the same six questions.
+
+**The lesson.** If you are not built for broadcast, do not fight it and do not wait to be cured of it.
+Choose the channel that matches your temperament — written, asynchronous, answering rather than
+announcing — and start with learning rather than promotion, because twenty conversations will hand you
+the messaging you cannot currently write. Then respect the ceiling: a habit that depends entirely on
+your own hours is a start, not a system.
+*(via a founder thread on r/startups)*
+
+### 61. If it takes ten minutes to explain, it is a feature list
+
+**The pain.** You are genuinely better than the incumbent and you can prove it, item by item. But the
+reaction you keep getting is "so it's like [big competitor] but worse at [the one thing you are worse
+at]" — and by the time you have drawn breath to answer, the moment has gone.
+
+**The struggle.** A founder building on-device meeting transcription described this exactly. Their
+reactions split into two camps: the people who immediately understood and converted, and the people who
+filed them under a competitor's name with a deduction attached. They had tested nearly every app in the
+category, believed honestly that they were better in most of the ways that matter, and were candid
+about where they were not — and none of that was reaching anyone, because the comparison was over
+before it started. Their instinct was to build more comparison pages. The thread's most-upvoted reply
+refused the framing: the problem is not attention, it is that if you need time to explain what makes
+you different, you do not have a position yet, you have a feature list. A second reply named the
+mechanism underneath it, and it is the sharper observation of the two — when you accept the "like X but
+worse at Y" comparison and start defending Y, you have already conceded that Y is the axis the decision
+turns on. The incumbent chose that axis. Arguing on it is playing an away game.
+
+**What worked.** The advice converged on subtraction. Pick the single use case where your architecture
+is undeniably better and sell only that; for on-device transcription the thread's suggestion was
+privacy, and specifically the meetings that legally cannot touch someone else's server — legal,
+medical. One sentence a person instantly understands beats a ten-minute demo, because markets do not
+reward the product with the most features, they reward the one that is easiest to understand. The
+narrowing can also be by customer rather than by capability: become the transcription tool for one
+substantial industry rather than a general tool with an industry page, narrow enough to be the obvious
+choice and not so narrow that the market is a rounding error. And the most practical suggestion was a
+research one, because the position is not something you invent at a whiteboard. Interview a handful of
+people who converted and a handful who dismissed you as another recorder, and ask two questions: what
+was happening in the meeting, and what proof changed their mind. The answer that repeats becomes the
+first line on your site. Everything else — the hundred honest advantages, the full comparison — stays,
+but it moves to where buyers who have already engaged will go looking for it. That is the actual
+sequence: one claim to get in the door, the feature list for people who are already evaluating.
+
+**The lesson.** In a crowded category, being better is a claim your buyer has heard from everyone and
+cannot evaluate. Being instantly comprehensible is rarer and does more work. Find the one use case
+where your difference is structural rather than incremental, lead with only that, and let the depth
+you are proud of live one click further in — and when someone frames you against the incumbent, change
+the axis rather than defending theirs.
+*(via a founder thread on r/startups)*
+
+### 62. Stop improving the pitch; remove the asks
+
+**The pain.** You are selling to an organisation whose staff are rewarded for not taking risks. Better
+deck, better demo, more follow-up — and the answer is still a polite version of no, delivered on a
+timeline you cannot afford.
+
+**The struggle.** A founder selling into exactly that kind of buyer — institutions whose default answer
+to anything new is no, and who had already refused far more polished companies — described treating it
+as a persuasion problem for a long time and getting nowhere. Then they went back through the offer
+itself and found something structural. Every version of the pitch had asked the buyer for something:
+install this, change that, put our equipment near the expensive asset you are personally responsible
+for. Each of those asks carried cost and risk to the person being asked, which meant each was an
+independent reason to say no. It did not matter how good the argument was; the argument was competing
+against a list of small, concrete, career-relevant downsides. So they rebuilt both the product and the
+offer to ask for nothing — no installation, no hardware on the customer's side, no capital cost, no
+exposure to the thing the buyer is paid to protect — and then made sure the yes came with things the
+buyer wanted and had never had: a revenue line they did not have to build, and data about their own
+operation they could not previously collect.
+
+**What worked.** The conversations changed, and the founder's own account of why is the transferable
+part: not that they became more persuasive, but that refusing now meant turning down upside with
+nothing attached to it. A cautious buyer can resist a pitch indefinitely; resisting a free incentive
+requires an argument they do not have. The thread supplied two corrections worth carrying, because the
+principle is narrower than it first appears. The first is that removing cost removes only one kind of
+risk. Enterprise buyers still carry implementation risk and career risk, and neither is priced in money
+— someone still has to sponsor the thing internally and be associated with it if it goes badly. The
+second came out of a follow-up exchange and applies to anyone selling to individuals rather than
+institutions: consumer buyers stall on effort more than on price, so free removes the objection you can
+see and leaves the one you cannot. The advice there was specific and testable — watch where people drop
+off before the first useful moment, count the steps and taps it takes to reach it, and cut two of them.
+That will usually beat another rewrite of the messaging. There was also a fair amount of scepticism in
+the thread that the whole thing was a rediscovery of the free trial, and the objection is worth
+answering rather than dismissing: a free trial removes price from an offer whose shape is unchanged.
+This is the harder version — changing what the offer asks the buyer to do, not what it costs them.
+
+**The lesson.** When a buyer is structurally resistant to change, enumerate every ask in your offer and
+treat each one as an independent reason for no. Then remove them rather than out-arguing them. Price is
+only one of the asks, usually not the largest, and never the last one standing — after money comes
+effort, then internal risk, and the offer is not finished until you have looked at all three.
+*(via a founder thread on r/startups)*
+
+### 63. The buyer is whoever screenshots the bill
+
+**The pain.** You have written down an ideal customer profile and it is composed of adjectives.
+Post-MVP. Real production traffic. Growing fast. Accumulating technical debt. Every one of them is true
+of your buyer and none of them tells you who to email on Monday.
+
+**The struggle.** A team building a developer tool posted their go-to-market thinking for review. The
+product was genuinely well-specified — it reads production traces, finds the repeated workflows that
+account for most of the traffic, and turns them into cheaper deterministic implementations while
+leaving the open-ended work alone. Their planned motion was founder-led: a free audit of production
+traces, replay the historical traffic, quantify the savings, then sell an implementation sprint if the
+numbers justify it. And their stated ideal customer was "AI startups at or near product-market fit,"
+qualified by four characteristics, all of them internal states of the company. Which is the trap: those
+are things you can only confirm after a conversation, so they cannot generate the list of companies you
+need in order to have the conversations.
+
+**What worked.** The thread's best replies did two separate jobs, and both are worth stealing. The
+first was to move the wedge from the interesting problem to the boring one: sell against infrastructure
+spend, not against technical debt. An audit that concludes "this workflow costs a specific amount per
+month and we can make it cost less" is a purchase a finance-minded person can approve; "we reduce
+prompt technical debt" is a conversation. The follow-on from the same commenter is the honest test —
+if the product does not eat the messy part itself, the messy part becomes a person, and you have
+reinvented consulting with better typography. The second job was replacing the adjectives with an
+observable signal, and one reply did it in a sentence: the buyer is not defined by funding stage, it is
+whoever already has an internal thread where someone posts a screenshot of the monthly model bill.
+That is a real trigger event, it implies a rough spend threshold you can estimate from outside, and it
+points at a specific person with a specific irritation rather than at a category. The rest of the
+thread tightened the motion itself. A free diagnostic attracts teams who cannot legally let an outside
+vendor near production data, so qualify for trace access early: ask for a redacted sample, find out who
+owns security approval, and confirm there is budget this quarter before spending engineering time.
+Better still, charge for the diagnostic and credit it against implementation — which filters curiosity
+from urgency and prevents the failure mode a separate reply named, where the customer takes your
+findings and fixes it in-house. That risk is real but smaller than it looks, and one commenter with a
+decade of experience explained why: almost nobody ever finds time for non-critical technical debt. Your
+job is to make the value obvious and the effort small enough that the comparison stops being close.
+
+**The lesson.** An ideal customer profile made of internal states is unusable. Convert it into something
+you can observe from outside — a visible trigger, a spend threshold, a person whose specific job is
+being made worse — and the prospecting list writes itself. Lead with the number rather than the
+concept, and charge something for the diagnostic, because a free assessment fills your calendar with
+people who are interested and empties it of people who are ready.
+*(via a founder thread on r/startups)*
+
+### 64. Build for the user, charge the person who can pay next week
+
+**The pain.** Every single person who uses the product loves it. None of them can buy it. The people
+who can buy it are an institution with a procurement cycle measured in quarters, a budget that was
+allocated last year, and a committee.
+
+**The struggle.** A founder built an assessment tool for children's oral reading fluency — the thing
+teachers currently do one child at a time with a photocopied passage and a stopwatch, where the
+accuracy depends on the teacher's ear and their training. They had spent six months building and
+piloting it in a real classroom of about ninety students, the feedback was uniformly positive, and they
+came to the thread asking about marketing. The replies went straight past the marketing question to the
+structural one. Positive feedback is not product-market fit; the test is whether anyone adopts and pays.
+And in this market the person using it and the person paying are different people, with the buyer
+sitting behind a six-to-twelve month sales cycle that requires a pilot before any money moves. The
+founder confirmed it from inside the pilot: it had gone well, but the school was small, education
+technology sales cycles were brutal, and budget cuts had made the outlook worse. This is the position
+a lot of founders end up in without noticing — building enthusiastically for a user who has no
+authority to spend.
+
+**What worked.** The most useful reply proposed a split rather than a choice: build for the teacher,
+charge the parent, and use classroom usage as the proof you eventually carry into a district. Parents
+can pay next week. That gives you revenue now and, more importantly, it converts the slow channel from
+a dependency into an asset — the pilot stops being a stalled sale and becomes evidence. The founder had
+half-arrived at the same conclusion themselves, noting that the pilot had been invaluable for building
+the product and that the studies would lend credibility to later sales efforts whether or not those
+happened inside schools. Two other pieces of advice in the thread generalise well beyond education.
+First: whatever number your buyers will quietly worry about, publish it. For a speech-recognition
+product that is the error rate on real children's speech, because that single figure is the whole
+objection and volunteering it converts the doubt into a specification. The founder had a defensible
+answer and had not been leading with it. Second: sell the time saved, not the technology. Teachers are
+already carrying more tools than they want; "this saves ten minutes per student" is a purchase, "our
+speech recognition is better" is a comparison they have no way to check. And the friction bar in a
+market like this is unforgiving — more than two clicks between opening the tool and getting a result is
+too many, which is a product constraint that exists entirely for distribution reasons.
+
+**The lesson.** Find out who signs before you build the go-to-market, because user and payer are
+frequently different people on very different clocks. If the institution is slow, do not wait for it —
+find the individual version of the same buyer, charge them now, and let the institutional pilot run in
+parallel as proof rather than as revenue. And whatever the one number is that your buyer secretly
+doubts, publish it before they ask.
+*(via a founder thread on r/Entrepreneur)*
+
+### 65. He bought more customers than he earned
+
+**The pain.** You are grinding for customer one hundred. It has taken years. Meanwhile somebody two
+towns over has four hundred of exactly your customers, is tired, and would sell the whole book tomorrow
+if anyone asked.
+
+**The struggle.** A founder who started a web hosting business in 2017 and sold it last week posted the
+full accounting, which is rare enough to be worth reading closely. Total sales over the life of the
+business, $2,356,315. Income to the owner, $677,708. Sale price, $425,000. Four hundred and thirty-five
+clients, average lifetime of three and a half years, retention just under sixty percent, average
+lifetime value of $4,870. The revenue curve is the ordinary shape — $14,311 in the first year, $42,417
+in the second, and then a long climb to $472,546 in 2024. But the line that reframes the whole thing is
+the breakdown of where the clients came from. Organic acquisition produced 133 clients and $892,666.
+Buying other hosting companies produced 262 clients and $1,032,236. Partnerships produced 40 more.
+
+**What worked.** The thread's top reply put it correctly: most people will skim past the acquisition
+number, and it is the most important number on the page. More than half the customers and nearly half
+the lifetime revenue were bought rather than earned, in a business where the alternative was competing
+for search traffic against enormous incumbents. Acquiring a small competitor's customer book is a
+distribution channel, and in mature, fragmented, subscription-shaped markets — hosting, agencies,
+bookkeeping, maintenance contracts, local services — it is often a cheaper one than marketing, because
+what you are buying is a set of recurring relationships whose economics you can already measure rather
+than a promise about a funnel. The founder's answer on how those deals were found is the part to
+notice: one came off a business-for-sale marketplace and the other three approached him directly. That
+is not an M&A programme, it is the natural result of being a visible acquirer in a small industry for
+several years. Two cautions sit in the data, and the thread found both. The margins tell a story the
+revenue line hides: 2020 converted about sixty-four percent of sales into income, 2022 converted around
+twenty, and it never fully recovered even as revenue kept climbing — the arithmetic of integrating
+other people's customers on other people's infrastructure, or of a mix shifting toward cheaper
+accounts. And the exit priced at roughly one times the most recent year's sales, against a soft final
+year, which is a reminder that a book of business assembled by acquisition is valued the same way you
+valued the books you bought.
+
+**The lesson.** In a fragmented recurring-revenue market, treat acquisition as a channel and put it on
+the same page as your marketing spend. You are comparing cost per customer either way, and the bought
+version arrives with proven payment behaviour and a measurable retention curve attached. Be honest
+about what it costs on the other side of the ledger — integration compresses margin, and buyers will
+eventually price your business the way you priced theirs.
+*(via a founder thread on r/Entrepreneur)*
+
+### 66. You have hired four people to say a sentence that does not work
+
+**The pain.** You have paid for outreach four separate times. You have paid the rush fee. You have
+changed contractors. Somewhere in there you have started to suspect that the problem is not the person
+holding the phone, and you would rather not follow that thought where it goes.
+
+**The struggle.** A founder described exactly this sequence. An outreach assistant hired four times
+since early May, producing a little signal and no bookings at all; the last engagement delivered two
+weeks late, with the contractor asking for another two-week extension on the day it was due, after the
+founder had paid extra for the faster turnaround. So they found a replacement who charges half as much
+and works twice as fast — and still no bookings, though they were reasonable enough to say it was early.
+The question they brought to the thread was whether they should be making the calls themselves. The
+replies were close to unanimous and several of them made the same arithmetic point, which is the
+uncomfortable one: four hires into the same role with the same outcome, and the variable that keeps
+changing is the person. Two different callers and zero bookings is a strong indication that the problem
+is the pitch or the list, not the dialling. Delegating a process that has never worked does not save
+you time; it spends your money more slowly while hiding the reason.
+
+**What worked.** The consensus prescription was to make the calls yourself for a few weeks — not
+permanently, and not because founders are better on the phone. The reasoning given repeatedly was
+informational. Early calls are research wearing a sales costume: they tell you which objection arrives
+first, at what point in the sentence people lose interest, what language they use for the problem, and
+whether the list you are calling contains anyone with the problem at all. None of that comes back
+accurately through a contractor, even a good one with a good script, because a contractor is measured
+on bookings and will report on bookings. One reply framed the sequencing plainly — you outsource after
+you have made it work, not in order to make it work — and another put a number on it: keep the calls
+until you have closed a couple of dozen deals, because until then you cannot train anyone, cannot
+evaluate their calls, and have nothing to hand over but a hypothesis. The cheap partial version, for
+anyone who genuinely cannot take the calls, also came up: record them, review them, and build the
+objection list from the recordings. It is worse than being on the call and much better than reading a
+weekly summary.
+
+**The lesson.** You cannot delegate a sales process you have never run. A contractor executes a
+message; they do not discover one, and they cannot tell you that your list is wrong. Do the calls
+yourself until you have a repeatable sequence with the common objections written down and answered —
+then hire, and hand over something that works. If you have hired for the same role several times and
+gotten the same result, stop changing the person. The person is not the variable.
+*(via a founder thread on r/Entrepreneur)*
+
+### 67. Seven years of assets and no business
+
+**The pain.** Seven years in. Two websites, real branding, proposal tooling, partnership agreements
+with firms in several countries. Revenue close to zero. And now you are trying to work out whether to
+push once more, sell the whole thing, or leave it — and the honest answer to what you have built is
+harder to say than any of those.
+
+**The struggle.** A founder in the citizenship- and residency-by-investment space wrote it up with
+unusual candour, including the sentence that the thread kept returning to: they had put far more effort
+into building than into selling. Client acquisition never worked, over seven years. They asked whether
+anyone had sold a business like theirs — a niche service business whose value sat in the brand, the
+website, the systems and the relationships rather than in revenue — and floated a price of $25,000.
+The replies were blunt and mostly correct. If it never got off the ground, an acquirer does not
+consider it a business; businesses are valued on revenue, and there was none. One reply pushed on the
+number itself in a way worth repeating to yourself before any negotiation: if the figure is not derived
+from a method, then it is arbitrary, and an arbitrary $25,000 has no more support than an arbitrary
+$250,000. Another made the observation that stings most — if you could not sell the service, selling
+the company is a strictly harder sale, and there is no broker coming for something this small.
+
+**What worked.** The genuinely useful replies separated the operating business from the assets, and
+that distinction is the whole of the practical advice. Nobody will buy a service model whose
+acquisition never worked. But domains, content and rankings, drafted partner agreements, the quote
+tooling, documented processes and any real inbound history can be worth something to a specific kind of
+buyer — a firm already closing clients in that exact market who can plug your partner network in
+tomorrow and skip a year of setup. Which dictates the process: not a listing on a marketplace, but
+direct approaches to two or three named firms who already have the demand you never built. And the best
+reply in the thread offered one thing to do before any of that, which is the part that applies whether
+you sell or stay. Run a short, deliberately manual sales sprint and try to land five customers by hand.
+If it works, you have a repeatable path and the thing you were about to sell for the price of a used
+car has a value; if it does not, you have your answer, cleanly, after a week instead of an eighth year.
+Either way the sprint is the cheapest information available to you, and it is information nobody can
+produce on your behalf.
+
+**The lesson.** Build and sell are not sequential, and the years you can spend proving that are
+unbounded. If revenue never arrived, be precise about what you own: assets have buyers, businesses have
+multiples, and confusing the two guarantees a disappointing conversation. Before you decide anything,
+spend one week doing the manual selling you avoided for years — five customers by hand is the test the
+brand, the website and the collateral were always standing in for.
+*(via a founder thread on r/Entrepreneur, with a companion thread from the same founder)*
+
+### 68. Price against what they do today, not against nothing
+
+**The pain.** There is no direct competitor. You thought that was the good news. Now you have to write
+a number on the page and there is nothing anywhere to check it against, so every price you consider
+feels equally invented.
+
+**The struggle.** A founder in exactly that position opened with a good observation — price is a proxy
+for value, but people are poor at judging value in isolation and generally need a comparison to decide
+what a thing should cost — and then drew the wrong conclusion from it. If buyers need a comparison,
+they reasoned, the move is to position so that they cannot make one, which preserves your freedom on
+margin. The thread's best reply cut that off immediately, and it is the correction most worth having:
+removing every anchor does not free the buyer's judgement, it stalls the decision. With nothing to
+compare against, the default is not "I'll pay whatever this is worth," it is "I'll think about it."
+Meanwhile most of the thread's other advice was cost-plus — overhead, expected losses, desired margin —
+which is a floor rather than a price, and one reply said so directly: profitability tells you what you
+can survive, not what anyone will pay.
+
+**What worked.** The resolution the thread converged on is to supply the anchor yourself rather than
+removing it, and to choose one that flatters you. Price against the cost of doing nothing, or against
+what the buyer currently pays a person to do the job manually. In a category with no direct competitor
+the real comparison was never another product anyway — it is whatever your buyer is doing right now
+without you, which always has a cost even when nobody has written it down. That reframing does two
+things at once: it gives the buyer the reference point they need in order to decide at all, and it
+puts the reference point on ground where you win. The other concrete piece was about the early-adopter
+discount the founder was already running and did not know how to end. Tie the window to a number rather
+than to a date — pricing for the first fifty customers, not pricing until the end of the month. It
+never looks arbitrary, it does not expire embarrassingly during a slow month, and it gives you a clean
+public reason for the price going up. One further caution came from someone who had watched founders
+do this badly: "no direct competitor" is usually a research failure rather than a fact, and the founder
+in the thread half-conceded it, describing plenty of adjacent offerings that bundled things differently.
+Adjacent products are anchors whether you acknowledge them or not, because your buyer will use them.
+
+**The lesson.** You cannot price in a vacuum and neither can your buyer. When there is no competitor to
+compare against, name the alternative yourself — the manual process, the person currently doing it, the
+cost of the problem continuing — and price against that. Use cost-plus to find the floor you cannot go
+below, never as the method. And if you are discounting to get started, expire the discount on a
+customer count rather than a calendar date.
+*(via a founder thread on r/Entrepreneur)*
+
+### 69. The cost per order fell because the customer got worse
+
+**The pain.** You raised the budget and your cost per acquisition improved. Substantially. And instead
+of relief you have a feeling you cannot yet justify — that the platform has not found you more of your
+customer, it has found you a cheaper kind of person.
+
+**The struggle.** An operator running a direct-to-consumer brand in India described the scenario with
+enough detail to be genuinely useful. A herbal shampoo powder priced between ₹300 and ₹500, sold
+through a custom site with proper conversion tracking on both the pixel and the server side, purchase
+values passed correctly through both. Cost per acquisition had been sitting at ₹100–120, which fitted
+the unit economics. They raised the daily budget from ₹1,000 to ₹1,600 and the cost per acquisition
+fell to about ₹70. The problem was the composition of what arrived: almost all of the new orders were
+cash on delivery. Every one of those requires an OTP verification and a phone call before dispatch —
+they were already calling each customer personally — and carries a real risk of being returned to
+origin, unpaid, after the shipping has been spent in both directions.
+
+**What worked.** The thread was small but the top substantive reply supplied the discipline the
+situation needs, and it generalises to any channel that optimises toward a cheap conversion event.
+Before celebrating the lower number, compute the effective cost per acquisition: include the returns,
+the failed-delivery and pickup costs, and the founder's own time on the verification calls. A ₹70
+acquisition with heavy returns is worse than a ₹120 one that arrives paid, and the reported metric will
+never tell you that, because the platform is optimising for the event you reported — an order — and an
+unpaid order that comes back is still an order. The founder's own proposed fix was the interesting
+part, and it is the right instinct handled carefully: report a lower purchase value for cash-on-delivery
+orders than for prepaid ones, so the optimiser gradually learns which customer is worth more, while the
+true values stay intact in the database. That is value-based optimisation used as intended — teaching
+the machine your margin rather than your revenue. The caution raised in the thread is the one to
+respect: you are deliberately feeding the system numbers that differ from your books, so if you do it,
+do it as a single deliberate rule, write it down, keep your analytics separate and clean, and expect a
+relearning period rather than an immediate improvement. The alternative on offer — a checkout feature
+that hides the cash option from risky-looking customers — was rejected by the founder for a sound
+reason: it also hides it from genuine buyers, and in that market the payment method is often the reason
+the order exists at all.
+
+**The lesson.** An advertising platform optimises toward the event you report, so the event you report
+had better be the one that makes you money. When a cost per acquisition improves sharply during a scale
+up, assume the audience changed and go and look at what changed about it. Then close the loop: send
+back a value that reflects margin rather than revenue, so cheaper-to-acquire and worse-to-serve stop
+looking the same from the outside.
+*(via an operator thread on r/marketing)*

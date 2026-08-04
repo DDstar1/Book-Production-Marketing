@@ -616,3 +616,103 @@ Every listing in the field said "social media coordinator." Theirs said "brainro
 Hundreds of applications overnight. 30 interviews. 3 hires.
 
 Write in the reader's language, not your category's. Then budget for the sorting.
+
+## 2026-08-04
+
+**60 — Distribution for people who hate being seen**
+
+"I've coded since 5th grade. I'm an extreme introvert. I never learned distribution."
+
+Best answer wasn't build in public. It was: get your first users from commenting, not posting. Answer questions you actually know, no links.
+
+Written and asynchronous is still a channel.
+
+---
+
+**61 — If it takes ten minutes to explain, it's a feature list**
+
+Founder in a crowded category kept hearing "so it's like [competitor] but worse at X."
+
+Top reply: if you need time to explain the difference, you don't have a position yet.
+
+And the moment you defend X, you've agreed X is what the decision turns on.
+
+---
+
+**62 — Stop improving the pitch. Remove the asks.**
+
+Selling to institutions paid to say no. Better deck, better demo, nothing moved.
+
+So he stripped every ask out of the offer: no install, no hardware, no capital cost, no risk to their asset.
+
+Price is one ask of three. Effort and career risk survive "free."
+
+---
+
+**63 — Your ICP is whoever screenshots the bill**
+
+"Post-MVP, real traffic, accumulating prompt debt, starting to care about inference spend."
+
+All true. None of it tells you who to email Monday.
+
+Best reply in the thread: the buyer is whoever already has a Slack thread with a screenshot of the monthly model bill.
+
+---
+
+**64 — Build for the user, charge whoever can pay next week**
+
+Reading-fluency tool. Teachers love it. Teachers control no budget, and districts take 6-12 months.
+
+The fix wasn't better marketing. Build for the teacher, charge the parent, and let the school pilot be your proof instead of your revenue.
+
+---
+
+**65 — He bought more customers than he earned**
+
+Web hosting business, 2017-2026. Full numbers posted: $2.36M sales, 435 clients, $425k exit.
+
+The line everyone skims: 133 clients came organically. 262 were bought by acquiring smaller hosts.
+
+Acquisition is a channel. Put it next to your ad spend.
+
+---
+
+**66 — You've hired four people to say a sentence that doesn't work**
+
+Four outreach hires since May. Zero bookings. Then a fifth, cheaper and faster. Still zero.
+
+Four hires, same result, and the variable that keeps changing is the person.
+
+You can't delegate a sales process you've never run.
+
+---
+
+**67 — Seven years of assets and no business**
+
+Two websites, full branding, partner agreements in several countries. Revenue near zero. Asking $25k.
+
+The reply that landed: if you couldn't sell the service, selling the company is the harder sale.
+
+Assets have buyers. Businesses have multiples. Know which one you own.
+
+---
+
+**68 — Price against what they do today, not against nothing**
+
+"There's no direct competitor, so I'll position where they can't compare me."
+
+Removing every anchor doesn't free your price. It produces "I'll think about it."
+
+Give them the anchor you want: the manual process, or the cost of doing nothing.
+
+---
+
+**69 — The cost per order fell because the customer got worse**
+
+Raised the daily budget. CPA dropped from ₹120 to ₹70.
+
+Then he looked: almost every new order was cash-on-delivery. Verification calls, return risk, shipping paid twice.
+
+Platforms optimise for the event you report. Make sure it's the one that pays.
+
+More in the book.
