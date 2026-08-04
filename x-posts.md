@@ -716,3 +716,117 @@ Then he looked: almost every new order was cash-on-delivery. Verification calls,
 Platforms optimise for the event you report. Make sure it's the one that pays.
 
 More in the book.
+
+## 2026-08-04 (second batch)
+
+**70 — Eight months of a comfortable explanation**
+
+No traffic in winter? Off-season. No traffic in spring? Maybe Google hates me.
+
+Both plausible. Neither ever checked.
+
+Day 1 of actually looking: the site rendered in JS. Google was crawling an empty page.
+
+Fix took 36 hours. The season was already gone.
+
+More in the book.
+
+---
+
+**71 — Five thousand people used the broken version**
+
+Abandoned the project. Two years later, opened the repo and found 5,000 signups.
+
+People had been posting into a half-finished site — asking about something adjacent to what he built.
+
+Traffic isn't the asset. The intent behind it is.
+
+More in the book.
+
+---
+
+**72 — A good business that will never be a big one**
+
+$40k ARR. +20%/yr. $25k/yr of his own money in. Ceiling maybe $1M.
+
+The question wasn't "how do I grow it." It was "how do I sleep."
+
+Best reply did the math: that ceiling is 10+ years out. Decide on the real version, not the modelled one.
+
+More in the book.
+
+---
+
+**73 — Nobody in your market answers the phone**
+
+Two months of cold calls, tallied.
+
+8 companies before a junk hauler picked up. 13 before a landscaper. 11 before a roofer.
+
+All 9 lighting companies in the market: zero answers.
+
+You don't need a differentiator. You need to be reachable.
+
+More in the book.
+
+---
+
+**74 — The model recommends your competitor**
+
+Prospects kept saying ChatGPT gave them 3-5 tools and none were his.
+
+So he logged 40 buyer prompts. ~180 citations. The same handful of third-party pages, over and over.
+
+Post #12 on your own blog isn't the fix. Getting cited on those pages is.
+
+More in the book.
+
+---
+
+**75 — Sort by impressions, not by clicks**
+
+He'd decided his SEO was just bad. Clicks were near zero, so nothing was working.
+
+Sorted by impressions instead: one post at position 10.2. Three months, 53 impressions, 0 clicks.
+
+Almost working is a different problem from not working.
+
+More in the book.
+
+---
+
+**76 — Two kinds of buyer**
+
+Every buyer opened with: what's the revenue, what's the price. So he kept trimming his number.
+
+Then one asked about the product. Heard 1,200 users at $0 CAC, heard the price — and said he'd expected five or six figures.
+
+The buyers you talk to set your number.
+
+More in the book.
+
+---
+
+**77 — Getting testers isn't the problem**
+
+Recruiting the right pilot families was hard. They planned for that.
+
+What killed it: hands went up, and almost nobody finished setup. Not with 1:1 onboarding. Not with money attached.
+
+One gatekeeper with 20 families beats 20 individual signups.
+
+More in the book.
+
+---
+
+**78 — Two failures, one knob**
+
+Free demo: booked, no-showed. $1 demo: nobody booked. Priced below, at, and above market.
+
+Three months, thousands down, 5 attendees, 0 sales.
+
+Two separate failures. He kept adjusting the one variable that moves both.
+
+More in the book.
+
+---

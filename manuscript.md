@@ -2424,3 +2424,369 @@ up, assume the audience changed and go and look at what changed about it. Then c
 back a value that reflects margin rather than revenue, so cheaper-to-acquire and worse-to-serve stop
 looking the same from the outside.
 *(via an operator thread on r/marketing)*
+
+## Entries — 2026-08-04 (second batch)
+
+### 70. Eight months of a comfortable explanation
+
+**The pain.** There is no traffic. You have a reason for that, and the reason is reassuring — it is the
+off-season, the algorithm is still deciding about you, the idea might be wrong. Whatever it is, it lets
+you close the tab and go back to building, which is the part you are good at.
+
+**The struggle.** A software engineer who left a full-time job to found alone posted the full accounting
+of what that costs, and it is the most instructive kind of failure because nothing about it was
+dramatic. The plan was sound: build a beach discovery site for Greece in September, get indexed over
+the winter, ride the search season that ramps in May and peaks through August, monetise once the traffic
+arrived. Winter came with no traffic, which was explained by nobody searching for beaches in January.
+Spring came with no traffic, which was explained by a possible penalty, or by the hypothesis being
+wrong about whether people research beaches online at all. Both explanations were plausible. Neither
+was ever checked. The founder's own summary of the eight months is the line worth carrying: they had a
+comfortable explanation and never tested it. Meanwhile the time went into rebuilding the product,
+because that was the familiar surface, and because if the idea is the problem then working on the idea
+is legitimate work.
+
+**What worked.** At the end of May it became too suspicious to keep dismissing, and one full day of
+auditing the site found it. Everything rendered in JavaScript in the browser; the crawler was being
+served an empty skeleton with no indication of what any page was about. The fix took a day and a half.
+The numbers on either side of it are worth writing down, because they are the argument for the day
+itself: on the first of June, zero clicks, 266 impressions, average position 48 — page five. Two months
+later, 65 clicks, roughly 5,000 impressions, average position 12.1, and still climbing weekly. Page
+five to page two for thirty-six hours of work, against eight months of building. The bill arrived
+anyway. It is now August, the season has one month left, rankings take weeks to build, and by the time
+the site is genuinely competitive the tourists will have flown home. The runway is thin enough that the
+founder is moving into a shared flat to reach next season.
+
+**The lesson.** Write down the explanation you are currently using for why nothing is working, then ask
+when you last checked it. An untested explanation is not an analysis, it is permission — permission to
+keep working on the part you enjoy. Diagnosis is cheap and almost always cheaper than you assume: a day
+of looking, against months of building. And if your business has a season, the audit is not a task you
+schedule when it becomes suspicious. Missing a diagnosis by six weeks costs you six weeks; missing it by
+eight months can cost you the only window in the year.
+*(via a founder thread on r/Entrepreneur)*
+
+### 71. Five thousand people used the broken version
+
+**The pain.** You abandoned it. It was too big, you were overwhelmed, and it sat dormant. Then you
+opened it up to make the repository public and found thousands of people had signed up and were posting
+into a half-finished product — for something adjacent to, but not actually, the thing you built.
+
+**The struggle.** That is close to the literal sequence a founder described. An AI fitness site built
+about two years ago analysed physiques and gave feedback against training goals, with routine sharing
+and progress photos. It was abandoned early. Returning to it recently, they found around five thousand
+signups, most verified through email, arriving purely from search — the product's name had in the
+interim become a popular term in the appearance-optimisation subculture. The revealing part was not the
+number. It was that the public posts showed people asking how to improve their looks rather than their
+physique. The users had quietly redefined the product. The founder took the signal and, in about a
+month, rebuilt the pipeline around selfie-based feedback plus a self-care routine built on ingredients
+with actual evidence behind them rather than the folk remedies the subculture trades in. That brought
+roughly a thousand signups in the following month, and zero revenue. Amazon affiliate links on the
+recommended products converted essentially not at all, and ads were awkward because everything sits
+behind a signup wall.
+
+**What worked.** The thread's most useful replies all pushed against the instinct to monetise the
+traffic, and each named a different asset. One argued the audience is not the valuable thing; the intent
+is — people arriving daily to ask how to look better constitute a demand signal that grooming and
+skincare brands already pay real money to reach, and that is worth understanding before you attach a
+commission link to it. Another pointed out the obvious research asset going unused: the site holds
+stated goals and self-described problems from thousands of people, which is the input to a paid product
+rather than a by-product of a free one. Several converged on the same next action, which is the one to
+take: talk to the returning users before pricing anything, because the product was repurposed by its
+users and the founder does not yet know what they value. One reply put the trap precisely — do not force
+a revenue model until you know what people would actually pay for. A cautionary note came from someone
+with experience in the same category: a thousand free fitness users is meaningfully more than zero and
+still a long way from a business, in a space where a good share of an audience will tell you plainly
+they would never pay a subscription. The affiliate result already said as much. Recommendation revenue
+depends on the reader treating you as the authority they buy through, and a free tool they use in
+thirty seconds has not earned that position.
+
+**The lesson.** When users repurpose your product, they have run a market experiment you did not design
+and cannot repeat. Read the result before you monetise: what they came for, what they typed, and which
+ones came back. Traffic is the least valuable layer of what you now own — the intent behind it, and the
+recorded evidence of it, is the part with a buyer. And an audience assembled by accident does not
+convert just because you put a link on it; you have to find the thing they were already willing to pay
+someone for.
+*(via a founder thread on r/startups)*
+
+### 72. A good business that will never be a big one
+
+**The pain.** It works. It grows. Customers write to say it made their week easier and you like reading
+those messages. It also takes money out of your pocket every year, and the arithmetic says it will never
+be large enough to matter next to your career. You are not looking for a growth tactic. You want a way
+to think about it that lets you sleep.
+
+**The struggle.** A founder five years into a side-project SaaS laid the numbers out honestly: about
+$40,000 in annual recurring revenue, growing around twenty percent a year net of churn for three years,
+with roughly $25,000 of their own money going in annually to fund development. The product is complex
+and sits in a non-technical niche. Their own ceiling estimate is about $1 million of recurring revenue
+given the addressable market and an entrenched, fragmented competitive field — an outcome that would
+merely match what they already earn in their main career. The question was not how to grow it. It was
+which framework to use when a business is simultaneously a genuine success and, by the only metric
+they'd been applying, not worth continuing.
+
+**What worked.** The thread produced three moves and one question, and the question is the important
+part. Someone did the arithmetic the founder had left implicit: at twenty percent compounding from
+$40,000, the theoretical ceiling is more than a decade away, so the decision is not about the ceiling at
+all — it is about whether running roughly this business, at roughly this scale, for the next ten years
+is a good use of an hour a day. Deciding on the realistic version rather than the modelled maximum
+changes most people's answer, in both directions. The three practical options were laid out cleanly.
+Maintenance mode: stop funding new development, let it pay you instead of costing you, and treat it as
+the thing that funds whatever comes next. Sell: the reflexive objection — too small to be noticeable
+next to competitors ten to fifty times larger — was met with the correct counter, which is that small
+profitable products get bought all the time by companies that want the customers rather than the code.
+The sharper caveat came from a reply that named the actual test: whether it can run without the founder.
+A business that needs its author is a job, and a job is worth a fraction of what a business is. Raise:
+if growth is capital-constrained rather than demand-constrained, money aimed at marketing changes the
+slope. That one deserved more scrutiny than it got, because nothing in the founder's account suggested
+demand was waiting on spend. The cost structure is where the framework becomes concrete. Roughly
+$15,000 a year of infrastructure that is hard to reduce, and roughly $45,000 for a developer to
+maintain the code, with an expectation of ending that engagement within six to twelve months. Ending it
+converts a business that consumes $25,000 a year into one that produces cash — and that single change
+turns the whole question from an exit decision into a scheduling decision.
+
+**The lesson.** Before you decide whether to keep a small business, price the version you would actually
+run. Model the realistic growth rate over a realistic horizon, not the addressable market. Separate the
+spending that buys growth from the spending that merely keeps the thing alive, because a product that
+funds you and one that you fund are different businesses wearing the same revenue number. And if you
+lean towards selling, ask first whether it runs without you — that answer sets the multiple long before
+any buyer does.
+*(via a founder thread on r/startups)*
+
+### 73. Nobody in your market answers the phone
+
+**The pain.** You have been told the market is saturated and that you need an edge — a better product,
+a sharper offer, a real differentiator. Meanwhile every business in that market has a phone number
+printed on its van, and nobody picks it up.
+
+**The struggle.** A founder spent two months cold calling local home-service businesses and expected the
+takeaway to be about sales technique. It was not. They kept a tally, calling from a local number in the
+area they live in, and the tally is the story: eight companies called before a junk removal firm
+answered. Thirteen before a landscaper. Eleven before a roofer. Six before a pressure washing company.
+All nine residential and holiday lighting companies in the market, and not one answer. The founder's
+conclusion is aimed at anyone starting a service business, and it is uncomfortable precisely because it
+is not clever — the barrier to entry is low and the standard set by the competition is close to
+non-existent. The marketing prescription that followed is deliberately unglamorous: flood the area with
+door hangers, direct mail, local ads, yard signs, flyers, cards in cafés, knocking on doors, and route
+the resulting calls to every device you own so one never rings out. Then do the work competently. That
+is the whole strategy.
+
+**What worked.** The thread's replies did the more valuable job of extending the finding past the first
+ring, and this is where it becomes transferable to businesses that are not local services. The top reply
+moved it one step later: answering gets you the lead, but most of that market will quote a number and
+then go quiet for a week, so reliable follow-up beats the competition before you have done any of the
+work. Another moved it a step further still, into the part almost nobody handles. A customer who called
+eight companies has to compare eight quotes, and frequently has to show them to somebody else — a
+partner, a property manager, whoever signs. Most businesses say a number out loud on the phone and
+expect it to be remembered. The one that sends something the buyer can forward wins by default, because
+it is the only quote still in the room when the decision gets made. A dissenting reply is worth keeping
+too, since it prevents the wrong generalisation: one service-business owner said they no longer answer
+their phone at all because it is only ever salespeople, and their actual customers book online. That is
+the honest boundary on this. The advantage is not the telephone. It is being reachable through whatever
+channel your customers actually use, and answering faster than anyone else does.
+
+**The lesson.** In an operationally sloppy market, responsiveness is positioning, and it is available
+today at no cost. Before you look for a differentiator, measure the incumbents on the boring dimensions
+— how many attempts to reach a human, how long to a quote, whether the quote arrives in a form the
+buyer can forward. Where those numbers are bad, being easy to deal with is the whole offer, and it is
+one competitors find surprisingly hard to copy, because it is not a decision they can make once. It is
+a process they have to run every day.
+*(via a founder thread on r/Entrepreneur)*
+
+### 74. The model recommends your competitor, and more blog posts will not fix it
+
+**The pain.** Prospects keep telling you they asked an assistant for tools in your category and got
+three to five names, none of them yours. Support hears it. Sales hears it. And the reflex — we need
+more content — starts up again, which is how the last two quarters went.
+
+**The struggle.** A founder in exactly that position stopped guessing and measured instead, which makes
+this one of the few genuinely evidence-based accounts of the problem available. They logged forty buyer
+prompts — not brand searches, but the real shapes people use: best tool for a given audience,
+alternatives to a named product, one product versus another, cheapest option for a three-person team.
+They ran them on ChatGPT and Perplexity repeatedly over a couple of weeks and recorded every brand
+named and every URL cited. The expectation was that their newer posts would begin appearing if the
+posts were decent. What actually happened is that the cited URL set barely moved. Out of roughly 180
+citations, most of the weight sat on a small recurring set of third-party pages — the same roundups,
+the same "best tools" articles, the same two competitor documents. Their own pages appeared almost
+never, unless the prompt effectively contained their brand name. They also checked the unglamorous
+technical layer across a couple of sites in the same position and found two distinct failures wearing
+the same symptom: one site was blocking the AI crawlers while Googlebot passed fine, and another had
+clean crawl access and still lost, because the engines kept retrieving the same trusted articles
+regardless.
+
+**What worked.** The reframe is the deliverable, and it is worth stating carefully. For a small
+product, these answers behave less like a search ranking to climb and more like a small citation market
+in which a handful of pages already own the answer. If those pages name your competitors, publishing
+your twelfth post on your own domain is the slow path — you are adding supply to a market that is not
+buying. Three faster and more measurable moves follow from that. Check the access layer before blaming
+the message, since a broken crawler rule is a cheap fix and invisible until you look. Get named on the
+pages the engines already reuse, rather than trying to displace them. And publish one primary-source
+asset those pages can quote: clear pricing, a comparison that admits real limits, a small benchmark with
+its sources shown — the kind of page a roundup author cites because it saves them work. A practitioner
+reply added the detail that makes this worth doing at all: the trusted URL set is largely frozen, but
+which brands get pulled from those pages churns considerably, sometimes within a day. So the entrenched
+list is not a wall, it is a queue — get onto the pages and the churn starts working for you instead of
+against you. The founder's framing of the cost is the right one for anyone with five spare hours a week:
+logging twenty to forty prompts once tells you which of three problems you have — access, absence from
+the trusted set, or a category currently owned by the big directories — and you cannot choose a response
+without knowing which.
+
+**The lesson.** When a recommendation engine keeps naming somebody else, treat it as a distribution
+diagnosis, not a content deficit. Spend one afternoon logging the prompts your buyers actually type and
+recording which pages get cited; the answer set will be narrower and more repetitive than you expect.
+Then work the citation market rather than your own blog: fix crawler access, get onto the pages that
+already own the answer, and give those pages something specific and checkable worth quoting.
+*(via a founder thread on r/micro_saas)*
+
+### 75. Sort by impressions, not by clicks
+
+**The pain.** You look at the search analytics, see almost no clicks, conclude your search presence is
+broadly bad, and close it. That conclusion is comforting in its way — a broad problem needs a broad
+solution, and the broad solution is always "write more," which is next quarter's problem.
+
+**The struggle.** A founder running a small tool for freelancers described the moment this broke. They
+had written a post about warning signs to watch for in freelance clients — a topic adjacent to the
+product rather than about it — published it and forgotten about it. Months later they opened Search
+Console and, for the first time, sorted by impressions rather than clicks. That post was averaging
+position 10.2 for its target term: fifty-three impressions over three months, and zero clicks. Their own
+diagnosis of the number is exactly right. Position ten is the worst place to be, because it is not
+page one and it is close enough that the fix is not more writing. It is a title and a couple of internal
+links.
+
+**What worked.** The change was in the sort order, which is a smaller thing than it sounds and explains
+a common blind spot. Clicks measure results, and a page that is nearly ranking produces the same result
+as a page nobody will ever find — zero. Impressions measure whether the engine is willing to show you
+at all, which is the earlier and more actionable signal. Sorting by them separates two failures that
+look identical in the click column: pages nobody wants, and pages at the edge of visibility that need a
+nudge. The founder's response was the correct one, and rarer than it should be: spend the week on that
+one existing page instead of writing anything new. That is the leverage in a nutshell. A page at
+position ten has already done the hard part — it has been judged relevant by the engine and merely
+loses the click to nine better-presented alternatives above it. Moving it up a few places changes a
+zero into a stream. A new post starts from nothing and needs months to reach the position this page has
+already earned.
+
+**The lesson.** Before writing anything new, look at what you have already published and sort it by
+impressions. Anything ranking around the bottom of page one is an asset that is almost working, and
+almost working is a fundamentally different problem from not working — usually a title, an intro, or a
+few internal links rather than a new piece of content. The metric you sort by decides which
+opportunities you are able to see at all, and clicks hide the exact set of pages that are cheapest to
+fix.
+*(via a founder thread on r/micro_saas)*
+
+### 76. Two kinds of buyer, and only one of them asks about revenue
+
+**The pain.** You are trying to sell the thing you built. Every conversation opens the same way — what
+is the revenue, what is the price — and you have been slowly revising your number downwards to match
+the temperature of those questions.
+
+**The struggle.** A founder narrating a live sale process day by day wrote up the moment the pattern
+broke. Every buyer so far had asked the same two questions and nothing else; none had shown interest in
+the idea or where it could go, which the founder came to read as simply how buyers are. Then a message
+arrived from someone who opened by saying they were not the sort of people who care about revenue and
+asked to hear about the platform instead. So the founder explained it — the concept, the direction, the
+users, and the fact that acquiring all twelve hundred of them had cost nothing. Then gave the same
+price they had been giving everyone else. The reply is the entire lesson, and it stung enough to make
+the post: the buyer had expected the number to be substantially higher. The price had been set to
+survive a conversation with a buyer type who was never going to buy anyway.
+
+**What worked.** The useful separation, drawn out in the thread, is between buyers pricing an asset
+class and buyers pricing a specific thing. One group is buying cash flow and will value what you built
+on a multiple of what it currently earns, which for a pre-revenue product is a small number no amount of
+explanation will change. The other is buying evidence that something works and can be plugged into a
+distribution engine they already own, and for them twelve hundred users acquired at no cost is the
+headline rather than a footnote — because it is the part they cannot manufacture. Both are legitimate.
+They are not the same market, and quoting one price into both guarantees you are either wasting the
+first group's time or underselling to the second. The practical implications are small and immediate.
+Which questions a buyer opens with tells you which group they are in, before you name a number. Organic
+acquisition at zero cost is a claim you should be able to evidence with the channel, the time period and
+the retention behind it, because it is the specific thing the second group is paying for. And a price
+that has been dragged down by a run of conversations with the wrong buyers is not market feedback — it
+is a sampling error. The founder was still in the negotiation as they wrote, so this is a lesson
+observed rather than a lesson closed, and it is worth reading as such.
+
+**The lesson.** Whoever you spend your conversations with sets your price, so notice which market you
+have been talking to. Buyers who lead with revenue are valuing an asset class; buyers who lead with the
+product are valuing evidence, and evidence of cheap distribution is the rarest thing you can put in
+front of them. Find out which one you are talking to before you say a number — and do not let the
+questions you have been hearing most often quietly become your valuation method.
+*(via a founder thread on r/micro_saas)*
+
+### 77. Getting testers is not the problem; getting them to finish is
+
+**The pain.** You lined up a pilot. People volunteered — genuinely interested, right profile, hands in
+the air. Then almost none of them completed even the setup, and the pilot you had been planning around
+quietly stopped existing.
+
+**The struggle.** A team building an app for families with children in a narrow age band wrote up how
+theirs fell over, and the sequence generalises well beyond children's software. Recruiting the right
+testers was understood to be hard from the start — the profile was specific enough that posting broadly
+was never going to work — and that part they had planned for. What they had not planned for was the
+conversion from interested to active, which was close to zero. They offered every level of assistance
+they could think of, from fully contactless onboarding through to one-to-one calls walking people
+through it, and attached a financial reward for completing the pilot. Neither the help nor the money
+moved it. Then the structural problem surfaced, and it is the kind that only shows up in contact with
+reality: the beta distribution channel they were relying on is deliberately hardened against under-13
+accounts, so any child on a device with age restrictions and an accurate birthdate had no route
+into the app at all. Not a difficult route — none. The pilot was rebuilt around a full store submission
+with limited distribution, at the cost of the delay and of most of the testers they had worked so hard
+to find.
+
+**What worked.** The single reply in the thread is worth more than the length of it suggests, and it
+reframes the recruitment problem correctly: one gatekeeper who already has twenty families beats twenty
+individual signups, whether that is a school, a club, or one active parents' group. The reasoning is
+about obligation rather than convenience. People recruited one at a time have no reason to finish, and
+a payment does not create one — it prices the task, which is a weaker force than a commitment made
+somewhere their name is known. Recruit through a group and completion becomes social rather than
+transactional. The other lesson the team drew is the platform one, and the transferable version of it is
+about sequencing: verify that your intended distribution channel will physically deliver the product to
+the exact person you are testing, before you spend weeks recruiting them. Age gates, corporate device
+management, procurement rules, app store review policies and network restrictions all quietly decide
+who can receive your software, and each one is a five-minute check beforehand and a dead pilot
+afterwards.
+
+**The lesson.** A pilot has two funnels, and the second one is the one that kills you — getting the
+right people to say yes is a marketing problem, and getting them to finish is a commitment problem. Pay
+does not fix commitment; belonging does, so recruit through a group that already exists rather than
+assembling one participant at a time. And before any of it, check that your delivery channel actually
+reaches your test population, because the constraints that block you are usually policies rather than
+bugs, and no amount of onboarding help will route around one.
+*(via a founder thread on r/startups)*
+
+### 78. You have two failures, and you keep adjusting the price
+
+**The pain.** The site looks better than every competitor's. The ads look better too, and you know how
+to run them — this was your profession. The free demo gets booked and the bookings do not show up. The
+few who do show up do not buy. You are thousands of dollars down and convinced you are missing something
+obvious.
+
+**The struggle.** A founder with a decade of conversion and paid-media experience described precisely
+that, three months into an online language school. They had built the course and a companion app, hired
+and paid a teacher to be available for demo bookings, checked the market, and then experimented with
+price in every direction — below the market, at it, and above it. They tried a free demo, and people
+booked and did not attend. They put a nominal charge on the first class to filter for intent, and the
+bookings dried up. Across the whole period, one adult and four children actually attended, and none
+converted. The instinct on display is a common and expensive one: when you cannot see the cause, adjust
+the variable you know how to adjust. For someone from a performance-marketing background that variable
+is price and creative, so those got tuned repeatedly while the thing actually breaking went unmeasured.
+
+**What worked.** The best reply in the thread refused to answer the pricing question and separated the
+problem instead, which is the correct move. There are two distinct failures here — most people never
+attend, and the few who attend do not buy — and they have nothing to do with each other. One is about
+whether the promise and the reminder are strong enough to survive the gap between booking and the
+appointment. The other is about whether the lesson delivered what the promise implied. Changing price
+affects both at once and tells you nothing about either, which is why three months of price experiments
+produced no information. The prescribed instrument was refreshingly manual: for the next twenty
+bookings, record where each one came from, whether the person confirmed the day before, and whether they
+attended. Call the no-shows within twenty-four hours and ask what they did instead of coming. Ask the
+attendees what outcome they were expecting and what stopped them buying. Then fix the larger drop-off
+first. The sentence that ends the reply is one to keep near any polished landing page: a better-looking
+site cannot tell you whether the promise or the lesson is the weak one. Both failures also have
+different cheap fixes worth knowing in advance — no-shows usually respond to confirmation friction and
+reminder timing rather than to price, and non-conversion after attendance is nearly always about what
+happened in the session itself.
+
+**The lesson.** When two stages of your funnel are both failing, stop tuning anything that moves both
+of them. Instrument them separately, in whatever crude way is available — a spreadsheet and twenty phone
+calls will do — and fix the bigger leak first. Craft skill in one discipline becomes a liability when it
+lets you keep working on the thing you are good at while the actual failure sits unmeasured somewhere
+you have never looked. And when nobody buys, the fastest information available is not another
+experiment. It is a phone call to the people who did not.
+*(via a founder thread on r/startups)*

@@ -172,3 +172,32 @@ URLs recorded. Future runs should treat that business as already well covered.
 | 2026-08-04 | r/Entrepreneur | Looking for advice on what do do next with a immigration business | https://www.reddit.com/r/Entrepreneur/comments/1vdstf0/looking_for_advice_on_what_do_do_next_with_a/ | Companion thread to the above from the same founder — used together in section 67; an arbitrary $25k asking price has no more support than an arbitrary $250k |
 | 2026-08-04 | r/Entrepreneur | How do you decide on pricing? | https://www.reddit.com/r/Entrepreneur/comments/1vdfq37/how_do_you_decide_on_pricing/ | Removing every anchor stalls the sale rather than freeing the price: supply the anchor yourself (cost of doing nothing / the manual alternative); expire early-adopter pricing on a customer count, not a date |
 | 2026-08-04 | r/marketing | Meta Advantage+ keeps finding cheaper COD customers while scaling. How would you handle this? | https://www.reddit.com/r/marketing/comments/1vdi6fw/meta_advantage_keeps_finding_cheaper_cod/ | CPA fell ₹120→₹70 on a budget increase because the audience changed: compute effective CPA including returns and call time, then report margin-adjusted values so the optimiser learns the difference |
+
+## 2026-08-04 (second batch)
+
+Second scheduled run on this date. `scripts/reddit_scraper.py` completed on the first attempt with no
+CAPTCHA and no block page, returning 40 posts across r/startups (15), r/Entrepreneur (10) and
+r/micro_saas (15). **r/SaaS returned 0 posts** — the sixth consecutive run in which it has come back
+empty — and **r/marketing also returned 0 posts**, after all 52 posts encountered there were already
+known. 310 already-known post IDs were loaded from the tables above plus prior scrapes; 107 were
+encountered and skipped during the crawl (13 on r/startups, 42 on r/Entrepreneur, 52 on r/marketing).
+The threads below were used in the `## Entries — 2026-08-04 (second batch)` batch of `manuscript.md`,
+sections 70-78.
+
+Deduplication notes for this run: the r/Entrepreneur thread "Built a tool for Teachers, trying to
+market" was skipped as the same founder and product already covered in section 64. The r/micro_saas
+thread about buying a whole subscription for one small task was skipped as the same angle as the
+Design Snap section (2026-07-30). The r/startups mockups-and-next-steps thread was skipped as
+already covered by the validate-before-building and concierge-MVP sections of 2026-07-29.
+
+| Date | Subreddit | Thread title | URL | Angle taken |
+|---|---|---|---|---|
+| 2026-08-04 | r/Entrepreneur | I told myself a story for 8 months instead of checking my numbers and it cost me my entire season. | https://www.reddit.com/r/Entrepreneur/comments/1vfb5jf/i_told_myself_a_story_for_8_months_instead_of/ | A JS-rendered site served an empty skeleton to the crawler for 8 months; 0 clicks/266 impressions/position 48 to 65 clicks/~5,000/position 12.1 after a day and a half — an untested explanation is permission, not analysis, and a seasonal business pays for it in whole years |
+| 2026-08-04 | r/startups | Accidentally built a userbase in a dying niche. Not sure what to do. I will not promote. | https://www.reddit.com/r/startups/comments/1vdty7t/accidentally_built_a_userbase_in_a_dying_niche/ | 5,000 signups on an abandoned, broken site; users had silently redefined the product — the intent data and the returning users are the asset, not the traffic, and affiliate links convert at ~0 without earned authority |
+| 2026-08-04 | r/startups | When to decide to shutdown a revenue making business (I will not promote) | https://www.reddit.com/r/startups/comments/1vcxu27/when_to_decide_to_shutdown_a_revenue_making/ | $40k ARR, +20%/yr, $25k/yr of own money in, ~$1M ceiling: decide on the realistic 10-year version not the modelled maximum; separate growth spend from life-support spend; "can it run without you" sets the multiple |
+| 2026-08-04 | r/Entrepreneur | The thing I learned from 2 months of cold calling isn't what I expected | https://www.reddit.com/r/Entrepreneur/comments/1vbpb0i/the_thing_i_learned_from_2_months_of_cold_calling/ | 8, 13, 11, 6 calls before a human answered, and 0 of 9 lighting companies ever did: responsiveness as positioning, extended by the replies to follow-up and to sending a quote the buyer can forward |
+| 2026-08-04 | r/micro_saas | ChatGPT keeps naming my competitor and not me. Logged 40 prompts. Sharing what actually showed up. | https://www.reddit.com/r/micro_saas/comments/1vf6fqb/chatgpt_keeps_naming_my_competitor_and_not_me/ | 40 logged buyer prompts, ~180 citations concentrated on a frozen set of third-party pages: AI answers are a citation market, so fix crawler access, get onto the reused pages, publish one quotable primary source — not post #12 |
+| 2026-08-04 | r/micro_saas | Checked my Search Console properly for the first time and found a page ranking #10 for a decent keyword. I had no idea. | https://www.reddit.com/r/micro_saas/comments/1vf7b4m/checked_my_search_console_properly_for_the_first/ | Position 10.2, 53 impressions, 3 months, 0 clicks: sorting by clicks hides the pages that are almost working; the metric you sort by decides which opportunities you can see |
+| 2026-08-04 | r/micro_saas | Day 3 of trying to sell my platform. Here's what I learned. | https://www.reddit.com/r/micro_saas/comments/1vf8bud/day_3_of_trying_to_sell_my_platform_heres_what_i/ | Buyers who lead with revenue price an asset class; buyers who lead with the product price evidence — 1,200 users at $0 CAC is the headline for the second group, and a price dragged down by the first group is a sampling error |
+| 2026-08-04 | r/startups | A lesson in testing (I will not promote) | https://www.reddit.com/r/startups/comments/1vf7yul/a_lesson_in_testing_i_will_not_promote/ | Interested-to-active conversion near zero despite paid incentives and 1:1 onboarding, plus a beta channel structurally closed to under-13 accounts: recruit through one gatekeeper, and verify the delivery channel reaches the test population first |
+| 2026-08-04 | r/startups | Looking for advice for online language school. I will not promote | https://www.reddit.com/r/startups/comments/1vdlxqn/looking_for_advice_for_online_language_school_i/ | Free demos booked but not attended, then attendees not buying: two independent failures tuned with one knob (price) for three months; instrument them separately and call the no-shows within 24 hours |
