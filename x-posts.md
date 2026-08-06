@@ -830,3 +830,243 @@ Two separate failures. He kept adjusting the one variable that moves both.
 More in the book.
 
 ---
+
+## 2026-08-05 (drafted 2026-08-06)
+
+Backfill. The 2026-08-05 run wrote sections 79-87 into `manuscript.md` but terminated before
+drafting social copy for them. These were written on 2026-08-06 from the manuscript sections
+themselves, so the batch is complete rather than permanently skipped.
+
+**79 — Half that room is read by nobody**
+
+Someone measured 402 posts across four founder subreddits.
+
+About half scored 0 or 1. Nobody voted at all.
+
+You are not writing badly. You are posting onto a floor most posts never leave.
+
+Measure the room before you rewrite the message.
+
+More in the book.
+
+---
+
+**80 — Outreach that arrives with the work done**
+
+Job boards: not hiring. Network: no budget. Email: silence.
+
+What changed it was leading with a small fix already built, and prospecting from symptoms — a dead changelog, a stalled product — instead of from posted roles.
+
+More in the book.
+
+---
+
+**81 — Nobody even clicked the price**
+
+481 visitors in five days. Zero sales. Obvious answer: too expensive.
+
+Then he checked. Not one of them had reached the pricing page.
+
+He later went $49 to $79 to $129 with no dip.
+
+If they will not look at your price, you do not have a pricing problem.
+
+More in the book.
+
+---
+
+**82 — A 3KB advantage nobody measures**
+
+Rival popup scripts inject 100KB+. His is about 3KB. The flaw is real and measurable.
+
+The reply that mattered: sounds interesting, but I don't think anyone has this problem.
+
+Page weight is a mechanism. Store owners track recovered carts.
+
+More in the book.
+
+---
+
+**83 — A brand is a promise someone can trace back to you**
+
+Not the logo. Traceability.
+
+And it breaks at the touchpoints nobody audits: the processor name on the card statement, the domain the email arrived from.
+
+That is where chargebacks come from — customers who cannot tell it was you.
+
+More in the book.
+
+---
+
+**84 — The person who benefits is not the person who signs**
+
+He pictured homeowners with bare lawns.
+
+Roughly nine in ten hydroseeding buyers are excavation contractors and estimators. It is already a line in the bids they submit.
+
+They already have someone. They are not searching for you.
+
+More in the book.
+
+---
+
+**85 — The middle of the market went first**
+
+Agency revenue softening. Easy answer: the economy.
+
+But the very large agencies are fine and the small specialists are fine. The squeeze is on the general middle, and clients are taking the work in-house.
+
+Not a demand problem. A positioning one.
+
+More in the book.
+
+---
+
+**86 — You already have the distribution**
+
+About 400 organic installs a day. Free. For years.
+
+Retention is the part that is broken, so he planned a full rebuild — into roughly what the phone's built-in assistant already does.
+
+Every rebuild spends the channel. Quietly.
+
+More in the book.
+
+---
+
+**87 — Every question except the one that matters**
+
+Where to incorporate. Which firm. Raise now or later. Co-founder or not.
+
+All real questions. All answerable from a chair. Not one of them can reject you.
+
+Zero users so far.
+
+Order the work by what is unproven, not by what is unresolved.
+
+More in the book.
+
+---
+
+## 2026-08-06
+
+**88 — The ten seconds you asked for too early**
+
+Session replays showed half of all clicks dying at the signup screen. No paywall, no card. Just a form.
+
+He moved the signup to after the product had done the job.
+
+Bounce at that step: 50% to 22%. Same fields, different order.
+
+More in the book.
+
+---
+
+**89 — One user who depends on you is not a market**
+
+A cardiologist uses the tool daily and cannot work without it now. Public launch: no traffic, no trials.
+
+But he shaped it. That is fit with one workflow.
+
+Doctors buy from doctors. Ask his peers for their judgement, not for their money.
+
+More in the book.
+
+---
+
+**90 — Somebody wants to sell you credibility**
+
+A magazine offers to name you one of the most promising startups of the year. For a fee.
+
+He did real diligence. The outlet is legitimate. Past features reported a good process.
+
+Nobody asked the only question with a number in it: did anyone get a customer?
+
+More in the book.
+
+---
+
+**91 — Fifteen strangers already paid him**
+
+500 downloads, no marketing at all, 15 paying subscribers. Nine of them chose the annual plan.
+
+His plan was to raise a pre-seed to fund acquisition experiments.
+
+You can run that experiment yourself at $50 a day. Capital was never the constraint.
+
+More in the book.
+
+---
+
+**92 — Marketing money he had not been paid**
+
+Low six-figure licensing deal. Weeks of due diligence. Dead.
+
+The budget was already assigned. The same plan now runs at a third of the size, out of pocket.
+
+And diligence handed them a full view of the thing that made it worth licensing.
+
+More in the book.
+
+---
+
+**93 — The badge does not fix the problem you have**
+
+Does a founder need to pay for verification to be seen?
+
+The best reply granted it works — it ranks your replies higher in a thread nobody is reading.
+
+Paid reach is a multiplier. Check what you are multiplying before buying more of it.
+
+More in the book.
+
+---
+
+**94 — The details vanish the moment you ask**
+
+Everyone has heard of the solo founder making $1M with AI. Nobody can name one.
+
+The answer in the thread: the people actually making it never use the label. Their sites say bookkeeping, or product photos.
+
+You are searching for a word they have no reason to use.
+
+More in the book.
+
+---
+
+**95 — Your best channel selects for people who will not pay**
+
+Open source bought him trust, stars and distribution.
+
+First real reply: loves it, will self-host it on his own crowded server.
+
+A win for the project, a non-event for the business. The fix is not to start paywalling.
+
+More in the book.
+
+---
+
+**96 — Measuring the thing before you can measure it**
+
+Every client call now: how do we look inside ChatGPT?
+
+Rankings do not answer it. Five prompts is not a methodology.
+
+What works: ten real buyer questions, run monthly, logging mention and citation. Tedious, and defensible line by line.
+
+More in the book.
+
+---
+
+**97 — Which side of your market is the hard side**
+
+A dating app matching people on their GitHub profiles. He asked about feasibility, targeting, and which country to launch in.
+
+Someone asked how he would get women to join, and to stay. He said that was the part he had no idea about.
+
+That was the whole business.
+
+More in the book.
+
+---
