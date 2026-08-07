@@ -101,9 +101,13 @@ python scripts/meme_overlay.py --image templates/grus-plan.jpg --layout 2x2 --fo
 
 ## Push
 
-Commit `Daily content: 10 new sections (2026-08-07 12:04)` staging `manuscript.md`,
+Commit `cd68831` — `Daily content: 10 new sections (2026-08-07 12:04)` — staging `manuscript.md`,
 `sources-used.md`, `x-posts.md`, `book/SaaS-Marketing-Book.txt`, the new meme, and this file.
-Push result is recorded in the run report; no rejection or rebase was needed.
+
+**Push succeeded** on the first attempt: `b0cb6c0..cd68831  main -> main`. No rejection, no rebase
+needed. `reddit_dump.json` and `scraped_posts/` were correctly excluded by `.gitignore` and remain
+on disk. This paragraph itself lands in a small follow-up commit, since the push result is only
+knowable after the main commit was pushed.
 
 ## Errors
 
