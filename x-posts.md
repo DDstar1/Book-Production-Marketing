@@ -1070,3 +1070,125 @@ That was the whole business.
 More in the book.
 
 ---
+
+## 2026-08-07
+
+**98 — The growth tool that could not grow itself**
+
+He built a platform that automates a company's entire content engine. 20M search impressions on his own sites.
+
+Then he posted on a forum asking how to get customers for it.
+
+Someone replied: if it worked, you'd point it at your own landing page.
+
+More in the book.
+
+---
+
+**99 — The hard part was never the screens**
+
+"App builder for small businesses" sounds like a gap. It isn't.
+
+The expensive part isn't generating screens. It's deciding what "customer", "job" and "paid" mean inside one specific business.
+
+That's onboarding. That's a service. Do it by hand first.
+
+More in the book.
+
+---
+
+**100 — The classifier does not care what you actually do**
+
+He built a search engine for pharmacy stock. Sells nothing, prescribes nothing.
+
+Google Ads: "pharmaceutical services." Every campaign rejected.
+
+The channel isn't wrong about the category, just about him. And it won't be argued out of it at his scale.
+
+More in the book.
+
+---
+
+**101 — Choosing the model before you have chosen the buyer**
+
+Two founders, stuck for weeks between agency and platform. Target: $5-7k MRR from a handful of clients.
+
+The two models don't differ on Monday morning.
+
+The deliberation was standing in for the harder choice: which customer.
+
+More in the book.
+
+---
+
+**102 — Your buyer arrives with the wrong diagnosis**
+
+"Labor is 37% of sales, which software fixes this?"
+
+The room: 37% might be fine. And ~30% of paid hours went to rework, not to dead shifts.
+
+Sell into a stated diagnosis and you buy a customer who churns on schedule.
+
+More in the book.
+
+---
+
+**103 — Automating the leak**
+
+If the landing page converts, automating it is obvious.
+
+If it doesn't, you are automating a leak. Same failure, faster, at scale.
+
+Automation multiplies what is already there. Fix the bucket, then buy the pump.
+
+More in the book.
+
+---
+
+**104 — When marketing is expected to be a switch**
+
+A marketer of 10 years asked whether the burnout was her or the field.
+
+100 replies described the same machine: prove every pound you spend, while the sales team's spend is never questioned.
+
+Read it before you hire your first marketer.
+
+More in the book.
+
+---
+
+**105 — The rudest reply was the only free QA you got**
+
+Someone called his product an abomination in public.
+
+He asked which part, without defending. Got a defect list and a reproducible failing case.
+
+What your system is instructed to do isn't evidence of what it does. Only the output ships.
+
+More in the book.
+
+---
+
+**106 — They told him what he was actually selling**
+
+He built a licensing layer so brands can legally use a real face in AI ads. 26 creators signed. Zero brands.
+
+Best reply didn't answer his question. It said the verifiable licence matters more than the AI angle.
+
+That's the market renaming your product.
+
+More in the book.
+
+---
+
+**107 — Validation that belongs to somebody else's market**
+
+"Already validated" — because it works in another country and there's no local version.
+
+That proves the category can exist. Not that the shops down the road will switch.
+
+Sometimes the gap is an opening. Sometimes it's an answer.
+
+More in the book.
+
+---

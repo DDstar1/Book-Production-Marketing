@@ -3556,3 +3556,398 @@ Feasibility, technology, geography and targeting are all answerable questions an
 constraint. Be especially suspicious when the audience you are designing for is exactly the audience
 you belong to — the ease you feel is the ease of reaching the side that was always going to be easy.
 *(via a founder thread on r/micro_saas)*
+
+## Entries — 2026-08-07
+
+### 98. The growth tool that could not grow itself
+
+**The pain.** You have built the thing that is supposed to solve distribution, and you are on a forum
+asking strangers how to get customers for it. Somebody is about to point that out, and they will not
+be kind about it.
+
+**The struggle.** A founder posted a platform that builds and manages a company's whole content
+estate automatically — guides, glossaries, comparison pages, internal linking, schema, publishing
+schedule, the lot — with the honest question attached: is this a business anybody would pay for? The
+credentials were real and specific. The same workflow, run on the founder's own sites, had produced
+twenty million search impressions in three months, a million clicks, and by their own count something
+close to a hundred thousand citations inside AI answers. They posted it twice, minutes apart, in the
+same subreddit. The reply that landed was the obvious one and it still stings: if the tool genuinely
+worked, you would point it at your own landing page and let it do the selling. The founder answered
+that topical authority takes time and that this is a side project built on the engine behind their
+main venture, which is all true and none of it lands, because the commenter had already moved on to
+the sharper version — "if it was working you wouldn't have to spend time spamming about this."
+
+**What worked.** There is a real defence available here and the founder did not reach for it. A tool
+that compounds over months cannot demonstrate itself in the window a sceptic is willing to watch, and
+the twenty million impressions are exactly the demonstration that closes that gap — they just have to
+be shown as a case, not cited as a credential in a comment. The more useful observation is buried in
+the founder's own follow-up, where they describe the product as a done-for-you service disguised as
+software. That sentence is the positioning, and it is being hidden rather than sold. Every question
+they asked the room — is this worth paying for, would you trust software over an agency, what would
+make you leave the site — is a question the room cannot answer, because the room is not the buyer.
+The person who can answer it is the marketing lead who is currently paying an agency, and there is a
+list of them: the businesses whose content the tool would replace are findable by the exact search
+footprint the tool is built to analyse.
+
+**The lesson.** When your product's job is acquisition, your own acquisition is the demo, and every
+month you spend asking instead of showing is evidence being offered against you. If the mechanism is
+slow, publish the run you already have — the numbers, the timeline, the site — so the proof exists
+somewhere a stranger can inspect it in two minutes. And when you catch yourself asking a general
+audience whether a business is viable, notice that you have swapped a hard question with a specific
+person for an easy one with a crowd. Nobody in a forum is going to buy this. Twenty of the people
+currently writing agency cheques might, and they will tell you more in one call than a hundred
+comments will.
+*(via a founder thread on r/startups)*
+
+### 99. The hard part was never the screens
+
+**The pain.** There is an obvious gap in a hot category and you can see it clearly: the tools that
+build pretty pages do not build the boring working software that small businesses actually run on. It
+looks like an opening. It is also, unfortunately, the idea everybody has.
+
+**The struggle.** A founder asked whether it was a dumb idea to build an app builder aimed at small
+businesses — customer records, booking forms, client portals, spreadsheet automation, driven by
+plain-language instructions in the local language, in a market where hiring a developer is expensive.
+The thread was blunt to the point of rudeness. Several people said they had watched this exact pitch
+go past many times. One asked the only questions that matter and got no answer: "Who is going to use
+it? Why can't they just use Lovable?" Another suggested skipping the product entirely and simply
+building small businesses their software using the existing tools, which is a real business available
+today and requires no platform at all. The word that came up repeatedly was willingness to pay, and
+the room's collective verdict was that it is low — small businesses that have not bought software
+this year did not skip it because the builder was too hard to use.
+
+**What worked.** One reply reframed the whole thing and it is worth carrying well beyond app
+builders. The difficult part of this problem is not generating screens. It is deciding what
+*customer*, *job*, *appointment* and *paid* mean inside one specific business, and that definition
+does not come out of a prompt — it comes out of an onboarding conversation, which is to say it is
+already a service. The commenter then closed the loop: if one industry keeps asking for the same
+intake form, that repeated form is the wedge. That is a concrete, testable instruction. Go and build
+the thing by hand for a handful of businesses in one trade, charge for it, and watch which parts
+recur. Another reply arrived at the same place from the other direction, advising the founder to pick
+one painful workflow — booking, say, or the customer list — and find a few real businesses who would
+pay for that alone before building any platform. Meanwhile the one genuinely differentiated element
+in the original post, working in the customer's own language, was the thing a commenter singled out
+as the part most builders never think about, and it was buried under a list of features.
+
+**The lesson.** When you find yourself proposing a general tool for a category of buyer, check
+whether the expensive part of their problem is the tool or the definitions. Software that has to be
+configured to mean something is sold as a service the first several times, no matter what you intend
+it to become, and the repetition across those engagements is the only reliable map of what the
+product should be. Build the map before the platform. And when the room says willingness to pay is
+low, do not argue with the room — go and ask five of the actual buyers for money and let their
+answers settle it.
+*(via a founder thread on r/startups)*
+
+### 100. The classifier does not care what you actually do
+
+**The pain.** Every campaign you submit is disapproved. Not for the copy, not for the landing page —
+for what the system has decided you are. You are not that thing, you can explain exactly why you are
+not, and there is nobody to explain it to.
+
+**The struggle.** A founder built a search engine for pharmacy stock: type in a medication, see which
+nearby pharmacies have it, useful mainly during shortages. Nothing is sold, dispensed or prescribed;
+the drug catalogue is pulled from a public regulator database. Google Ads categorises the whole thing
+as pharmaceutical services and rejects every campaign. Their post asks the practical questions —
+whether certification actually unblocks paid ads and whether the cost and the wait are worth it, what
+channels worked instead for people building in healthcare, finance, cannabis or supplements, and
+which regulatory landmines they should find before the landmines find them. Buried in the middle is
+the sentence that matters most, offered almost as an aside: they are starting to think paid ads may
+simply not be their channel. The one substantive reply came from somebody running a locksmith
+platform, a category restricted for its own unrelated reasons, who confirmed the same wall and the
+same hunt for a way round it.
+
+**What worked.** The reframe available here is that the classification is not a bug to be appealed
+but a fact about the channel, and it points at a better channel. The founder had already worked out
+why, and again treated it as a passing thought: people search for a specific medication near them in
+an emergency. That is the highest-intent, most local, most repeatable search behaviour a product of
+this kind could ask for, and it is served by exactly the surface that paid search is closed on — the
+organic result, the map listing, the page per drug and per area that answers the question at the
+moment it is asked. The restriction that blocks the ad does not block the page. It is also worth
+noticing what the review process actually costs. Certification in a restricted vertical is not one
+form; it is a queue, a document trail, and an outcome you cannot schedule, which makes it a poor
+first bet for a company that needs users this quarter. The disciplined order is to build the channel
+nobody can switch off, and pursue the certification in the background as an unblocking of a second
+channel rather than a precondition for having one.
+
+**The lesson.** When a platform's classifier decides what business you are in, it is describing a
+risk category, not your company, and it will not be talked out of it at your scale. Read the
+rejection as information: this channel is expensive or closed for anyone shaped like you, which means
+your competitors face the same wall, which means the channel that remains open is where the market
+is actually contested. Ask what your buyer does in the ten seconds when the need appears, and go and
+be there. Regulated categories punish the founder who spends six months arguing about eligibility and
+reward the one who owns the answer at the moment of the search.
+*(via a founder thread on r/startups)*
+
+### 101. Choosing the model before you have chosen the buyer
+
+**The pain.** Two of you, both good at the work, and one clear goal: money soon, from a handful of
+clients, with no investors and no empire. So you sit down to pick the business model, and you cannot
+get past it.
+
+**The struggle.** A two-person team who build workflow automation posted an unusually well-specified
+version of this. The target is five to seven thousand a month at high margin, which where they live
+is a good living, and they were explicit that product-market fit, scale and funding are not what they
+are chasing. The choice was between a straightforward agency — take clients in any industry, build
+custom each time, charge a build fee plus a retainer — and a narrower model where they pick one
+customer type or one recurring workflow, build on a platform they own, and reuse most of it for the
+next client. They had already reasoned their way to the second one's economics: after two or three
+clients, roughly seventy per cent carries over. And then they had talked themselves out of it, on the
+grounds that reuse makes it secretly a product business, and a product business means hunting for fit
+— which was the thing they had ruled out on the first line.
+
+**What worked.** The worry is a naming problem dressed as a strategic one. Reuse across clients is
+not product-market fit; it is margin, and margin is precisely what a business with a small client
+count needs, because seven thousand a month from five clients only works if delivery does not consume
+every hour. The genuine difference between the two models is not custom versus reusable code — it is
+that the second one requires choosing a customer, and that choice is the thing being avoided. This is
+visible in the post itself, which spends a great deal of care on pricing structure and none at all on
+who the client is. The only reply that engaged with the substance went straight there: income from a
+handful of clients comes from finding people already voicing the pain you solve, and for workflow
+automation those people are visible right now, describing the manual process that is ruining their
+week, in public. Prospecting from a stated symptom is a different activity from cold outreach, and it
+is available before either model is chosen. The reuse then answers itself — build custom for the
+first two clients in one niche, and let the overlap tell you what the platform is.
+
+**The lesson.** When you are stuck between two business models, check whether the models actually
+differ in what you would do on Monday. Often they do not, and the deliberation is standing in for a
+decision about which customer to go after, which is harder because it can be wrong in public. Pick
+the narrowest group whose pain you can already see being described, sell to them by hand, and let the
+repeated parts of the work become the asset. The model is an outcome of the first few clients, not an
+input to them.
+*(via a founder thread on r/startups)*
+
+### 102. Your buyer arrives with the wrong diagnosis
+
+**The pain.** A prospect describes their problem in detail and asks you, directly, for the thing you
+sell. It should be the easiest sale of the month. It is also, quite often, a sale into a problem they
+have misidentified — and the peers in the room will say so before you can.
+
+**The struggle.** An operator posted that labour had reached thirty-seven per cent of sales and was
+climbing, that they were guessing at staffing without real numbers, and that their current app just
+sends shift messages with no forecasting. The ask was explicit: which software connects the till data
+to a demand forecast so they can stop overstaffing dead shifts. What came back was instructive for
+anyone selling into that market. The single most upvoted reply was a jeer. The second accused the
+post of being a vendor advertisement in disguise. Several people said the number itself was not
+obviously bad — that it depends entirely on the format and the margin, and that a business bleeding
+profit elsewhere would find nothing at the end of this hunt. Others turned it into a values argument
+about staff as an expense. The founder spent the thread defending an intention nobody had accused
+them of, which is what happens when a request for a tool is heard as a request for permission.
+
+**What worked.** Two replies were worth the whole thread and they said the same thing from different
+ends. One operator described timing their crew for a week and finding roughly thirty per cent of paid
+hours going to rework, waiting, and redoing quotes and schedules by hand — and that fixing those
+moved the labour percentage further than any staffing cut would have. Their instruction was to track
+what each hour actually produces for a week before touching headcount, because that is what tells you
+where the leak is. The other put the same point in one line: "Bad data fed into great software is
+still bad planning." And a third completed it — plenty of these businesses already have the numbers
+in the till and simply never look, and the tool only helps if somebody actually cuts the shift when
+it says to. The named products in the thread came up almost as an afterthought, from people who had
+switched and found the forecasting worth it. Notice the order. The recommendation arrives only after
+the problem has been re-diagnosed, and it arrives from a peer.
+
+**The lesson.** If you sell software, the pain your buyer describes is a symptom they have already
+interpreted, and their interpretation is part of what you are being asked to buy into. Selling
+straight into a stated diagnosis is fast and it is how you acquire the customers who churn, because
+the tool works exactly as promised and the number does not move. The stronger position, and the one
+the room rewards, is to help them measure before you sell: a week of real observation, a baseline
+they collected themselves, and a comparison against what is normal for their kind of business. You
+lose a few deals you would have lost later anyway, and you gain the only thing that makes retention
+possible, which is a customer whose problem was actually the one you solve.
+*(via a founder thread on r/Entrepreneur)*
+
+### 103. Automating the leak
+
+**The pain.** Everyone around you is adding the new technology to everything, and the fear of being
+the last one to do it is doing your planning for you.
+
+**The struggle.** Somebody who builds and runs consumer brands wrote a long piece on when a business
+should adopt AI at all, and the useful part was the section on when not to. Their list is short and
+unsentimental: when you have not found fit, when the product is not an AI product, when the
+technology adds nothing material to what you do, and when the sales process does not work. The
+example is drawn from their own trade. In direct-to-consumer, you build a landing page matched to a
+specific advertisement so the message and the page agree; once you have found a version that
+converts, automating its production is obvious and correct. But if the page does not convert, the
+automation does not fix it — in their phrasing, "you are automating lighting money on fire at scale."
+Fix the bucket first. They set all of this against opportunity cost, which is the argument business
+owners are worst at making, along with the costs nobody itemises: the specialists you have to pay,
+the usage fees, the licences, and the person whose job becomes maintaining the thing.
+
+**What worked.** The historical analogy the author reaches for is the one worth keeping. When the
+steam engine arrived, plenty of firms bolted it onto the machinery they already had, gained a little
+efficiency, and were later beaten by the ones who rearranged the factory around it. The marketing
+version of that is exact. Adding generation to a funnel that leaks produces more of what was already
+not working, faster, and the metrics improve in every place except revenue — more pages, more posts,
+more variants, same sales. The prior question is which stage is actually broken, and it is answerable
+with data you already have. Worth noting too what happened to the post itself: a long, careful,
+free piece of writing was met first with a two-word dismissal calling it machine-written, and the
+author's reply that length is not evidence of authorship did not change any minds. That is now the
+default reception for long-form content from an unknown name, and it is a distribution fact rather
+than a quality one — the same words carry differently when the reader already knows who you are.
+
+**The lesson.** Before you automate any part of your marketing, find out whether that part works
+manually, because automation multiplies whatever is already there, including the failures. The
+honest sequence is to fix the conversion, prove it by hand, and only then spend money making it
+repeatable. And price the whole cost when you decide — the expertise, the ongoing fees, and the
+attention, measured against what the same resources would earn in the least glamorous alternative
+available to you. Most of the time the boring alternative wins, which is exactly why it is worth
+writing the comparison down instead of holding it in your head.
+*(via a founder thread on r/Entrepreneur)*
+
+### 104. When marketing is expected to be a switch
+
+**The pain.** You are not lazy and you are not bad at this. You are tired of being the person who has
+to prove, every quarter, that the function you run should exist.
+
+**The struggle.** A marketer of ten years wrote that she was burned out across agency, startup, tech
+and non-profit roles, and asked whether the problem was the field or the teams. The thread that
+followed is the single most useful piece of reading a founder could do before hiring their first
+marketer, because a hundred people in the job described the same machine from the inside. The line
+that everybody agreed on was that the work becomes "justifying why someone should pay you a salary."
+Several described the shape of the blame: leads are short, so marketing; nothing converts, so
+marketing; the new product is not landing, so marketing. One added the part that makes it
+unwinnable — it is also the only function where everyone else in the business believes themselves an
+expert, so the strategy is negotiated against opinions about the colour of a font. Another laid out
+the consequence with unusual honesty: when leadership expects a switch that produces leads on
+demand, the people in the role learn to inflate, and the inflation is then passed downwards as
+targets.
+
+**What worked.** Two ideas in the thread are worth extracting and keeping. The first is a warning
+about attribution. Several experienced people named the demand that every pound spent be traceable to
+a transaction as the thing that has broken the work, not because measurement is bad but because the
+demand is applied selectively — it arrives for the brand and content spend and never for the
+relationship-building the sales team does, so the measurable half of the business is held to a
+standard the unmeasurable half is not, and the budget moves accordingly. The second is a piece of
+practical diagnosis offered to the original poster and applicable to any founder reading it: it did
+not sound like she had stopped caring about the work, it sounded like she had spent years doing it in
+environments that made the work feel unsafe. Underneath both is the structural fact a founder can
+act on. Marketing is the function that goes first in a downturn and comes back last, which several
+people who had lived through earlier recessions confirmed. That is not a judgement on its value; it
+is a description of how easy it is to cut something whose contribution is deferred.
+
+**The lesson.** If you are about to hire your first marketer, decide in advance what you will hold
+them to and what you will not, and write it down while nobody is under pressure. Agree which
+activities are expected to pay back this quarter and which are investments in something slower, and
+apply the same evidential standard to your sales spend that you apply to theirs. Then resist the
+switch model — a marketer given three months, a clear customer and a decision they are allowed to
+make will out-produce the same person given a lead target and a hundred opinions. And if you are the
+marketer in that thread, note what half the replies had in common: the good outcomes came from people
+who changed the conditions of the work rather than their feelings about it.
+*(via a founder thread on r/marketing)*
+
+### 105. The rudest reply was the only free QA you got
+
+**The pain.** You post your launch, ask politely for feedback, and get a comment that calls the whole
+thing an abomination. The instinct is to defend it. The instinct is wrong, and this is the one
+comment worth more than every congratulation in the thread.
+
+**The struggle.** A founder launched a tool that takes your existing landing page, reads the brand,
+copy, calls to action, sections and layout, and produces a redesigned version you can refine by chat
+and export as code, with framework exports, templates, version history and a trial. Seventy-five
+users, sixty designs generated. The first reply accused them of having simply prompted a mainstream
+model into building it, and dragged on. The second was savage: the redesigns were an abomination, the
+tool was contributing to bad design, and the landing page itself was a generic example of the thing
+it claimed to fix. The founder's response is the part to study. They thanked the commenter and asked
+which specific part was wrong. What came back was a proper defect list — every template looks
+identical, the redesign is effectively the old content dropped into the template, there is no pass
+that makes it feel human, and the output carries the visible tells of generated layout. The founder
+explained, accurately, that the system is instructed to rebuild the hierarchy from scratch and not to
+reuse the original layout, that templates are opt-in, and then conceded the only thing that mattered:
+"Instructions not matching output is exactly the gap I care about closing." They asked for the worst
+example. The commenter sent a project reference.
+
+**What worked.** Three things happened there that most founders never get. A hostile stranger
+performed a free evaluation of the product's core promise; the promise was tested against its actual
+output rather than its description; and a reproducible failing case was handed over. That is a paid
+research engagement conducted in public, and it cost one non-defensive question. The wider point is
+about what the tool is being judged on. The founder is measuring signups and designs generated —
+seventy-five and sixty — while the market is judging one thing, whether the result looks
+distinguishable from every other generated page, and that is also the buying decision. Any metric
+that does not track it is going to look healthy right up until nobody renews. Note as well that the
+critic never disputed the value of the problem; they disputed the delivery. That is the good version
+of harsh feedback, and it is a very different signal from indifference.
+
+**The lesson.** When someone attacks your product in public, the reply that pays is a specific
+question, asked without defence, followed by a request for the worst example they have. You will get
+either a defect list you can act on or silence that tells you it was noise. And keep your eye on the
+gap the founder named, because it generalises past software: what your system is instructed to do is
+not evidence of what it does, and your buyer only ever sees the second one. Go and look at your own
+output as a stranger would, in bulk, before a stranger does it for you in a thread.
+*(via a founder thread on r/micro_saas)*
+
+### 106. They told him what he was actually selling
+
+**The pain.** You spent a month solving the unglamorous problem in the middle of a market, you have
+the supply side signed up, and now you need somebody to be the first buyer. Nobody wants to be first.
+
+**The struggle.** A founder built a licensing layer for using a real person's likeness in generated
+advertising. The premise is a genuine gap: agencies do this with long contracts and everybody else
+either avoids it or does it and hopes nobody notices. On the platform, a creator lists their face
+with scoped terms — the permitted uses, territories, duration and price — a brand buys that exact
+scope, and the executed licence gets a public identifier anybody can verify without an account. The
+company generates nothing; it is the paperwork. Twenty-six creators between five and a hundred
+thousand followers had signed. The other side of the market was empty, and the post was an open
+request for one or two founders to run a pilot, cheaply, with the founder producing the advertisement
+himself — explicitly because the case study was worth more than the fee. He also asked the room
+whether anybody would actually click a "licensed, verify here" caption, or whether nobody cares.
+
+**What worked.** The most valuable reply did not answer the question he asked. It told him what he
+had built: "the verifiable licence feels more valuable than the AI angle itself", because usage scope
+and brand safety are the real blockers. That is a positioning correction arriving unrequested. The
+company had been framed around the generated-advertising trend, which is the loud part and the part
+every competitor is also shouting about, when the defensible asset is a verifiable permission record
+— which is worth something to a brand whether the advertisement is generated or filmed, and worth
+more the more nervous the legal team is. The founder then did the right thing with the reply, and it
+is worth copying: rather than pitching back, he asked the commenter, who serves brands running
+campaigns, what those brands do today when they want a recognisable face — go to an agency, skip it,
+or do it and not think about it. That question sizes the market from somebody with better data than
+he has, and it costs nothing. The pilot offer is sound too. Trading price for a public case study is
+the correct move when the blocker is that nobody has gone first, as long as the case study is the
+contracted deliverable rather than a hope.
+
+**The lesson.** Listen for the moment somebody describes your product back to you in different words
+from the ones you use, because that is your market telling you which half of the thing it values.
+Nine times out of ten the trend word is what got you attention and the boring word is what gets you
+paid — and the boring word usually survives the trend. Then check which side of your market is
+actually short. Recruiting the supply that likes being listed is not proof of a business; the first
+buyer is, and buying that first proof with a discount is money well spent, provided you leave with
+something you can show the second one.
+*(via a founder thread on r/micro_saas)*
+
+### 107. Validation that belongs to somebody else's market
+
+**The pain.** The model is proven. It works elsewhere, it makes money elsewhere, and there is nothing
+like it where you are. That gap looks like the safest bet you will ever take, right up until you have
+to find the first customer.
+
+**The struggle.** A developer of fifteen years went full-time on their own product: a platform of the
+kind that is enormous in other countries but has no equivalent in theirs. Their framing of it was
+that the idea is already validated and has great potential, because it is successful elsewhere and
+solves a real problem. Their stated worries were tax, company administration, and marketing, in that
+order — all the things a fifteen-year technical career does not teach. The thread was warm and mostly
+about nerve; the most upvoted advice was not to make the business your identity, and a founder
+twenty-seven years into running their own company gave the reassuring and correct answer that you
+learn each part as it becomes necessary and pay professionals where mistakes are expensive. The
+founder's own follow-up is the revealing one. Alone, with no partner, they were worried that shipping
+a half-finished version would leave no time to build out their vision, because support, bugs,
+features and company business would eat the calendar.
+
+**What worked.** One short reply cut across all of it: "Build less, talk to customers more." It is
+worth spelling out why that is the right correction for this specific situation rather than generic
+advice. The validation being relied on is somebody else's, from a market with different buying
+habits, different payment infrastructure, a different competitive default and a different reason the
+product caught on. That another country adopted it proves the category can exist; it proves nothing
+about whether the merchants down the road will switch, what they use today, or what they would pay.
+And the absence of a local alternative is genuinely ambiguous — sometimes it is an opening, and
+sometimes it is the market having already answered a question nobody wrote down. The way to tell them
+apart takes a week, not a year: talk to twenty of the businesses who would have to adopt it and find
+out what they use now and what it costs them. Notice also the order of the founder's worries.
+Incorporation and tax are researchable, finite and comfortable; the customer conversation is neither,
+and it is the only one whose answer changes what gets built.
+
+**The lesson.** A proven model is a hypothesis with a good pedigree, not evidence about your market.
+Import the mechanism if you like, but re-validate the demand locally and cheaply before you spend a
+year building the port, because the thing that made it work over there — a habit, a regulation, a
+rail, a competitor's absence — may be the one thing that does not travel. And when your list of fears
+is dominated by the parts you can research alone, take that as a signal rather than a plan. The
+frightening item is usually the informative one.
+*(via a founder thread on r/Entrepreneur)*
