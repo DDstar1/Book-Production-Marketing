@@ -3951,3 +3951,423 @@ rail, a competitor's absence — may be the one thing that does not travel. And 
 is dominated by the parts you can research alone, take that as a signal rather than a plan. The
 frightening item is usually the informative one.
 *(via a founder thread on r/Entrepreneur)*
+
+## Entries — 2026-08-10
+
+### 108. The side of the market with nothing to gain yet
+
+**The pain.** You are walking into your fortieth café of the month to ask an owner to join something
+that, honestly, does very little for them today. You know it. They know it within about nine seconds.
+And you still have to keep the door-to-door rhythm going, because the alternative is a product with
+nothing on the supply side at all.
+
+**The struggle.** A founder posted the day their app crossed a thousand dollars in revenue, nearly
+nine months after the first line of code. The product lets a customer pre-purchase coffee at a
+discount — a loyalty card run backwards, money up front instead of a free tenth cup at the end. The
+team spent multiple days a week walking into cafés, trying to reach an owner, and pitching a place in
+a network that had almost no customers in it yet. Their own description of the offer is the most
+honest thing in the post: at this stage of its life the app has "not too much benefit for a cafe
+owner" to consider joining. That is the cold-start problem stated without any of the usual
+decoration. Every reason to sign up is in a future the owner has to take on faith, and the founder is
+explicitly relying on goodwill and on the owner seeing what the founder sees. Between that and the
+first sale sat eight months of late nights, coding errors, marketing mistakes, developer problems,
+and rejection after rejection.
+
+**What worked.** Two things, and neither of them was persuasion. The first is that they kept the
+grind physical and geographic instead of broad. Doors, in person, in one area, repeatedly — which
+means that when the customer side finally showed up, it showed up in the same few streets as the
+cafés, and the network was dense enough to be usable rather than spread across a city in a way that
+would look like nothing to everyone. The second is what happened on launch day. Over two hundred cups
+sold and a spot in the top hundred of the store's food and drink category, with bugs in the release
+and one payment method broken for the first day. A week later there were repeat customers from that
+first cohort. Look at the order of proof there. The founder could not honestly promise a café owner
+traffic in month three; by month nine they could describe a launch day, a volume of cups, and people
+coming back — and that is now the opening line of every conversation with café number forty-one. The
+early sign-ups were bought with goodwill; the next ones get bought with evidence, and the evidence
+only existed because somebody sold the unsellable version first.
+
+**The lesson.** When one side of your market has no reason to join yet, stop trying to write a better
+argument and start trying to shorten the period in which the argument is needed. Concentrate the
+early supply somewhere small enough that demand can actually land on it, sell the first cohort on
+belief and be candid that that is what you are doing, then move fast to convert the launch into
+numbers you can carry to the next door. And do not read the eight months of rejection as evidence you
+were wrong. In a business where the first customers get nothing but a promise, rejection is the
+market's normal response, and the only thing that changes it is a fact you do not have yet.
+*(via a founder thread on r/startups)*
+
+### 109. The gap on the competitor grid is not a customer
+
+**The pain.** You did the analysis properly. You mapped the competitors, you found the space nobody
+was covering, you built into the space. Almost nobody is using it, and the worst part is that you
+cannot see where the reasoning went wrong, because every step of it looked like the responsible thing
+to do.
+
+**The struggle.** A founder built a tool for creators chasing brand deals: it tracks the deal
+pipeline, connects the creator's actual Instagram or YouTube so that the reach, engagement and
+best-performing formats in a pitch are real rather than claimed, and drafts the pitch itself. They
+came to a forum not to promote it but to be corrected, which is the right instinct. Their account of
+why they built this is the part worth reading twice — the gap identified in their competitor platform
+analysis was that the space was fragmented, so they built the unfragmented thing. That is the whole
+justification, and it contains no customer. The first reply was blunt about the delivery: a language
+model wired into two social accounts is not yet a product. To the founder's credit they did not
+argue, conceding that the current version is thin and that they are trying to work out what creators
+actually want. Then a second commenter reframed the problem entirely and, in doing so, took away the
+comfortable version of it. The founder had been thinking about a marketplace with a supply side and a
+demand side and a chicken-and-egg problem between them. The commenter's correction was that with
+nobody on either side there is no chicken-and-egg problem at all, only "a nothing problem", and that
+trying to start both sides at once is precisely how you stay at zero.
+
+**What worked.** The most useful thing in the thread is the shift the founder made by the end of it.
+Instead of building more of the tool, they landed on the idea of sourcing real campaigns from
+outside, walking a creator through applying to one, and helping them actually land it. That is not a
+feature; it is doing the job manually for one person until it works once. It is also the only version
+of this business where you learn something true, because a creator who lands a sponsorship with your
+help will tell you exactly which part of the help mattered — and it is rarely the part you built.
+Note also what the whitespace analysis could never have told them. Fragmentation is a description of
+the vendor landscape, not a complaint anybody has. Nobody wakes up wanting a consolidated category;
+they want the deal they did not get. A market can be fragmented because it is underserved, or because
+the work is bespoke enough that consolidation has been tried and did not hold, and a competitor grid
+does not distinguish between those two cases.
+
+**The lesson.** Competitor analysis tells you what exists. It cannot tell you what anybody wants,
+because every square on the grid describes a supplier and none of them describes a buyer. If your
+best answer to "why this?" is a gap on a chart, you have a hypothesis about the market's structure,
+not evidence about its appetite — and structure is exactly what a founder can research alone, which
+is why it is so appealing. Go and produce one outcome for one person by hand. It is slower than
+building, it does not scale, and it is the only thing that turns a nothing problem into a business.
+*(via a founder thread on r/startups)*
+
+### 110. Two tests that kill every idea before it can be tested
+
+**The pain.** You can build anything. That is not the boast it sounds like — it is the problem. Every
+idea you generate, you research, and every one dies on contact with the same two facts: somebody
+large is already doing it, or most of it could be had for almost nothing. So you build nothing, and
+the ability you spent years acquiring sits idle.
+
+**The struggle.** A developer who had been building since childhood, and had spent the years since
+college building a fully automated trading system now running with real money in a real market,
+described this exact block. They wanted to make something useful to other people rather than
+something a lot better only for themselves, and they were disqualifying idea after idea on two
+criteria: a big company already occupies the space, or eighty to ninety per cent of the functionality
+is available from a cheap model. Both filters sound like rigour. Applied together, they eliminate
+essentially the entire universe of software a solo founder could actually ship.
+
+**What worked.** The thread dismantled both tests, and the arguments are worth keeping. On the first:
+an incumbent in the space is proof of demand, and empty markets are usually empty for a reason, so
+the founder had inverted the signal — treating evidence that people pay for this as a reason not to
+build, and treating the absence of anyone as the safe ground. The better filter is reach: can you get
+to one narrow slice of that proven market cheaply. On the second: the part a model does for nothing
+is not the part anyone pays for. Several people building today made the same observation — the model
+does the obvious work, and the business is everything around it, getting it inside the tool the
+person already has open and deciding what it is not allowed to do unsupervised. Nobody pays for the
+prompt. Then the structural advice, which points at the real gap. Repeatedly, in different words,
+people told this founder to go and acquire a domain — through a job at a company where finding and
+executing on opportunities is the actual work, through an industry learned deeply enough to see its
+problems, through volunteering, through life. The blockage was never idea generation. It was that
+ideas come from proximity to somebody else's frustration, and a decade spent alone with a trading
+system is proximity to exactly one person's problems. The sharpest instruction in the thread was to
+stop the generating entirely: "Stop generating ideas. Start collecting complaints."
+
+**The lesson.** If you can build anything and want for something to build, you do not have an
+imagination problem, you have an exposure problem, and no amount of thinking harder in the same room
+will fix it. Retire both of the tests that are doing the killing — a large competitor is a demand
+signal and a cheap commodity capability is a component, not a verdict — and replace them with one
+question you cannot answer from a desk: whose complaints do I hear often enough to recognise a
+pattern? Then go somewhere those complaints are said out loud. Also worth noticing: the founder's own
+running system, with real money in a real market, is a source of specific operational pain nobody
+else in the thread had access to. The domain was already there. It just did not feel like an idea
+because it was familiar.
+*(via a founder thread on r/startups)*
+
+### 111. Three launches measuring the same thing
+
+**The pain.** You have launched the same product three times. Twenty upvotes, then eight, then you
+stop looking. You are excellent at the building part and you have never once been good at the part
+that comes after, and you are starting to suspect that the reason you keep polishing the first part
+is that it is the part where you feel competent.
+
+**The struggle.** A designer of ten years posted exactly that diagnosis about themselves, with
+unusual clarity. They can take an idea to something that works and looks right, and they trust that
+completely. Getting a person who was not already looking to notice and then care enough to try it,
+they had never got right, in any launch. Their description of the pattern is the giveaway:
+distribution was treated as a formality that happens after the real work, so the routine was post it,
+wait, watch the number. Nearly two years in on the current product, they had also spent money on ads
+— global, weighted towards two large markets — got no clear result, and paused. The product itself
+checks a founder's idea against real competitors and then hands the specification to their coding
+tool, and the most uncomfortable moment in the thread arrives when a commenter puts a finger on
+exactly that: this is work a founder is already doing themselves, so the burden is being very clear
+about what you add that they cannot do alone. The founder's answer was disarmingly honest — the early
+version did what anybody could do with fifty spreadsheets open and enough time, and they were
+essentially selling that time. After that launch failed, they moved to something harder to replicate.
+
+**What worked.** Two replies in that thread are worth more than the rest of the advice combined. The
+first reframes what a launch even is: a repeatable channel is never the launch, it is "the narrow
+place you keep showing up" long after the launch is forgotten. Three launches are not three
+experiments; they are the same measurement taken three times, and what they measure is how many
+people happened to be in that feed on that day. That is why the numbers went down and told the
+founder nothing. The second reply supplies the replacement metric. Instead of counting upvotes, count
+conversations — get ten people who genuinely have the problem onto a call and watch them use it. The
+commenter who did this reported that half of them never got past the first screen, which is a fact
+that will never appear in a launch post, at any upvote count, ever. Note also the sequencing failure
+underneath the ad spend. Money went to traffic across two continents before anyone had established
+that a visitor who arrives can get through the first screen, which means the ads were buying
+impressions of an unproven flow, and the "no clear results" outcome was determined before the budget
+was set.
+
+**The lesson.** Launching is an event, and distribution is a place you keep turning up; if you only
+do events, you will keep re-running one test with a decreasing sample. Pick the narrow room where
+your buyer already is, plan to be a fixture in it for months rather than a visitor for a day, and
+before you buy a single click, put ten real users in front of the thing and watch where they stop. If
+you are builder-first, the honest thing to accept is not that you must become a marketer, but that
+the discomfort you feel doing this is not evidence that it is going badly — it is evidence you have
+finally left the part you were already good at.
+*(via a founder thread on r/startups)*
+
+### 112. Changing the price to fix a distribution problem
+
+**The pain.** Sales are far too low, so you do the thing you swore you would never do: you put adverts
+into a product for children, in three of the four apps, and you feel bad about it every day. The
+monetisation change is at least something you control. The reason nobody is buying is not.
+
+**The struggle.** A studio making mobile games for children with speech delay and autism posted this
+exactly. One app runs on in-app purchases and subscriptions; low sales pushed them to advertising on
+the other three, in products where they do not believe adverts belong. When someone asked the obvious
+question — what is your acquisition channel — the answer explained the whole situation. It was
+essentially one channel: a co-founder's social account with around thirty-two thousand followers, and
+posts about the app going out to it. The thread quickly established two things that reframed the
+problem. First, the buyer is not the user: children with a speech delay are not going to seek out a
+developmental app and pay for it, and every part of the funnel is therefore aimed at a parent. Second,
+and more usefully, at roughly a hundred and fifty visitors a day the site already has enough traffic
+to diagnose conversion, and a commenter said the sensible thing directly — with that following and
+sales still very low, "look at the funnel before spending money on ads." Adverts and paid acquisition
+would both have poured resource into the top of something that was demonstrably leaking further down.
+
+**What worked.** The strongest suggestions in the thread all replaced the channel rather than the
+price. A speech or occupational therapist who already works with a family and recommends the app
+carries a level of trust no social post can manufacture, because the recommendation arrives from
+someone the parent already pays for judgement, at the exact moment the parent is looking for
+something to do at home. Clinics and school districts extend the same logic and solve the founders'
+actual grievance as a side effect: a professional or institutional licence tier, sold to the
+organisation, funds the product without a single advert appearing in front of a child, and a district
+can be offered the same terms for the parents of the children it serves. One commenter added the
+detail that turns this from a discount into a product — build in enough reporting that a school or
+therapist can track progress, because that is what the institutional buyer is actually purchasing,
+not the game. The founders had already started reaching out to therapists and clinics, and were
+exploring partnerships in education, which is the right direction; the thing to protect is that this
+work is slow and will feel less productive than shipping an advert integration, right up until it
+compounds.
+
+**The lesson.** Before you change what you charge, check whether you have a demand problem or a route
+problem. Reaching for monetisation is tempting because it is entirely within your control, but a
+price change cannot rescue a product that the right people never encounter — and if your existing
+audience is large and your sales are small, the traffic you already have is a free diagnosis waiting
+to be read. Then ask who your buyer already trusts on this exact question, and go and be recommended
+by them. Where the user cannot buy and the buyer needs reassurance, distribution belongs to the
+professional in the room, and the price you charge them is a different, easier conversation.
+*(via a founder thread on r/startups)*
+
+### 113. The mess is the product
+
+**The pain.** You assumed the hard part would be making the software good enough. It was not. The
+hard part is that the process you are automating does not exist in any single, documented form, and
+every customer is holding a different version of it together with people who simply know what to do.
+
+**The struggle.** A founder automating administrative work in healthcare — pre-authorisations, claim
+follow-ups, calls to payers, document handling — wrote a clear-eyed account of expecting accuracy to
+be the challenge and finding something else. One insurer wants a portal submission, another wants a
+fax, another wants a phone call. A portal can report a request as pending while the person on the
+phone says it was never received, and both answers count as valid. There is no workflow; there are
+hundreds of slight variants held together by experienced people. Their automation regularly completed
+most of a task correctly and then stopped, because a payer gave a vague answer or asked something
+unexpected, and the last stretch needed a human. The founder's conclusion was that full automation
+was the wrong target, and that the better goal is removing the repetitive work without the operator
+losing sight of what is happening.
+
+**What worked.** The thread converged, from several directions, on the same reframing. Domain
+expertise is the moat — not as a slogan, but because the mapping of that chaos is the expensive
+artefact and the model is the cheap part. People with experience in other regulated and legacy-heavy
+environments confirmed that half of any such project is discovering how messy the reality is, which
+is precisely why the incumbent consultancies and platform vendors can charge what they charge. And a
+final comment named the structural limit: the last mile is not a technical problem, it is "political",
+because somebody has to own the ambiguity and organisations want that somebody to be a person. That
+is not a gap waiting to be closed by a better model; it is a permanent property of the work. The
+commercial consequences are the useful part for a founder. If the mapping is the value, then the
+discovery work is not pre-sales overhead to be minimised — it is the product, and it should be
+scoped, sold and paid for as such. If the human stays in the loop by design, then the honest promise
+is hours returned and control retained rather than headcount removed, which is also a far easier
+promise to survive a pilot. And if the variance is per-payer, the first version should be narrow —
+one payer, one procedure, one clinic — because a system that handles one branch reliably is worth
+more than one that half-handles all of them.
+
+**The lesson.** In an industry where the process is genuinely broken, the broken process is your
+moat, and the time you spend understanding it is not a delay before the real work. Sell the map, not
+the magic. Be explicit about which exceptions stay human and why — vagueness from the other side,
+anything touching money or care, anything the system has not seen before — because a clear boundary
+is what makes a cautious buyer able to say yes. And treat the demand for full automation, wherever it
+comes from, as the thing that will make your product fail its first serious test in front of a
+customer who knows the work better than you do.
+*(via a founder thread on r/Entrepreneur)*
+
+### 114. The subscription label on the same hours
+
+**The pain.** You build the thing, you get paid, you deliver, and then you are at zero again looking
+for the next client. Two years of that and the arithmetic is obvious: to grow you either charge much
+more per project or run more projects at once, and both of those have a ceiling you can feel.
+
+**The struggle.** A founder running an agency that builds early product versions for clients laid this
+out and proposed the fix that everybody in that position proposes. Rather than disappearing after
+launch and leaving the client to hire developers, stay on as their outsourced engineering team for a
+monthly fee — ongoing development, new features, maintenance, technical decisions, no equity. They
+asked the right question about it, which was whether they were missing something or just putting a
+subscription label on an agency.
+
+**What worked.** The replies were unusually specific, and three of them constitute a complete answer.
+The first is about who can pay. A retainer at the level this requires only survives with clients who
+have revenue or funding; early-stage companies typically cannot sustain it once the initial build
+budget is spent, which means the model quietly changes the customer even if the founder does not
+intend it to. One person who had run operations at a custom development company that reached
+substantial annual revenue put it more bluntly: selling to startups as your primary market is full of
+landmines, they are price-sensitive, they push for more within the same fee, and some will try to
+recruit your team. The second is about which retainers renew. The ones that survived, in a
+practitioner's direct experience, were the boring ones — uptime, fixes, small changes — because that
+worry never goes away and the renewal happens without a conversation. Retainers sold as a stream of
+new features tend to die around the third month, when the client runs out of things they are certain
+they want and starts feeling they are paying for nothing. The third dismantles the premise: "Recurring
+revenue and scalable aren't the same thing." A retainer smooths the lumpiness of project work, which
+is a genuine benefit, but you still add revenue by adding people, so the ceiling has not moved. If the
+target really is a much larger monthly number, the lever is detaching revenue from hours — and the
+suggestion that follows is the good one, that two years of client work is a pattern library nobody
+else has, and that turning it into something ownable should be funded by the agency rather than
+swapping the agency for it.
+
+**The lesson.** Predictable is not the same as scalable, and a subscription that bills for
+availability is still selling hours in a nicer wrapper. If you go that way, do it deliberately: sell
+the boring, anxiety-shaped work that renews itself, write the scope down so ongoing development does
+not become unlimited support at a flat fee, and choose clients whose funding outlasts their build
+budget. And if what you actually want is a ceiling that moves, keep the services business running as
+the thing that pays for the search, then build the asset out of the patterns you have already been
+paid to discover.
+*(via a founder thread on r/Entrepreneur)*
+
+### 115. Forty-three people arrived and nobody paid
+
+**The pain.** Six months in, forty-three people have signed up, an article has been written about
+you, strangers have made videos about your product, and you have spent nothing on advertising. Your
+monthly recurring revenue is zero. The part everybody says is hard turned out to be the part that
+worked.
+
+**The struggle.** A software engineer described the whole arc without flinching. It began well: they
+were paying for an outreach tool, it worked, and inside a few weeks it had produced a client, a
+developer they now contract work to, and a referral partnership. That is a genuine, specific result,
+and it is the origin of the mistake — being an engineer, the next thought was why pay for this when I
+could build it. So they built their own, aiming to be different by reading what people were actually
+saying, pulling out the pain point, judging intent, and helping with the outreach. Then, in their own
+words, they went down the path of adding features nobody had requested, on the theory that if the
+product kept getting better people would eventually pay. Six months later: forty-three signups, no
+paid marketing, organic coverage, an agency being onboarded that might push it to its members,
+another business owner intending to use it — and zero revenue. Their summary is the honest one:
+"Building software is the easy part", and building the business apparently is not.
+
+**What worked.** The turn came at the end and it is the whole point of the story. The founder stopped
+spending their time deciding what to build next and started spending it on why the people who arrive
+do not convert. That is the correct move, and it is worth being precise about why this particular
+founder was so well placed to make it earlier. They had been a customer of the category. They knew
+the exact sequence that produced value for them — a real client, a real hire, a real partnership,
+within weeks — which means they knew what the first successful session has to look like. Forty-three
+people signed up and, presumably, did not reach that moment. That gap is a specific, answerable
+question, and no feature added on intuition was ever going to touch it. There is a second asset in
+here that is easy to miss: unpaid coverage and organic videos mean the positioning is legible to
+strangers and the top of the funnel is not the problem. Most founders would trade a great deal for
+that and would be right to. The bottleneck is entirely between signup and value, which is the
+cheapest part of the funnel to fix, because the people are already inside and can be asked.
+
+**The lesson.** "If I keep making it better, they will eventually pay" is not a strategy, it is the
+comfortable job disguised as one — and it is most tempting precisely when building is the thing you
+are best at. When you have arrivals and no revenue, the next feature is never the answer; the answer
+is in the first session, and you find it by watching people take it. If you built this because you
+were once the customer, write down the sequence that made it valuable to you, then check how many of
+your signups ever reached it. And treat free coverage as evidence that the market understands the
+promise. That is the hard half. The half you have left is the one you can actually observe.
+*(via a founder thread on r/micro_saas)*
+
+### 116. The record breaks where a human retypes it
+
+**The pain.** You know where every lead came from. You know exactly which deals closed and for how
+much. What you cannot do, at any price, is join the two, because somewhere in the middle a person
+retypes the information into another system and the connection is lost forever.
+
+**The struggle.** A marketer moving from execution work — content, search, website management — into
+an analytics and attribution role described the architecture of that break with real precision, and
+it is the most common shape in business-to-business software. A lead arrives through a form in the
+marketing platform, engages with marketing, requests a quote. Then a salesperson or engineer manually
+enters that quote into a separate, internally built operations system, and everything that follows —
+the quoting, the negotiation, the close — happens over there. The marketing platform knows the source
+and the campaign history. The operations system knows whether money changed hands and how much. The
+two never reconnect, so the company can report activity or it can report revenue, but never one
+explained by the other. Their brief was to fix this and, in the memorable phrase from the post, help
+the team "stop marketing on vibes". The honest difficulty was that they did not yet know enough to
+brief their own developers: what data should flow back, and which identifiers should tie the records
+together.
+
+**What worked.** The most valuable reply in the thread was not the architectural one, and this is
+worth noticing, because the architecture is the easy part. Yes, an interface between the two systems
+is needed, and yes it is sensible to pair the in-house developers with someone who knows the
+marketing platform properly. But the reply that saves the project points at where the data actually
+dies: source information is recorded against the person, and if only the quote or the deal is passed
+downstream while the person's record is left behind, the origin is severed at that exact moment, no
+matter how good the integration is afterwards. The fix is unglamorous and cheap — make sure the
+source is copied onto the related records and that people, companies, deals and quotes are correctly
+associated before any of it is sent anywhere. That is a configuration afternoon, and it determines
+whether a year of reporting is possible at all. The strategic version of this, for a founder: your
+attribution is only ever as good as the least automated step in the chain, and the least automated
+step is nearly always a human moving information between two tools that were bought years apart.
+
+**The lesson.** If you cannot connect marketing spend to revenue, do not start by choosing tools.
+Start by drawing the actual path a customer takes through your systems and marking every point where
+a person retypes something, because that is where your evidence is being destroyed. Fix the identity
+first — one identifier that survives the whole journey and is attached to the person, not just the
+deal — and only then argue about dashboards. A founder who does this early gets to answer the only
+marketing question that matters, which channel produced money rather than motion, and a founder who
+does not will be running on opinion for as long as the handoff stays manual.
+*(via a founder thread on r/marketing)*
+
+### 117. The expert you could not afford to hire
+
+**The pain.** You are halfway through building the second one, and you already know. Not a vague
+worry — the specific, named knowledge that you are missing is the same knowledge you were missing
+when the first one failed. And you keep going anyway, because stopping means admitting the months
+were spent for nothing.
+
+**The struggle.** A founder wrote this up with a candour that is rare. The first product failed, and
+the post-mortem was clear: a major assumption had been made without talking to enough people who had
+real experience of the industry. On the second product, they recognised the same gap halfway through.
+They needed somebody with deep domain experience involved, they could not afford to hire that person,
+and so the choice presented itself as stop and wait until the money exists, or continue with what
+they knew. They continued. The sentences they told themselves are the ones every founder will
+recognise: this is still a good direction, "I'll learn by building this", perhaps these extra features
+will make it work. Their own reading, afterwards, was that they were assembling reasons to keep going
+because they liked the direction and could not accept what they were already seeing. It failed again.
+The one substantive reply named it as sunk cost and suggested the denial might still be running.
+
+**What worked.** The most useful correction is not the sunk-cost label, though that is accurate. It
+is that the problem was framed as a hiring problem when it was an access problem. Domain expertise is
+being treated here as a thing with a salary attached, which makes it unaffordable and therefore makes
+continuing without it feel like the only realistic option. But the founder did not need to employ an
+expert; they needed to be wrong in front of one, repeatedly, for an hour at a time. Fifteen or twenty
+conversations with people who have worked in that industry cost nothing but the discomfort of asking,
+and they would have tested the assumption before it became a product. That is the whole gap between
+the two framings — one costs a salary you do not have, the other costs a week and some awkwardness.
+There is also a practical rule hiding in the founder's own account of the second failure. They knew
+at the halfway point. The signal existed, was noticed, and was overridden by narrative. The
+difference between persistence and sunk cost is not a matter of temperament or courage; it is whether
+you wrote down in advance what would count as evidence that you are wrong, at a moment when you had
+nothing invested. Persistence in the face of a hard month is a virtue. Persistence past a condition
+you set yourself is just a decision made by the version of you with the most to lose.
+
+**The lesson.** When you identify missing expertise, ask what the cheapest form of that expertise is
+before concluding you cannot afford it — nearly always it is a conversation, not a contract, and
+nearly always the reason it does not happen is that the conversation might end the project. Then set
+your kill criteria while you are still calm and cheap to disappoint: what has to be true by which
+date, and what you will do if it is not. The failure in this story was not building without an
+expert. It was carrying the doubt privately for months instead of spending a week finding out.
+*(via a founder thread on r/startups)*

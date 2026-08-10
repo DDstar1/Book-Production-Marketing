@@ -1192,3 +1192,136 @@ Sometimes the gap is an opening. Sometimes it's an answer.
 More in the book.
 
 ---
+
+## 2026-08-10
+
+**108 — The side of the market with nothing to gain yet**
+
+9 months. Café after café, door to door, rejected.
+
+He admits the pitch is weak: at this stage the app does almost nothing for the owner.
+
+Then launch day: 200+ cups sold, top 100 in the store.
+
+Now café #41 gets shown a number instead of a promise.
+
+More in the book.
+
+---
+
+**109 — The gap on the grid is not a customer**
+
+He found the whitespace in his competitor analysis: the market was fragmented. So he built the unfragmented thing.
+
+Nobody uses it.
+
+A commenter: that's not a chicken-and-egg problem, it's a nothing problem.
+
+Fragmentation describes vendors, not complaints.
+
+More in the book.
+
+---
+
+**110 — Two tests that kill every idea**
+
+"A big company already does it."
+"A cheap model does 90% of it."
+
+Between them, they kill everything a solo founder could ship.
+
+An incumbent proves demand. Nobody pays for what a prompt does.
+
+Best line: stop generating ideas. Start collecting complaints.
+
+More in the book.
+
+---
+
+**111 — Three launches, one measurement**
+
+Same product, launched three times. 20 upvotes. Then 8. Then he stopped looking.
+
+That's not three experiments. It's one measurement of who was online that day.
+
+The repeatable channel is never the launch. It's the narrow room you keep showing up in afterwards.
+
+More in the book.
+
+---
+
+**112 — They changed the price to fix the channel**
+
+Sales were low, so they put ads into games made for children with speech delay. They hate ads in kids' games.
+
+One channel: a co-founder's Instagram. 150 visitors a day, barely converting.
+
+The therapist already sitting with the family sells it in a sentence.
+
+More in the book.
+
+---
+
+**113 — The mess is the moat**
+
+He thought the hard part in healthcare AI was accuracy.
+
+It wasn't. One payer wants a portal, one a fax, one a phone call — and the portal and the rep can both be "right" at once.
+
+There is no workflow. There are hundreds.
+
+Sell the map, not the magic.
+
+More in the book.
+
+---
+
+**114 — Recurring is not the same as scalable**
+
+Two years of one-off agency projects. The fix looked obvious: turn it into a monthly retainer.
+
+But you still add revenue by adding people. Same ceiling, less lumpy.
+
+And feature retainers die around month three. Uptime retainers renew without a conversation.
+
+More in the book.
+
+---
+
+**115 — 43 signups. $0 MRR.**
+
+No ad spend. An article written about him. Strangers posting videos. Six months in.
+
+Zero revenue.
+
+He'd been adding features nobody asked for, assuming that if it got good enough, people would pay.
+
+The top of the funnel was never the problem.
+
+More in the book.
+
+---
+
+**116 — The record dies where a human retypes it**
+
+Marketing knows where every lead came from. The ERP knows every deal that closed.
+
+In between, a salesperson retypes the quote by hand, and the origin is severed right there.
+
+No dashboard fixes that. Attribution is only as good as your least automated step.
+
+More in the book.
+
+---
+
+**117 — The expert he couldn't afford**
+
+First product failed: a big assumption, never checked with anyone who knew the industry.
+
+Second product, halfway through, he saw the same gap. Couldn't afford the expert. Kept going. Failed again.
+
+Expertise felt like a salary. It was twenty phone calls.
+
+More in the book.
+
+---
