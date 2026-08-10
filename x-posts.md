@@ -1325,3 +1325,125 @@ Expertise felt like a salary. It was twenty phone calls.
 More in the book.
 
 ---
+
+## 2026-08-10 (second batch)
+
+**118 — Three months of silence, and no data**
+
+A year building AI-compliance software. Three months selling to federal contractors. Zero pilots.
+
+But that market answers in 12-18 months. Three months of quiet isn't a rejection — it's not even a measurement yet.
+
+He had fatigue, not evidence.
+
+More in the book.
+
+---
+
+**119 — "If I just had $200k for marketing"**
+
+A founder daydreamed about a Hollywood-size budget. Billboards. One big campaign.
+
+The best reply in the thread wasn't about allocation:
+
+"You are overestimating your product-market fit."
+
+A big budget buys the same wrong message a much larger audience.
+
+More in the book.
+
+---
+
+**120 — "What we have works fine"**
+
+That's not an objection. It's the honest answer to "is your business on fire?"
+
+It isn't. Companies survive inefficiency forever.
+
+Stop sorting prospects by interest. Sort them by who already spent money trying to fix it themselves.
+
+More in the book.
+
+---
+
+**121 — He tested the aggressive paywall. Free won.**
+
+Everyone told him his free plan was too generous. So he ran a real 3-way test: free, forced trial, usage cap.
+
+Free performed best.
+
+The quiet reply that explained it: check whether students can pay at all before you blame the paywall.
+
+More in the book.
+
+---
+
+**122 — The feature list is the safe answer**
+
+Founders arrive with twenty features because leaving one off feels risky.
+
+One builder's question finds the real product every time: what breaks if we ship only one screen?
+
+Then the launch died anyway — nobody had agreed who'd enter the existing customers.
+
+More in the book.
+
+---
+
+**123 — "Is my product ready for paid ads?"**
+
+He wanted a tool to test his checkout and tell him yes.
+
+But readiness isn't a QA result. It's arithmetic: a conversion you can see, a customer worth more than the click, and budget to outlast the learning period.
+
+Buttons working isn't the bar.
+
+More in the book.
+
+---
+
+**124 — He asked strangers to test his payment flow**
+
+Pay first, then get a code to activate. Please try it and report back.
+
+One honest reply: not handing over card details to QA your checkout — build a sandbox.
+
+He started the relationship at the most expensive rung of the ladder.
+
+More in the book.
+
+---
+
+**125 — Your page isn't what gets read**
+
+An audit of 50 SaaS sites: a third served blank shells to AI crawlers. Half the sections were under 40 words. Only a quarter contained a number, quote or link.
+
+Retrieval takes one passage, not your page. Write for the passage.
+
+More in the book.
+
+---
+
+**126 — 50,000 impressions. Two months. No ads.**
+
+Three blog posts a day. Real, sustained work. Other founders lined up to congratulate him.
+
+Nobody mentioned clicks. Or signups. Or revenue.
+
+The metric your dashboard hands you first is the one furthest from money.
+
+More in the book.
+
+---
+
+**127 — He built it from his boss's complaints**
+
+18, works in landscaping, tired of hearing the existing tools trashed every day. Shipped his own app.
+
+Now he's making TikToks, hoping to find a landscaping owner by accident.
+
+The first customer is the guy who was complaining.
+
+More in the book.
+
+---
