@@ -132,11 +132,14 @@ panel, but `meme_overlay.py` centres text horizontally in the panel (`2x2`) or i
 
 ## Push
 
-Commit `<pending>` — `Daily content: 10 new sections (2026-08-10 15:19)` — staging `manuscript.md`,
+Commit `1a5c757` — `Daily content: 10 new sections (2026-08-10 15:19)` — staging `manuscript.md`,
 `sources-used.md`, `x-posts.md`, `book/SaaS-Marketing-Book.txt`, the new meme, and this file.
+6 files changed, 1131 insertions, 79 deletions.
 
-Push result recorded below in a follow-up commit, since it is only knowable after the main commit
-has been pushed.
+**Push succeeded** on the first attempt: `0811e7f..1a5c757  main -> main`. No rejection, no rebase
+needed. `reddit_dump.json` and `scraped_posts/` were correctly excluded by `.gitignore` and remain on
+disk. This paragraph itself lands in a small follow-up commit, since the push result is only knowable
+after the main commit was pushed.
 
 ## Errors
 
