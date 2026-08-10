@@ -119,11 +119,13 @@ based on the 2026-08-07 run's experience with the same 768×768 grid.)
 
 ## Push
 
-Commit — `Daily content: 10 new sections (2026-08-10 11:51)` — staging `manuscript.md`,
+Commit `641d299` — `Daily content: 10 new sections (2026-08-10 11:51)` — staging `manuscript.md`,
 `sources-used.md`, `x-posts.md`, `book/SaaS-Marketing-Book.txt`, the new meme, and this file.
 
-Push result is recorded in a small follow-up commit, since it is only knowable after the main commit
-has been pushed.
+**Push succeeded** on the first attempt: `e6164e9..641d299  main -> main`. No rejection, no rebase
+needed. `reddit_dump.json` and `scraped_posts/` were correctly excluded by `.gitignore` and remain on
+disk. This paragraph itself lands in a small follow-up commit, since the push result is only knowable
+after the main commit was pushed.
 
 ## Errors
 
