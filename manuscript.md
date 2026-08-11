@@ -4817,3 +4817,447 @@ post another video. Get the first paying customer face to face, where you can wa
 being used and hear the objection in the room. Store optimisation compounds and is worth building in
 parallel — but it is how strangers find you later, not how the first five customers happen.
 *(via a founder thread on r/micro_saas)*
+
+## Entries — 2026-08-11
+
+### 128. The same loss, three times
+
+**The pain.** You go back through the deals you lost and every one of them has a story. This one
+wanted to build it internally. This one panicked. This one handed you to a colleague who was never
+going to say yes. Individually each is bad luck. You add them up, get a number, and take the number
+to a forum to ask whether it is normal.
+
+**The struggle.** A founder running an outsourced sales agency posted a careful accounting of a
+single cohort. Eight months in, twenty to thirty thousand a month in recurring revenue, everything
+sourced by cold email with no calling, selling into manufacturing at around six and a half thousand
+a month. In July the campaign produced two to six meetings a day, which was enough volume that
+operations stopped keeping up — follow-up slipped, the pipeline records slipped — so they stopped
+the campaign for most of a month to fix that side properly. Later they went back through the
+twenty-eight meetings that batch had produced. One closed. Two more looked genuinely live. Call it
+two or three out of twenty-eight. The feedback on the pitch itself had been consistently good;
+nobody said the offer was confusing. The question they brought to the thread was whether that ratio
+was bad.
+
+**What worked.** Most of the replies answered the question asked and said the ratio was fine, that
+twenty-eight is too small a sample to optimise against, and that the whole thing is meaningless
+without knowing the product. Fair enough. But two replies ignored the ratio and looked at the
+column beside it, which is where the actual information was sitting. The first pointed out that the
+losses were not scattered: "they're the same loss three times." Three of the named deaths were some
+version of deciding to build it in house. That is not four unrelated misfortunes, it is one
+objection appearing repeatedly, and an objection that consistent was almost certainly present at the
+first meeting — it simply does not get said out loud until somebody has to sign. The second reply
+was even more deflating and more useful: the campaign was paused for the better part of a month in
+the middle of this batch. A deal at that price does not sit patiently for four weeks. Some unknown
+share of those twenty-eight did not decide against the seller at all; they went quiet because
+nobody was chasing them, and that is an operations failure being read as a conversion failure. From
+there the fixes are specific rather than philosophical. Ask on the second meeting who else can veto
+this, and get them into the room before a proposal exists rather than discovering them afterwards.
+Quantify what staying put costs, because "build it in house" is what a buyer says when the cost of
+doing nothing has never been made concrete. And split the funnel into stages — meeting to
+qualified, qualified to proposal, proposal to closed — so that a single blended number stops hiding
+which stage is actually leaking.
+
+**The lesson.** A close rate is one number and it tells you almost nothing. The reasons attached to
+your losses are a list, and lists have patterns. Before you conclude you need more volume, sort the
+lost deals by stated reason and see whether the same sentence appears three times — if it does, you
+do not have a conversion problem, you have one unhandled objection that you are paying to discover
+at the end of every cycle instead of the beginning. And be honest about which losses were decisions
+and which were just silence you caused.
+*(via a founder thread on r/Entrepreneur)*
+
+### 129. Attention is free, which is exactly what makes it useless
+
+**The pain.** The market looks busy. There are company websites, industry reports, search results,
+people posting about the problem constantly. You go deeper expecting the picture to sharpen and it
+does the opposite — the loudest companies do not seem to be the ones doing the most, and a couple
+of quiet ones you almost missed seem to be where things are actually happening.
+
+**The struggle.** A founder researching a new market described exactly that disorientation and
+asked which signals people trust before committing time or money. The thread is unusually good, and
+the first thing worth noting is a complication several people raised: a growing share of what looks
+like market signal is content generated to look like market signal, which then gets read by research
+tools that produce audience predictions from it. One commenter described the loop of machine-written
+posts reinforcing machine-written posts and called it devolving to the mean. Whatever you think of
+that as a trend, it has a practical consequence — the cheaper it becomes to manufacture the
+appearance of a conversation, the less any volume-based signal is worth.
+
+**What worked.** Three replies each supplied a different instrument, and together they make a
+usable method. The first is the commitment test, stated bluntly: everyone in the thread, including
+the person asking, is in observation mode, reading the market from outside, and no amount of
+competitor ad spend or job postings tells you that someone will hand *you* money. "Interest is free
+so people give it away endlessly." So put something on the line — a pre-order, a deposit, a paid
+pilot, a signed letter of intent, anything that costs the other person more than a nod. Twenty
+direct messages asking for a small commitment will teach you in a week what six months of desk
+research will not, and if nobody will commit anything at all, that is also an answer. The second
+instrument is subtler and I have not seen it written down before: look at whether pricing has
+converged. Not what companies claim to charge, but what the going rate actually is where real
+listings and real platforms enforce it. A market where prices cluster tightly is one where
+transactions are genuinely happening and both sides have settled on what the thing is worth. Prices
+scattered all over the place alongside heavy visibility usually means hype that has not yet
+resolved into a market. The third is a filter you can apply in ten minutes: look at *who* is making
+the noise. Buyers complaining about tools they already pay for is demand. Founders, agencies and
+vendors talking to each other about the opportunity is a supply-side conversation that can run at
+full volume with no buyers in it at all.
+
+**The lesson.** Separate the market's noise from the market's behaviour, and only trust the
+behaviour. Ask whether prices have settled, whether the people talking are buyers or sellers, and
+whether anyone will commit something that costs them. A loud presence often means a company that
+needs attention; the quiet ones frequently do not have to perform because the business is already
+working. And note the practical order this implies — the commitment test is cheaper and faster than
+the research you were about to do, so run it first and let it tell you whether the research is even
+worth commissioning.
+*(via a founder thread on r/Entrepreneur)*
+
+### 130. One job advert with four jobs inside it
+
+**The pain.** A client has given you a deadline with a threat attached. Eight months to fix their
+sales or they leave. You start writing a job description for the person who will save the account,
+and by the third bullet point you have described somebody who does not exist.
+
+**The struggle.** A small agency posted this to a marketing community, asking whether to hire
+in-house, use a white-label partner, or find a freelancer. The requirement list included writing,
+design, growth strategy and account management, held by one person, aimed at fixing an e-commerce
+business's sales within the window. The replies were not gentle and they were almost entirely
+right. Several people pointed out that those are four separate professions and the search would be
+for a unicorn; one suggested two or three people is the realistic shape. Someone did the calendar
+arithmetic — hiring alone eats a month or more of the eight, before anybody learns the account.
+Somebody else noticed the contradiction inside the brief itself: the client's stated problem was
+burning cash, but the plan being discussed was expanding social presence and ad spend, so money
+would be going out faster while the leak stayed unfound. And the single sharpest reply compared the
+client's expectations with the agency's own description of itself and concluded: "you've got the
+wrong type of client."
+
+**What worked.** That last comment is the one to sit with, because it reframes a staffing question
+as a positioning question, which is what it actually is. An account that requires capabilities you
+do not have and have never sold is not an opportunity to grow into, it is a mismatch you agreed to
+because of the invoice. The tell is in the brief. If a client is asking you to do analytics and
+sales growth and you have nobody who does that, then either the work you have been delivering was
+never measured against revenue, or the client has changed what they are buying without changing who
+they are buying it from. One commenter said this in an uncomfortable way that is worth repeating:
+being surprised by the request makes them wonder whether the rest of the deliverables rest on
+judgement rather than data. There is also a concrete diagnostic buried in the thread that costs
+nothing and should precede every hiring decision. Ask whether the store gets plenty of items added
+to carts that never become purchases, because that specific shape has specific causes — including
+fraudulent ad clicks, which is a solved problem rather than a marketing one. Find the leak first.
+Whether the fix is then a part-time analyst plus a performance specialist, or a white-label partner,
+or two freelancers, is a question you can only answer once you know what is broken, and the honest
+answer to which of the three is best is that all of them work when correctly scoped and all of them
+fail when they are being used to avoid admitting the account does not fit.
+
+**The lesson.** When a brief requires a person who does not exist, the brief is wrong, not the
+labour market. Split it into the roles it actually contains and you will usually find that one or
+two of them are urgent and the rest were aspiration. Diagnose before you staff — a month spent
+finding the actual failure point is cheaper than a month spent recruiting for the wrong one, and
+you only have eight. And when a client asks you for work you have never sold, treat it as
+information about the relationship rather than a compliment about your range.
+*(via a founder thread on r/marketing)*
+
+### 131. A list of people waiting for a thing that does not exist
+
+**The pain.** The standard opening move is a landing page with a waitlist. You build it. Then you
+realise nobody has told you how anyone is supposed to find the page — search is a long game, cold
+outreach eats the hours you need for building, and the communities where your buyers actually are
+will remove you for promoting.
+
+**The struggle.** A solo founder laid out that trap precisely and asked for ideas. The product is a
+competitor intelligence subscription: pick a company, and each month you get a briefing on what it
+is doing, what it appears to be planning, and what its customers and investors are saying, all
+assembled from publicly available material. Most of the replies confirmed the walls rather than
+finding a way through — post here (you will be banned), search plus cold outreach plus your own
+professional network, which is the list they had already written, with the observation that this is
+why early founders work sixteen-hour days. Another founder replied to say they were stuck in the
+same place and had discovered that this community, too, is crowded and restricted.
+
+**What worked.** One reply refused the question and was worth all the others combined. Skip the
+waitlist entirely and do the thing by hand. Competitor intelligence is one of the rare products you
+can deliver before you have built anything: choose ten companies, write the briefing yourself, send
+it to someone who competes with them, and ask whether it was worth reading. The reasoning attached
+was the part that generalises. "A list of emails waiting on a future product tells you close to
+nothing" — whereas one person who read your report and asked when the next one is coming has told
+you the product works, the format is right, the frequency matters to them, and that they are the
+buyer. A waitlist converts a hard question into an easy one and then measures the easy one. Signing
+up costs nothing, so the number that comes back is a measure of curiosity and of how well the page
+was written, and it can be large while the underlying demand is zero. It also postpones every
+genuinely useful discovery until after you have finished building, which is the most expensive
+possible moment to find out that the briefing should have been weekly, or should have covered
+suppliers rather than competitors, or that people wanted the raw sources more than the synthesis.
+The manual version inverts all of that: it is slow, it does not scale, and it answers the real
+questions immediately. And it dissolves the distribution problem that started the thread, because
+you no longer need a channel that delivers strangers to a page — you need ten specific companies
+and one interested reader, which is a research task you can complete this week.
+
+**The lesson.** Before you market a waitlist, ask whether you can simply deliver the first version
+by hand to a handful of people. If the answer is yes, the waitlist is a way of avoiding the
+conversation, not a route to it. Judge early demand by what people do after they have received
+something, not by what they typed into a form before anything existed. One reader who asks for the
+next issue is worth more than a thousand addresses, and unlike the thousand addresses, you can get
+that reader on Tuesday.
+*(via a founder thread on r/Entrepreneur)*
+
+### 132. The pain was already worded for you
+
+**The pain.** You are inside an industry, watching the same money leak out of it every month in a
+way nobody quite names, because it never arrives as a complaint. People simply stop showing up.
+
+**The struggle.** A founder who owns a martial arts school described this with unusual precision.
+Students do not cancel; they drift. A child misses one class, then a second, then quietly does not
+rebook for the next term, and by the time the empty space on the mat registers, they left mentally
+weeks ago. The numbers they attached make the case better than any argument: roughly three quarters
+of beginners never reach the next belt, most departures happen inside the first ninety days, and a
+school with a hundred students paying a hundred and fifty a month that loses five of them a month is
+losing around nine thousand a year — which they point out is not a rounding error but a second
+instructor's salary walking out of the door in silence. So they built a tool that flags which
+students are slipping before they quit. The post was mostly about what building inside your own
+industry changed, and it was honest about the downside: a small total market, incumbent billing
+tools every school already pays for, and open uncertainty about whether doing the one thing those
+tools do not do is a wedge or a ceiling.
+
+**What worked.** Three observations from that post are worth taking whole. First, the pain arrived
+pre-worded — school owners already say students "just stopped showing up" and use the word drifting
+unprompted, so there was no pitch to invent, only language to repeat back. That is a marketing
+advantage most founders spend a year and a lot of copywriting trying to manufacture. Second, the
+person who pays is not the person who decides: the owner buys, but whether a child stays is settled
+by a parent, and building for the buyer alone would have produced the wrong feature set entirely.
+Third, and most useful, the constraint is the moat. You cannot ask someone teaching on the mat six
+days a week to open a dashboard and read reports; anything that takes more than a couple of seconds
+to record simply will not be recorded. That single limit shapes the product more than any competitor
+does — and it is exactly the sort of limit a horizontal tool built by people who have never stood on
+a mat will not respect. Then a commenter supplied the test that answers the founder's own open
+question, and it is a good one for anyone in a narrow vertical. The small market is rarely what
+kills these companies. The ceiling appears when the thing the incumbents do not do turns out to be a
+feature request rather than a different shape of product. So ask directly: could the incumbent ship
+your capability as one more tab, without changing how their product fundamentally works? If yes,
+the market size was never the risk. If no — if honouring the two-second constraint means reports
+cannot exist anywhere in your data model — then you are not a missing feature, you are a different
+thing, and that is defensible.
+
+**The lesson.** Building where you already work hands you three assets at once: the customer's own
+vocabulary, knowledge of who actually influences the decision, and the operational constraints that
+outsiders design straight past. Use all three deliberately rather than treating them as background.
+And when you go narrow, stop worrying about the size of the market and start pressure-testing the
+shape of the product — the question that decides your future is not how many schools exist, it is
+whether your advantage survives being copied as a tab.
+*(via a founder thread on r/startups)*
+
+### 133. The first three were free and two of them paid twice
+
+**The pain.** You have read the standard list. Publish constantly, go viral, automate, send
+hundreds of emails, build a waiting list. You do it for months, it keeps you extremely busy, and
+you have nothing you can point at.
+
+**The struggle.** A founder with experience across a business-to-business software company, a
+professional services business, and now advising other founders wrote up why they think that list
+sends people the wrong way — and the diagnosis is sharper than the usual "do things that don't
+scale." Early on, three things are unvalidated simultaneously: who your customer is, what you are
+offering them, and how you describe it. Content and cold email are one-way channels. When they do
+not land, the failure gives you no way to tell which of those three was wrong, so you tune all of
+them at once, forever, on no information. That is the real reason those tactics feel like a void —
+not that they never work, but that they are the wrong instrument while your basic assumptions are
+still unproven.
+
+**What worked.** Their sequence had three steps, and the second one is the interesting one. First,
+form an explicit hypothesis about the problem and about exactly who has it, then talk to as many
+people who fit that description as possible — and this was done without cold outreach at all. They
+went to people already in their network who matched the profile, and for everyone else they used one
+question, asked repeatedly: do you know anyone who fits this description, and would you introduce
+me? That produced the first ten conversations quickly. Second, the offer. When launching the
+consulting business they went back to the people they had spoken with, named a real price of a
+thousand euros, and said the first three could have it free in exchange for a case study and honest
+feedback. Five replied, three were chosen, a fourth paid a reduced rate, and the fifth disappeared
+at the end. Two of the three free ones later sent referrals that became paying work. The framing
+they use for this matters: "it's not free work, you are getting credibility and proof" — the price
+is stated and held, and what is exchanged is a discount for evidence, not a cheap product. That
+distinction is what stops a free tier from repricing you permanently downward. Third, once the proof
+exists, the constraint changes. Early on your problem is not only that nobody has heard of you but
+that nobody has any reason to believe you, and a specific account of what you did for a named
+similar business collapses that scepticism faster than any amount of copy. After that the work is
+genuinely simple, if not easy: keep appearing in front of more people who match the profile from
+step one, carrying the proof from step two.
+
+**The lesson.** Do not use one-way channels to test assumptions, because they cannot tell you which
+assumption failed. Have conversations while your offer and your customer are still in question, and
+get to those conversations through introductions rather than strangers — asking your network who
+they know is faster than any list you can buy. When you need the first customers, keep your price
+and trade it for proof, explicitly and in writing. Content and campaigns are not wrong; they are
+just what you do after you know who is listening and why they believe you.
+*(via a founder thread on r/Entrepreneur)*
+
+### 134. You told them what it cost you to make
+
+**The pain.** Someone larger than you wants to carry your product. This is the moment you have been
+working towards. Then the numbers arrive and the deal is worth less than picking up extra shifts,
+and you cannot tell whether you are being cheated or simply do not understand how this works.
+
+**The struggle.** A founder who owns several self-service car washes and does electronics and
+software work on the side built a timer for that industry. Competing units sell for between two
+hundred and seventy-five and three hundred and fifty; theirs is listed at two hundred and
+twenty-five and, by their account, is not comparable in quality — "It's like comparing a Nintendo to
+a Nintendo 64." A manufacturer approached them wanting to private label it and hold exclusive rights
+to sell through their distributor network. The founder offered a hundred and fifty per unit. The
+manufacturer held firm at a hundred and twenty-five, targeting a retail price of three hundred and
+thirty. Parts cost fifty-six, plus assembly and testing time. Two things about how this was
+negotiated are stated plainly in the post: they told the other side what the parts cost, and they
+named their own number first, immediately, because they dislike haggling and do not consider
+themselves a salesperson.
+
+**What worked.** The instinct to walk away is correct, and the reasoning behind it is worth making
+explicit because it generalises far beyond hardware. At a hundred and twenty-five against
+fifty-six in parts, the margin has to absorb assembly, testing, packaging, warranty, and every hour
+of the founder's own labour, under exclusivity — which means simultaneously giving up the direct
+channel where they currently keep the difference between fifty-six and two hundred and twenty-five.
+That is not a distribution deal, it is becoming a contract manufacturer for someone else's brand at
+a wage, and their own summary of it is exact: they would be better off taking more shifts. The
+negotiation errors are equally instructive and both are extremely common among technical founders.
+Disclosing input cost reframes the entire conversation around your costs rather than the buyer's
+value, and once the other side knows the parts are fifty-six, every number you name is measured
+against that instead of against the three hundred and thirty they intend to charge. Opening with
+your own price, before understanding their volumes, their exclusivity requirements or their
+timeline, throws away everything you might have learned by asking first. And the deeper point sits
+underneath both: pricing a channel is not the same problem as pricing a product. What the
+manufacturer is really buying is access to distributors, and the right question is what that access
+is worth in units per year and over how long — because exclusivity without a volume commitment is a
+one-sided option, and any version of this deal worth signing has minimum quantities and a term in
+it. The founder's stated reluctance to continue even at their own asking price is also sound
+judgement rather than sulking. A partner who anchors that hard at the opening is telling you what
+every later conversation about warranty claims and revisions will feel like.
+
+**The lesson.** Selling through someone else's channel is a different product with different
+economics, and you have to price the access rather than the object. Never volunteer your input
+costs, never name your number until you know their volume and terms, and never grant exclusivity
+without a minimum commitment attached. The most valuable thing in this whole episode is the number
+the founder now knows: their partner intends to retail it at three hundred and thirty. That is a
+free, verified read on what the market will bear, and it says the direct price of two hundred and
+twenty-five is probably too low.
+*(via a founder thread on r/Entrepreneur)*
+
+### 135. Being good at a channel is not the same as the channel working
+
+**The pain.** You have customers. You can explain exactly how each one arrived. And when somebody
+asks whether you have found a repeatable way into the market, you cannot honestly say yes, because
+what you have is two stories rather than a process.
+
+**The struggle.** A founder posted this cleanly. Two customers: one from an industry event, one
+referred by a friend. If they keep the first, that customer has already offered introductions to
+similar businesses. Events are working in the sense that they produce customers, but the arithmetic
+does not — around eight thousand spent on one event to acquire two customers, which costs more than
+those customers currently bring in. Their question was what an early investor would accept as
+evidence of a repeatable route to market. The thread was mostly unkind, largely because of the
+opening line about funding stages, which is a shame, because the question underneath is a good one
+and one reply answered it properly.
+
+**What worked.** That reply reframed the whole thing: most founders answer this with a number, and
+it is the wrong number. Landing forty customers through cold email is not repeatability — "it's you
+being good at cold email for 40 customers." The distinction is between an outcome you produced and a
+mechanism that will produce more without you. That is the useful test, and it makes the founder's
+own situation legible. Two customers from two different routes is not one channel with a sample of
+two; it is two separate mechanisms with a sample of one each, which is why nothing about it feels
+repeatable — it is not. The event channel has a real number attached and the number is bad, but it
+is bad in a way that is diagnosable rather than fatal: eight thousand for two customers only fails
+because of what those customers are currently worth, so the questions are how long they stay, what
+they expand to, and whether the same event with a specific pre-booked meeting list produces six
+instead of two. The referral route is the more interesting one and it is being undervalued in the
+post. A customer who has offered to introduce you to similar businesses is not a nice gesture, it is
+the beginning of a mechanism, and it becomes evidence the moment you can describe it as a process
+somebody else could run — which introductions were asked for, at what point in the relationship, how
+many converted. That is what turns "our customer likes us" into a channel. And there is an ordering
+mistake worth naming: the founder is trying to prove a channel to investors before it has been made
+to work for the business, which is backwards. The economics do not have to be good yet, but you must
+be able to say what would make them good.
+
+**The lesson.** A repeatable channel is a described mechanism with a sample large enough to have a
+rate, not a count of customers who arrived. Write yours down as steps somebody else could follow,
+attach a conversion rate and a cost to each step, and you will immediately see whether you have one
+channel, several accidents, or a skill you happen to possess. Until then you have not found
+repeatability, and the honest version of that — here is the mechanism, here is what it costs, here
+is the part I have not yet proven — is far more convincing than a number presented as though it were
+a process.
+*(via a founder thread on r/startups)*
+
+### 136. Eight channels is a quarter with nothing learned
+
+**The pain.** You have written the list. Professional network outreach, contact-finding tools,
+sending platforms, paid social, search, downloadable guides, cold email. It is comprehensive, it is
+accurate, and it has left you completely unable to start.
+
+**The struggle.** A founder new to business-to-business services posted exactly that list — eight or
+nine options, each with named tools — and said they had some traction but no idea how to generate
+sales consistently. They had already read that focusing on two or three channels beats trying
+everything, and were asking which two or three. It is a reasonable question and the thread gave it
+an unreasonably good set of answers, because almost nobody answered it directly.
+
+**What worked.** The first reply was a question back, and it is the one that should always be asked
+first: how did the customers you already have actually find you? A business with traction already
+has a channel; it is simply not being counted as one because it happened without a tool attached.
+The second reply made that concrete from experience — a lot of cold email that went nowhere, while
+every piece of services work actually won came from somebody who had already seen something the
+founder had finished. Which points at the cheapest available action: go back to your existing
+customers and ask who else has the same problem. The third reply supplied a method with numbers. Do
+not build a list of thousands; pick twenty companies you can explain in one sentence why they would
+want this. Find the specific human who owns that problem rather than a general company address.
+Verify each contact is real and still in that role before writing anything, because in their
+experience dead and wrong contacts wrecked early campaigns far more than bad copy did. Then send
+twenty messages whose first line is about the recipient rather than the sender: "20 good ones beats
+2000 blasted." You learn more from who replies than from any open rate. The fourth reply made the
+structural point about the list itself — those eight items are eight different motions, and running
+three at once is how a quarter disappears with nothing learned. Pick the single channel where your
+buyer already answers and commit to it for six to eight weeks before judging it. And it added the
+operational detail that decides whether cold email works at all, which no tool comparison will tell
+you: send from a separate domain, never your main one, because a burned primary domain will put your
+invoices in the spam folder along with everything else. Two or three inboxes on it, warmed for about
+a month before real volume, addresses verified the same week you send. Skip that and the choice of
+sending platform is irrelevant, because you will be in spam regardless.
+
+**The lesson.** A long list of channels is not a strategy problem, it is a symptom of not having
+looked at what already worked. Start with how your existing customers found you and do more of
+that on purpose. Pick one channel, run it for six to eight weeks at a scale small enough that every
+message can be good, and judge it on replies from named people rather than on aggregate rates. And
+whatever you choose, get the boring infrastructure right first — the founders who conclude that
+cold email is dead are frequently the ones who never learned that it lives or dies on domain
+hygiene.
+*(via a founder thread on r/startups)*
+
+### 137. The decisions that were free to change
+
+**The pain.** You have spent three weeks on something that felt existential — the name, the logo,
+the pricing tiers — and you cannot honestly say the business is any further forward than when you
+started.
+
+**The struggle.** Someone asked a simple question in a founder community: what is the one decision
+you overthought that turned out not to matter, and what did you barely consider that turned out to
+be important? The answers are more useful than most structured advice, because they are all
+retrospective and nobody was selling anything. The most upvoted was branding — name, logo, identity
+— which matters, but matters very little in the first months, and which the commenter eventually
+redid entirely two years in, once they finally understood what the company actually was. A useful
+disagreement followed: logo and visual identity are cheap to change later, but a name is sticky
+because it is what any awareness you have accumulated is attached to, so it deserves some thought
+even if the rest does not. Another founder said the decision they overthought was starting at all —
+continually finding one more thing to resolve first. A third named the pricing page: weeks spent on
+tiers, and the first ten customers all landed on "a number I said out loud on a call" anyway. A
+fourth described agonising over scope on a data product, worried that launching with ten fields
+instead of thirty would look unfinished, shipping the thin version out of frustration rather than
+conviction, and discovering that the ten were the ones people used while every field they had
+stressed about drew no engagement for months.
+
+**What worked.** There is a single test running underneath all four answers, and it is worth
+extracting because it turns this into something you can use on Monday rather than a set of
+anecdotes. Ask what it will cost to change this decision after you have customers. Logos, tier
+structures and feature scope are all cheap to revise later — and, more importantly, all of them get
+*better* information from customers than from you, so deliberating in advance is not just slow, it
+is answering with the worst available data. The genuinely expensive-to-reverse decisions are a
+small set: your name once awareness accrues to it, your legal and equity structure, and any
+commitment that binds you contractually. That is roughly where the care belongs. The pricing example
+deserves particular attention from anyone currently rebuilding a pricing page, because it points at
+something structural: price is discovered in conversation with buyers, so the weeks spent designing
+tiers in advance were spent guessing at an answer that the first ten sales conversations were going
+to supply for free. The scope story is the same shape — the founder was guessing at what looked
+complete, and five conversations would have replaced the guess. Both are avoidance dressed as
+diligence, and the tell is consistent: the deliberation is about how the product will be perceived,
+and it is being conducted entirely without the people who will perceive it.
+
+**The lesson.** Sort your open decisions by what reversing them will cost once you have customers,
+and spend your deliberation only on the expensive end. For everything else, ship a version and let
+buyers correct it — they will do it faster and more accurately than you will. And when you notice
+yourself in week three of a decision, check whether the question you are struggling with is one that
+five conversations would settle, because a decision you can only make by guessing is one you should
+be making out loud with somebody who might pay you.
+*(via a founder thread on r/startups)*

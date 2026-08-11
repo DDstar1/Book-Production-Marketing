@@ -1447,3 +1447,126 @@ The first customer is the guy who was complaining.
 More in the book.
 
 ---
+
+## 2026-08-11
+
+**128 — 2 closes out of 28. Is that bad?**
+
+Wrong question. Three of the losses were the same sentence: "we'll build it in house."
+
+That's not four bad breaks. That's one objection you're paying to discover at the end of every cycle.
+
+Sort your losses by reason, not into a ratio.
+
+More in the book.
+
+---
+
+**129 — The market looked busy. That was the problem.**
+
+Loud companies doing little. Quiet ones doing everything.
+
+Interest is free, so people hand it out endlessly.
+
+Ask for a deposit, a pilot, a signed anything. Fake demand evaporates the second it costs someone something.
+
+More in the book.
+
+---
+
+**130 — Writing, design, growth strategy, account management. One hire. Eight months.**
+
+That person doesn't exist, and recruiting eats a month of your eight.
+
+The brief wasn't a staffing problem. It was a client asking for work the agency had never sold.
+
+Diagnose the leak before you hire for it.
+
+More in the book.
+
+---
+
+**131 — Nobody can find your waitlist page**
+
+Good. Skip it.
+
+He was building competitor intel. He could have written ten briefings by hand this week and sent them out.
+
+An email address costs nothing to give. One reader asking when the next issue lands tells you everything.
+
+More in the book.
+
+---
+
+**132 — He owns a martial arts school. Students don't quit, they drift.**
+
+100 students, $150/mo, lose 5 a month = $9k a year gone quietly.
+
+He built the tool. The advantage wasn't the code — owners already say "they just stopped showing up."
+
+The pitch was written for him.
+
+More in the book.
+
+---
+
+**133 — Everyone told him to publish, automate, blast emails**
+
+He asked his network one question instead: do you know anyone who fits this?
+
+Ten conversations. Then a €1,000 service, free to the first three, in exchange for a case study.
+
+Two of those free three sent him paying referrals.
+
+More in the book.
+
+---
+
+**134 — He told the manufacturer his parts cost $56**
+
+Then named $150. They countered $125. They plan to retail it at $330.
+
+Once they know your cost, every number gets measured against it instead of against their price.
+
+You're not pricing the product. You're pricing their channel.
+
+More in the book.
+
+---
+
+**135 — "Do you have a repeatable channel?"**
+
+Two customers. One from an event, one from a friend. $8k spent to get them.
+
+That's not one channel with a sample of two. It's two mechanisms with a sample of one.
+
+40 sales from cold email isn't repeatability either. It's you being good at cold email.
+
+More in the book.
+
+---
+
+**136 — He listed eight acquisition channels and froze**
+
+Best reply was a question: how did the customers you already have actually find you?
+
+He had traction. He just wasn't counting the thing that produced it, because no tool was attached to it.
+
+20 good emails beat 2,000 blasted.
+
+More in the book.
+
+---
+
+**137 — Three weeks on the pricing page**
+
+The first ten customers all landed on a number he said out loud on a call.
+
+Tiers, logos, scope — all cheap to change, and all answered better by buyers than by you.
+
+If five conversations would settle it, stop deliberating and go have them.
+
+More in the book.
+
+---
+
