@@ -156,4 +156,5 @@ Staged: `manuscript.md`, `sources-used.md`, `x-posts.md`, `book/SaaS-Marketing-B
 `reddit_dump.json` and `scraped_posts/` remain gitignored, uncommitted, and left in place on disk as
 the growing raw archive (636 post files now).
 
-**Push result:** recorded in a follow-up commit below.
+**Push result:** ✅ Succeeded on the first attempt, no rebase needed —
+`2575841..16cc46c  main -> main`. The remote had not moved since orientation.
