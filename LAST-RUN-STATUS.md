@@ -154,6 +154,10 @@ founder's situation — no film dialogue is reproduced. Output verified visually
 `git add -A` staged the four modified content files plus the new meme. `reddit_dump.json` and
 `scraped_posts/` were correctly excluded by `.gitignore` and remain on disk as the raw archive.
 
-Commit: `Daily content: 10 new sections (2026-08-13 15:26)`
+Commit: `Daily content: 10 new sections (2026-08-13 15:26)` — `26176ea`, 6 files changed,
+1,259 insertions, 109 deletions. All 109 deletions are the intentional overwrite of this file; the
+four content files were verified as **append-only** (`manuscript.md` +503/-0,
+`book/SaaS-Marketing-Book.txt` +503/-0, `sources-used.md` +25/-0, `x-posts.md` +120/-0).
 
-Push result is recorded in the follow-up commit to this file.
+**Push: ✅ succeeded on the first attempt.** `1e51e7a..26176ea main -> main`; no rejection, so the
+pull-rebase retry path was not needed. `main` is level with `origin/main`.
