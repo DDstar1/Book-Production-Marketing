@@ -5261,3 +5261,506 @@ yourself in week three of a decision, check whether the question you are struggl
 five conversations would settle, because a decision you can only make by guessing is one you should
 be making out loud with somebody who might pay you.
 *(via a founder thread on r/startups)*
+
+## Entries — 2026-08-13
+
+### 138. Three years of people liking it
+
+**The pain.** Everybody you show it to says something warm. Nobody has ever said no. And after three
+years there is not a single signature, the bank balance is falling, and the thing you cannot work
+out is not what you did wrong but what you are supposed to do at all.
+
+**The struggle.** A bootstrapped founder posted this twice on the same day, which tells you
+something about the state they were in. They have a business intelligence product. Three years, no
+contract. They have had conversations at worker level, at chief-information-security-officer level,
+and with peers in the field. The response is uniform: people like it, nobody has negative feedback,
+and every conversation produces a few more feature requests that must be satisfied before purchase
+— and then, once satisfied, the target moves again. Their own framing is the honest one: this is
+less "what am I doing wrong" and more "I clearly don't know how to do this part." Elsewhere in the
+thread they add the detail that makes it worse. They lost roughly six months of development to
+feedback from one company, whose compliance team appeared at the meeting; the same shape repeated at
+another company, where a network architecture team was produced instead. Both times, they now
+suspect, executives were being helpful by asking for a solution to their own use case rather than
+buying the one in front of them.
+
+**What worked.** The thread supplied one question and one diagnosis, and between them they cover the
+whole problem. The question, asked kindly, was how many times in three years the founder had put a
+number in front of someone and asked them to sign. Nobody had made them say no properly, so what had
+accumulated was not a body of evidence but a supply of encouragement — "collecting encouragement
+instead of information." That is the mechanism behind the whole three years. A conversation where
+nothing is asked for cannot fail, which is exactly why it teaches you nothing, and a founder
+frightened of the answer can hold hundreds of them and call it market research. The diagnosis
+underneath was that the people in these rooms are users rather than buyers. A user enjoys a demo. A
+buyer has a budget line and a problem someone above them is asking about this quarter. Which
+reframes the feature requests entirely: they are almost never the blocker, and the proof is already
+in the founder's own account — the requests were met and the target moved, because "not yet" is
+politer than "no." Several commenters converged on the same missing ingredient from different
+directions. One put it as consequence: for a deal to exist, someone in that conversation has to be
+worse off if nothing changes, and nobody currently is. Another put it as organisational reality —
+business intelligence touches everything, so it requires a change to how a company works, which
+requires a champion who controls a budget rather than an admirer who controls nothing. The founder
+supplied the last piece themselves without quite registering it: large companies told them they want
+mature software, not something that may need an iteration, and the value they are selling is risk
+management, which many firms ignore entirely and the rest treat as a regulatory checkbox. That is
+not a sales problem. That is a product being sold into a category where the buyer feels no pain and
+the personal cost of signing for a new vendor is real. Two concrete moves were offered. Run a small
+paid pilot, because a small amount of money converts polite interest into an actual decision and
+does it in weeks rather than quarters. And ask every friendly executive the only two questions that
+matter: who else has to say yes, and what breaks for them personally if they do nothing this
+quarter. If the second has no answer, there is no deal there, however much they like you.
+
+**The lesson.** Enthusiasm is not evidence, and a conversation that cannot end in rejection is not
+research. Ask for the order, name a price, and let people decline — the no arrives with a reason
+attached, which is the thing you are actually short of. Then check who is in the room: if nobody
+present owns a budget and nobody is personally worse off for doing nothing, you are being managed
+politely rather than sold to, and no number of delivered features will change that. When the target
+moves right after you hit it, stop building and start looking for the person who is bleeding.
+*(via a founder thread on r/startups)*
+
+### 139. Everything you fixed was upstream of the problem
+
+**The pain.** The campaign worked. The leads tripled. And somehow the business feels worse than it
+did before — you are answering the same basic questions all day, things are slipping, and the growth
+you spent months chasing has made your week unmanageable.
+
+**The struggle.** A founder who works with small businesses laid out the pattern they kept running
+into. Their instinct, for a long time, was that the obvious problem was always customer acquisition:
+more leads, more calls, more enquiries. What they observed instead was that adding customers rarely
+creates problems — it exposes ones that were already there and were being hidden by low volume. If
+follow-ups are inconsistent, more leads simply means more things to chase badly. If onboarding is
+undefined, more customers means the same questions arriving more often. If nobody owns the next
+step, every step routes to the owner. They gave one concrete case: a local service business went
+from roughly twenty leads a month to more than sixty after changes to their ads and their Google
+listing. Same team, same owner. Follow-ups started slipping, onboarding calls were delayed, and the
+owner spent the day answering emails asking what happens next. The marketing had worked exactly as
+intended, and the business was in a worse position for it.
+
+**What worked.** The reframing the founder landed on is a single substituted question — not "how do
+we get more business" but whether the current process can absorb more business without everything
+returning to the owner. The thread then supplied the specifics that turn that into work. The most
+useful came from someone who had chased new logos while quietly losing existing ones, and who
+started calling cancelled customers personally to ask one question: what did they expect that did
+not happen? Two of the first three said onboarding had confused them and they never got a first
+win, so they drifted off. Fixing that one flow reduced churn noticeably, and by their account cost
+less than any acquisition push. Their conclusion is the sharpest thing in the thread: the first
+thirty days after somebody says yes decide everything. A second commenter explained why follow-up
+in particular is the piece that fails, and the reasoning generalises to any process you own.
+Delivery has a date attached and a customer waiting, so it is defended; follow-up has no deadline
+and no owner unless you assign one, so it never fails loudly — it just slows down until it is not
+happening, and no one ever decided that. A third gave the fix, which is unglamorous and works: write
+out what should happen after a yes, put a named person on each step, and add a default action that
+fires if nothing has happened within a day. Two more comments are worth carrying. One noted that the
+same amplification applies to money — more customers can make revenue look healthier while
+multiplying bad unit economics underneath. And one dissented usefully: "fix your process before you
+grow" is also how businesses spend six months building systems for volume that never arrives. Both
+are right, and the resolution is sequencing rather than choosing. You do not build for imagined
+scale; you fix the specific thing that broke at the volume you actually reached.
+
+**The lesson.** Marketing amplifies whatever your business already does, including the parts that
+are broken, so a channel that works will find your weakest process faster than any audit. Before
+spending more on the top of the funnel, look at what happens in the thirty days after someone says
+yes, and check each step for a named owner and a deadline. And when customers leave, call them and
+ask what they expected that did not happen — it is the cheapest research available, and the answers
+usually describe a fixable moment in the first week rather than a missing feature.
+*(via a founder thread on r/Entrepreneur)*
+
+### 140. Twenty to forty-four, and no idea which thing did it
+
+**The pain.** The numbers are finally moving, which is a relief after months of nothing. Then
+someone asks the obvious question — which channel is producing this? — and you realise you cannot
+answer, so you cannot do more of whatever is working.
+
+**The struggle.** A solo developer shared a genuinely modest, genuinely useful update. They built a
+productivity app in February with journaling, habit tracking, routines and to-dos. Marketing on
+Reddit and X did not work. Blogging did not work either. Life intervened and the project sat idle.
+Recently they picked it back up and went at distribution from several directions at once, and went
+from twenty users the previous month to forty-four within about three weeks. Their own assessment is
+appropriately unglamorous — the number is not impressive, but it is finally moving.
+
+**What worked.** Four things ran in parallel, and the specifics matter more than the total. The
+first was the app store listing, which is the piece most often left alone because it does not feel
+like marketing. The title had been nothing but the app's name. They researched what better-performing
+apps in the category do, and found most of them append a plain description to the title — the
+category words a person would actually type. They rewrote the title that way, rewrote the
+description around researched keywords for the niche, and replaced the listing images. One commenter
+named exactly why this is the highest-leverage item on the list: "nobody searches for just an app
+name unless they already know it." A store listing keyed to your brand name is only discoverable by
+people you already reached through some other channel, which means every other marketing effort was
+being taxed by it. The second was TikTok — about twenty short videos, no viral hit, the best around
+seven hundred views, and a trickle of people arriving from it. Asked for detail, they described the
+format: two to three videos a day, roughly twenty seconds, opening with a short reaction clip framed
+as a moment of discovery, then a screen demo. Instagram, run alongside, produced nothing. The third
+was Threads, which they found more receptive than X specifically because it is less saturated and
+people there will still follow a link. The fourth was the blog, restarted and slowly picking up. And
+then the honest gap, surfaced by a commenter asking how they knew which channel was responsible:
+they do not. There is no attribution beyond what the Play Console and Search Console infer, and they
+said plainly that they are assuming. Their reason is not laziness and is worth respecting — all
+available effort went into standing the channels up, and only now that they are running is there
+room to think about measurement. That is a real trade-off rather than a mistake, but it has a cost
+that arrives on a schedule: with four channels live and one aggregate number, the next decision
+about where to spend time has to be made blind. Note also what the listing rewrite implies about
+the earlier failures. Reddit, X and blogging were tried and abandoned as ineffective back when the
+store page they pointed at was not findable and did not explain itself. Some of those channels may
+have been fine.
+
+**The lesson.** Fix the page that converts before you spend months driving people to it, because a
+store listing or a landing page keyed to your own brand name quietly taxes every other channel you
+run. When you cannot afford full attribution, you can still afford sequencing — stagger your
+channels, or at minimum write down what you changed and when, so the graph has something to be
+compared against. And treat a doubling from twenty to forty-four as what it is: not a rounding error
+and not a breakthrough, but the first evidence that something in the stack is load-bearing, which is
+worth identifying before you add a fifth thing.
+*(via a founder thread on r/micro_saas)*
+
+### 141. It was not an ad, so people watched it
+
+**The pain.** You have no audience and no budget for ads, so you do the obvious thing and make
+videos showing your product. You post them. They are competent, they are clear, and nobody watches
+them, because a demo is an advertisement and people are on that app specifically to avoid
+advertisements.
+
+**The struggle.** A founder described exactly this arc. They wanted attention for their app, had no
+following, and did not want to buy it. So they started posting short videos, and at first these were
+straightforwardly what you would expect — normal videos showing the app. Their summary of the result
+is two words long and familiar to anyone who has tried it: nobody cared. The failure is not a
+production-quality failure, which is the trap. Making the demo prettier would not have fixed it,
+because the problem was that the video announced itself as marketing in the first second and the
+viewer's thumb was already moving.
+
+**What worked.** The change was structural rather than cosmetic. They collected a large number of
+short reaction clips — bought footage, and they say so explicitly, noting the person in the videos
+is not them — and assembled videos that open with a reaction interesting enough to interrupt a
+scroll, then bring the app in afterwards. The product is still there, but it arrives as part of
+something a person was already watching rather than as the reason the video exists. Views moved from
+a few hundred to videos hitting ten thousand, fifty thousand, and past a hundred thousand. The
+detail that keeps this from being a vanity story is that the traffic converted: people arriving from
+those videos signed up and used the app. And the second structural decision is the one most founders
+get wrong. Rather than trying to produce one excellent video, they made many variations of the
+format that worked — different reactions, different hooks, different features shown, different
+edits. Plenty failed. The point is that the unit of work became the variation rather than the
+artefact, which is what lets a channel like this compound: you are not trying to guess which video
+will land, you are running enough attempts that the platform tells you. Their own summary of the
+lesson is the clearest line in the post: "you don't necessarily need to make an ad to advertise your
+app." Two cautions belong alongside this, because the post is honest enough to invite them. Bought
+reaction footage of a person who is not you is a real disclosure question, and the founder handled it
+by saying so plainly in the post; carrying the same disclosure onto the content itself is the
+version that survives scrutiny. And a format that depends on a hook someone else performs is
+borrowed rather than owned — it works until the format saturates, which is why the variation habit
+matters more than the specific template. It is also worth putting this next to the previous story,
+where another founder reported the same tactic at a much smaller scale, roughly seven hundred views
+at best. Same channel, same format family, two orders of magnitude apart in outcome. The difference
+is not luck alone; it is volume of attempts and the quality of the first two seconds.
+
+**The lesson.** On a feed, you are not competing with other advertisements, you are competing with
+entertainment, and a product demo loses that competition by default. Lead with something worth
+watching and let the product arrive inside it. Then stop polishing single pieces: find the format
+that works and produce variations of it, because the channel rewards attempts rather than
+craftsmanship. And if the thing carrying your hook is not yours — bought footage, a borrowed
+format, someone else's face — say so, and start building the version that is.
+*(via a founder thread on r/micro_saas)*
+
+### 142. The rehearsal was worse than the conversation
+
+**The pain.** The product is built. The next step is to be visible — to post, to pitch, to put your
+name against it in public — and you have been finding other work to do for weeks, because the
+building was hard in a way you knew how to be good at and this is hard in a way that feels like
+exposure.
+
+**The struggle.** A founder asked the question directly: how do people get over the fear of
+judgement that comes with putting yourself and your startup in public view, given that so many
+builders reach the selling stage and stall there because it is a completely different kind of
+challenge. It is a soft question that usually attracts soft answers, and the thread mostly avoided
+them. Another commenter described being in the middle of exactly this — far more time spent building
+than being seen, and a dawning recognition that the thing has no chance unless they get comfortable
+talking to people.
+
+**What worked.** Three answers in the thread do real work, and they operate at different levels.
+The first is empirical and slightly deflating. Someone described staring at a post button for three
+hours, convinced their landing page would be torn apart, publishing it, and then getting nothing at
+all for two days. The fear assumes an audience that does not exist yet. Early on you are not being
+judged harshly; you are not being noticed, and that is a more useful thing to know because it
+reframes the first hundred posts as practice rather than as a verdict. A commenter who had gone
+through it with LinkedIn arrived at the same place from the other direction: the fear of the idea is
+considerably worse than the act, and the discovery on the far side is that nobody cares much either
+way. The second answer is a method rather than a sentiment, and it is the most portable thing in the
+thread. Notice that the fear mostly appears when you are alone with your own head, not while you are
+actually talking to someone — the rehearsal is harsher than any real conversation ends up being. So
+adopt a rule: you are not allowed to worry about a pitch until you have said it out loud to at least
+one real person. That cuts the loop, because anxiety runs on imagined scenarios and starves on
+actual data, and the actual data is usually boring — people are busy thinking about themselves. The
+third answer attacks the premise. The first months of a startup should be spent trying to kill the
+business, and one of the things you should be actively attempting is "trying to prove that nobody
+will buy it." Whatever you have built is not a delicate thing growing out of your ego that requires
+protection; it is a proposition that probably does not work, and should be treated as unwanted and
+unsellable until proven otherwise. That inverts the emotional load of every sales conversation. If
+you are seeking validation, each call is a referendum on you and rejection is a wound. If you are
+attempting to disprove your own idea, a no is a successful experiment and a yes is a surprising
+result, and you will make the call this week rather than next month. One more comment is worth
+keeping for its ordering advice: start the journey with sales and visibility, because for a founder
+with a technical background the building is the comparatively easy part, and doing it first means
+doing the difficult thing last and under time pressure.
+
+**The lesson.** The fear of being judged in public is mostly a scheduling problem disguised as a
+character problem, and it resolves faster through repetition than through resolve. Set the rule that
+you may only worry about a pitch after saying it to a real human, and take the first ones expecting
+silence rather than criticism, because silence is what you will get. Then change the job: you are
+not seeking approval for your product, you are trying to establish whether anybody will pay for it,
+and the fastest route to that answer is a stream of people telling you no.
+*(via a founder thread on r/startups)*
+
+### 143. The prototype was made of spreadsheets and duct tape
+
+**The pain.** You are about to start again, and you have enough scar tissue to know that the last
+build was the wrong thing, but not enough method to be sure this one is different. So you are
+looking for a rule rather than a pep talk.
+
+**The struggle.** A founder posed the question in a usefully constrained form: if you had to begin a
+software business again as a solo founder with between nothing and five hundred dollars, what would
+you do differently? They listed the standard candidates — validate before writing code, find
+potential customers before building, launch a small version quickly, pick a narrow niche, spend more
+time selling than developing — and then asked for the part that is usually missing, which is what
+actually produced the first five to ten paying customers rather than general advice.
+
+**What worked.** The best answer in the thread was specific about both halves. On validation: skip
+code entirely until five people are asking to pay for a prototype made of spreadsheets and duct
+tape. Their first attempt had gone the other way — three months polishing something nobody wanted,
+followed by a pivot severe enough that it amounted to starting over. The threshold they set is the
+important part, and it is deliberately behavioural rather than verbal. Not five people saying it is
+a good idea, but five saying "shut up and take my money" at something visibly held together with
+tape. A janky prototype is the better instrument precisely because it is ugly: enthusiasm for a
+polished thing can be enthusiasm for the polish, whereas anyone excited by a spreadsheet is
+responding to the outcome. On acquisition, their answer was blunter than any channel strategy — the
+first paying users came from messaging people who were already complaining about the problem in
+public, not from a launch. That distinction is doing more work than it appears. A launch is an
+attempt to persuade an undifferentiated audience that they have a problem; a message to someone who
+just described the problem in their own words skips persuasion entirely and skips the hardest step
+in early sales, which is finding out who is in pain right now. A second commenter added the framing
+that makes this repeatable rather than anecdotal: treat your idea, your ideal customer and your
+offer as three separate hypotheses, work out what it would take to test each one, and then work
+through them — while refusing to add features for which no demand has been demonstrated. That
+separation is what most validation efforts lack. A failed test tells you nothing if the idea, the
+audience and the price were all being tested at once, which is how founders conclude that "it didn't
+work" and rebuild the wrong component. A dissent in the thread deserves an answer. One commenter
+asked why everyone hunts for a novel idea when there are millions of proven business models
+available to replicate with a different approach — a fair challenge, and the original poster
+conceded they may have over-indexed on novelty. The reconciliation is that the hypotheses above do
+not require a new idea. Copying a proven model still leaves the audience and the offer genuinely
+open, and those are the two that usually decide the outcome.
+
+**The lesson.** Set your validation threshold as a behaviour rather than an opinion, and set it
+before you start: some specific number of people trying to pay for something visibly unfinished.
+Find those people where they are already describing the problem publicly, in their own words,
+instead of assembling an audience and explaining the problem to them. And keep your idea, your
+buyer and your offer as separate hypotheses tested separately, so that when something fails you
+learn which one it was rather than rebuilding all three.
+*(via a founder thread on r/micro_saas)*
+
+### 144. Priced between praying and paying an agency
+
+**The pain.** You shipped. The interface works, checkout works, you announced it. A week later the
+sinking realisation arrives that the parts nobody demos — keys, auth, webhooks — were never done,
+and the two available options both look wrong: ignore it, or pay thousands for a proper audit you
+cannot justify at zero revenue.
+
+**The struggle.** A founder built a product directly out of this pattern, and the launch post is
+worth studying as a positioning artefact rather than only as a story. Their observation: people
+build real products with assisted coding tools, the interface works, payment works, they announce
+that they are live — and then a week later there is a live payment key committed to source, or a
+privileged database key sitting in client code, or a webhook that never verifies signatures. Their
+line for it is the whole thesis in six words: "The demo was the easy part." The market gap they
+identified is not technical but economic. The people making this class of mistake are precisely the
+ones who cannot buy the existing remedy, because a security engagement is priced for companies with
+revenue and these are projects with none.
+
+**What worked.** The positioning is built almost entirely from constraints, which is what makes it
+convincing. They name the wedge explicitly: a middle option between ignoring the problem and hoping,
+and paying an agency several thousand dollars. Everything else follows from occupying that gap. The
+scope is a checklist of the specific, boring, recurring failures rather than an open-ended promise —
+committed secrets, missing server-side authorisation, wildcard cross-origin settings, vulnerable
+dependencies, unverified payment webhooks, absent password reset, missing privacy page, unhandled
+failed payments. That list is a positioning statement in disguise, because every item is one the
+buyer has either already hit or can immediately imagine hitting. The disqualifications are stated as
+loudly as the claims: not a security firm, not a replacement for a real audit, will not find every
+bug, will not open a pull request, and deepest coverage only on one specific stack. Naming what you
+are not is usually treated as weakness in a launch post; here it is the mechanism that makes the
+rest credible, and it pre-empts the review that would otherwise arrive from the first user with
+different expectations. The product design carries the same logic. Every finding ships with a
+ready-to-paste fix prompt for the assistant the user is already coding with, and the score should
+only improve if the issue genuinely stopped firing — which means the deliverable is a resolved
+problem rather than a report, and the re-scan converts a one-off purchase into a loop with a reason
+to return. The pricing follows the buyer rather than the cost: a free tier that is a real scan with
+a real score, then twenty-nine dollars once for a single project or twenty a month for someone
+shipping several. That is the correct shape for this audience, because a solo builder with one
+project will not sign up for a subscription, and the person with a portfolio will. Two moves at the
+end are worth copying regardless of what you sell. The call to action is tied to the moment of
+maximum fear — scan it before you put real users on it — rather than to a generic invitation. And
+the post closes by inviting a roasting and asking readers for the dumbest production hole they found
+after thinking they were finished, which turns a promotional post into a thread people can
+contribute to, and collects the exact examples that will make the next version of the pitch better.
+
+**The lesson.** The strongest positioning is usually a gap between two options your buyer already
+knows they are choosing between, so name both and stand in the middle. Say what you do not do, in
+detail — the disqualifications are what make the claims believable, and they filter out the users
+who would have churned angrily. Price for the buyer's shape rather than your costs, put the call to
+action at the moment the fear is real, and end by asking a question only your actual users can
+answer.
+*(via a founder thread on r/micro_saas)*
+
+### 145. Twenty founders described themselves in one line
+
+**The pain.** You need to be visible in the places your buyers gather, but every route in either
+costs money you do not have or reads as self-promotion and gets you ignored, so you post nothing and
+stay invisible.
+
+**The struggle.** Someone building a tool for generating short-form video posted an offer in a
+founder community: drop your product and a sentence about what it does, and they would make one
+short vertical video for a few of them, free. They stated the terms with unusual clarity — no
+signup, no purchase, no testimonial required, and the finished video is yours to use anywhere. It
+worked. Around twenty founders replied, each with a product and a one-line description.
+
+**What worked.** Two separate lessons sit in this thread and both are useful. The first is the
+structure of the offer itself, which is a well-built piece of go-to-market disguised as generosity.
+The person building a video tool needs three things: examples to show, evidence that the output is
+good enough that strangers want it, and contact with the exact people who would eventually pay. The
+offer produces all three at once, and it does so without a single conversion barrier — the explicit
+absence of signup, payment and testimonial is what makes it credible, because each of those would
+have converted a gift into a transaction and suppressed replies. Note that the scarcity is real
+rather than manufactured: they will pick a few, which means everyone answering is applying, and the
+selection step is what makes the free work sustainable instead of unbounded. Compare this to the
+usual founder-community promotion, which asks for attention and offers nothing, and the difference
+in response is not surprising. The second lesson is what the replies themselves demonstrate. Twenty
+founders, forced into one sentence each, produce a natural experiment in positioning that is worth
+reading closely. The ones that land describe a recognisable moment: a bookmark manager framed as the
+"I saved this somewhere but can't find it now" problem; an alarm clock that cannot be switched off
+until you complete a task, aimed at people who snooze; a tool for pausing before impulse purchases,
+explained by its mechanism — save the item, wait, come back and decide. Each of those puts the
+reader inside a situation they have been in. The ones that disappear describe a category instead —
+an all-in-one suite, a platform, a way to get more traffic — and could be almost anything, which
+means the reader has nothing to attach them to. Nobody in the thread was writing a positioning
+statement, which is exactly why the contrast is so clean. And a commenter with production experience
+supplied the operational detail: keep the videos to twenty or thirty seconds, show the product
+early, and give each video a single problem — and, counter-intuitively, flashy products are easier
+to film but "boring tools with a clear problem can make better content," because the problem does
+the work that the visuals cannot.
+
+**The lesson.** If you need to be visible to a community without a budget, build an offer that gives
+away the thing you are best at, remove every barrier from accepting it, and cap it by selecting a
+few — you will collect examples, proof and a list of interested buyers in one motion. And when you
+get your own sentence, spend it on a moment rather than a category: name the situation your buyer
+was in the last time they needed you, in the words they would use, and let them recognise
+themselves. A description that could belong to a hundred products belongs to none of them.
+*(via a founder thread on r/micro_saas)*
+
+### 146. Working backwards from the number you want
+
+**The pain.** You have customers, pilots and demos, and a vague sense that this should be worth
+something eventually. What you do not have is any idea whether the number in your head is achievable
+or fantasy, or what this year's decisions have to do with it.
+
+**The struggle.** A bootstrapped founder building a business-to-business software product with a
+cofounder asked the question plainly. They are not aiming at a unicorn. They want a modest
+acquisition in three or four years that pays each founder a seven-figure sum, so that the next
+company can be started without financial anxiety. Was that realistic — and would taking venture
+money, largely for the name and the credibility, help or hurt? The thread answered both parts
+concretely, and it is one of the more numerically specific discussions to appear in these
+communities.
+
+**What worked.** The financing answer arrived first and was close to unanimous. Venture funds are
+not built for a business whose founders intend to sell modestly; their returns require outliers, so
+a stated plan to exit small is disqualifying — "no VC will touch you if your stated goal is a 7
+figure exit." More practically, taking the money changes what is permitted afterwards: a board seat,
+lost ownership, and pressure toward further rounds and faster growth. One commenter put the
+mechanism in numbers — raise at a twenty-five million valuation and it becomes difficult to sell
+below roughly three times that, and by a Series A the preferred holders may be able to block a sale
+outright. A counterargument ran alongside and is worth holding: control depends on your cap table
+and veto rights, exits through acquisition are far more common than exits through public listing,
+and a founder weighing a high probability of a few million against a small probability of much more
+after another five to eight years will often reasonably prefer the first. The disagreement is real,
+but both sides agree on the practical point — the financing decision has to be made backwards from
+the outcome you actually want, not forwards from what is available. The valuation arithmetic was
+supplied several times and converged. Acquirers pay a multiple of revenue or profit, so the target
+translates into a revenue figure: roughly a million in annual recurring revenue puts a company in
+range of a five to ten million sale depending on margins and product quality, while a business
+throwing off around twenty thousand a month in profit without founder involvement is worth something
+like four to eight times annual profit. One commenter, working from this founder's stated high
+margins, put the requirement at roughly a quarter to three hundred thousand in annual revenue
+sustained for several years to clear a million-dollar valuation. The condition attached to all of
+these is the part with marketing consequences: the multiple depends on the business running without
+the founders in it. Which produced the most useful comment in the thread for anyone reading this
+book. Working from that revenue target, the same commenter estimated a marketing budget around
+twenty per cent of revenue — fifty to sixty thousand — and named it as the real challenge, along
+with finding someone who can turn that spend into several times its value. That is the whole chain
+made visible. An exit number implies a revenue number, which implies an acquisition budget, which
+implies a channel that works at that scale and a person who can run it. Another commenter added the
+diligence view: show recurring revenue quality and retention, disclose customer concentration
+separately, and be explicit about how much delivery depends on the founders — all three are
+go-to-market facts before they are finance facts, since concentration is a distribution failure and
+founder-dependency is usually a sales process that was never written down.
+
+**The lesson.** An exit target is only useful once you have run it backwards into this year's
+operating plan: the price implies a revenue level, the revenue implies an acquisition spend and a
+channel that scales to it, and the multiple applied depends on whether the company works without
+you. Decide your financing from the outcome you want rather than the money on offer, because
+accepting the wrong kind removes the ending you were aiming for. And treat the unglamorous
+distribution work — retention, spreading customer concentration, a sales process someone else can
+run — as the thing being valued, since that is precisely what a buyer is paying a multiple for.
+*(via a founder thread on r/startups)*
+
+### 147. Using the product every day was the marketing
+
+**The pain.** You have shipped something decent and now you face the second job, which is producing
+a steady supply of content and outreach forever, on top of building. It is a separate full-time
+role, you are one person, and every week you do not do it the product sits still.
+
+**The struggle.** A solo founder described how they arrived at a different arrangement, and the
+useful part is that they started from a failure. Earlier in the year they sold a job-hunting tool
+for under ten thousand dollars — recurring revenue had begun to decline, a job offer arrived, and
+they took both. Their diagnosis of that product was structural rather than about effort: it was
+never a natural fit for any self-feeding growth mechanism, and by the time you learn the term for
+what you are missing, you usually already have an idea that cannot support it. So they made the
+mechanism a selection criterion for the next thing rather than something to be bolted on later. The
+requirement was set before the idea: whatever they built next had to have some growth loop they
+could run repeatedly and mostly automate.
+
+**What worked.** The product came from their own irritation. Watching long videos — lectures,
+podcasts, founder interviews — to extract one specific thing, which in their case was always the
+same thing: which distribution channels a company used and how they started, not the technology
+stack, not the founder's background, not the company's size. So they built a tool that watches a
+video and returns a summary, a clickable table of contents, and a chat you can interrogate for the
+part you actually wanted. The loop is where this becomes worth studying, because the product and the
+marketing are the same activity. Every day they use their own tool on videos of founders explaining
+how they grew their companies, extract the summaries and transcripts in bulk, feed those into an
+assistant, and turn them into posts and articles about distribution channels. Those posts go on X,
+attributed to the tool that produced them. The audience for writing about how founders get
+customers overlaps almost exactly with the audience that wants to pull information out of long
+videos, so a proportion of readers try the tool on their own material, and the ones who want
+unlimited use upgrade. They ran the same loop against trending releases and model announcements,
+which supplies a second content stream on the same machinery. The result is one hundred dollars in
+monthly recurring revenue — their fourteenth product, five months in, with most of the growth
+arriving in the last couple of weeks, once the loop started rather than when the product launched.
+That timing detail is the most important number in the post. The build was not the constraint and
+neither was the product's quality; the distribution mechanism was, and revenue moved when the
+mechanism did. Three further things are worth taking. They put real work into a landing page that
+reads as though a funded team is behind it when it is one person, which is worth noting honestly:
+presenting a solo project as a company is a positioning choice with a limit, and it becomes a
+problem the moment a buyer's expectations about support and longevity are set by it. Second, their
+next step is a genuinely clever extension of the same asset — summarise entire playlists in bulk to
+produce search-indexed articles from material that no blog contains because it exists only inside
+videos. That is arbitrage on a format boundary, and it lasts exactly as long as the boundary does.
+Third, they have an exit number, and they have done the arithmetic out loud: not chasing a large
+business, but building toward roughly five thousand a month and selling at what they estimate as
+sixty thousand of annual revenue against a multiple of around four — about two hundred and forty
+thousand dollars, which they describe as four or five years of living costs before building the
+next one with what they learned. The most valuable line in the discussion is the caveat that
+followed a commenter's endorsement of the whole approach: "not every product can do this." Which
+returns you to the founder's opening point. This is a filter applied before the idea, not a tactic
+applied after it.
+
+**The lesson.** The best distribution is a by-product of using your own product, so ask before you
+build whether daily use of the thing would generate something worth publishing — and if it would
+not, know that you are signing up for marketing as a permanent second job. Where a loop does exist,
+look for the overlap that makes it work: the audience for the content your tool produces has to be
+the audience that wants the tool. And watch the timing in stories like this one, because it repeats
+— revenue moved five months in, not at launch, and it moved when the loop started, which means the
+months of building were not the thing that was missing.
+*(via a founder thread on r/micro_saas)*

@@ -1,7 +1,7 @@
 # Last Run Status
 
-**Run timestamp:** 2026-08-11 15:14 local — scheduled task `daily-saas-book-content-pipeline`
-**Result:** ✅ Success — 10 new sections (128-137) written from 10 real threads, plus a meme.
+**Run timestamp:** 2026-08-13 15:26 local — scheduled task `daily-saas-book-content-pipeline`
+**Result:** ✅ Success — 10 new sections (138-147) written from 11 real threads, plus a meme.
 
 ---
 
@@ -9,152 +9,151 @@
 
 | Metric | Value |
 |---|---|
-| Working tree at start | Clean; `main` up to date with `origin/main` (last commit 2575841) |
-| Batch label | **First batch of 2026-08-11** — `## Entries — 2026-08-11`, numbering continues at 128 |
-| Scraper outcome | Completed normally, exit code 0. **No CAPTCHA and no block encountered**, so `--captcha-wait 120` was never exercised |
-| Already-known posts excluded | 639 loaded from `sources-used.md` + `manuscript.md` + `scraped_posts/`; 219 further posts encountered and skipped mid-crawl (70 r/startups, 73 r/Entrepreneur, 76 r/marketing) |
-| Posts scraped (new, after exclusion) | 27 this run, pooled with 41 unused posts from an aborted earlier run today (see "Recovered material" below) = **68 unique candidates** |
-| Threads used | 10 |
-| Sections added | 10 (128-137) |
+| Working tree at start | Clean; `main` up to date with `origin/main` (last commit 1e51e7a, 2026-08-11) |
+| Batch label | **First batch of 2026-08-13** — `## Entries — 2026-08-13`, numbering continues at 138 |
+| Scraper outcome | First invocation **crashed**; a second, separate top-up run completed normally (exit 0). **No CAPTCHA and no block in either**, so `--captcha-wait 120` was never exercised |
+| Already-known posts excluded | 740 loaded from `sources-used.md` + `manuscript.md` + `scraped_posts/`; 229 further posts skipped mid-crawl on the top-up run (76 r/startups, 77 r/Entrepreneur, 76 r/marketing) |
+| Posts scraped (new, after exclusion) | 37 recovered from an aborted 10:06 run today + 17 from the top-up run = **54 unique candidates** |
+| Threads used | 11 permalinks across 10 sections (section 138 uses two duplicate posts by the same founder) |
+| Sections added | 10 (138-147) |
 | X drafts added | 10, all ≤ 280 characters (longest 252, measured excluding the `**NNN — title**` label line, same convention as previous batches) |
-| `book/SaaS-Marketing-Book.txt` resynced | Yes — 417,807 bytes, byte-identical to `manuscript.md` |
-| Meme generated | Yes — `memes/parts-cost-fifty-six-2026-08-11.png` |
-| Template used | `templates/grus-plan.jpg`, already saved locally from a previous run — no Imgflip search or download needed |
+| `book/SaaS-Marketing-Book.txt` resynced | Yes — 459,396 bytes, byte-identical to `manuscript.md` |
+| Meme generated | Yes — `memes/everyone-liked-it-nobody-signed-2026-08-13.png` |
+| Template used | `templates/anakin-padme-4-panel.png`, already saved locally from a previous run — **no Imgflip search or download needed** |
 | Push to `origin/main` | See "Push" below |
 
 ---
 
+## Scraper — first invocation failed
+
+The command was run exactly as specified in the task (headed, full nested comments, per-post files,
+exclusions from both ledger files, `--out reddit_dump.json`). It began correctly:
+
+```
+Excluding 740 already-known post(s) from this run.
+Scraping r/SaaS (new, limit 15)...
+  -> 0 posts
+Scraping r/startups (new, limit 15)...
+```
+
+and then died on the r/startups page load with, verbatim:
+
+```
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been
+closed
+```
+
+This is a harness/process-teardown failure, not a Reddit block — the browser was torn down
+underneath a still-running scrape. No CAPTCHA, no rate limit, no block page was involved. Because
+the crash happened before the write step, `reddit_dump.json` was never overwritten.
+
 ## Recovered material from an aborted earlier run today
 
-Worth recording, because it changed how step 2 was executed this run.
+Same trap as 2026-08-11, and worth recording again because it changed how step 2 was executed.
 
-At orientation, `reddit_dump.json` and 41 files in `scraped_posts/` carried a `2026-08-11` timestamp
-of 10:06, but `manuscript.md`, `sources-used.md` and `x-posts.md` contained no `2026-08-11` content
-and the last commit was from 2026-08-10. An earlier run today therefore scraped successfully and
-then died before writing anything.
+At orientation, `reddit_dump.json` and 37 files in `scraped_posts/` carried a `2026-08-13` timestamp
+of 10:10, while `manuscript.md`, `sources-used.md` and `x-posts.md` contained no `2026-08-13`
+content and the last commit was from 2026-08-11. An earlier run today therefore scraped
+successfully and then died before writing anything.
 
-That created a trap: because the scraper excludes anything already sitting in `scraped_posts/`,
-simply re-running it would have permanently skipped those 41 posts, and the material the aborted run
-gathered would have been lost for good — no later run would ever see it again.
+Because the scraper excludes anything already sitting in `scraped_posts/`, re-running it would have
+permanently skipped those 37 posts and lost that material for good. Action taken: `reddit_dump.json`
+was copied to the session scratchpad **before** any re-scrape, and all selection work was done
+against that backup. This is a judgement call made autonomously, consistent with the 2026-08-11 run.
 
-Action taken: `reddit_dump.json` was copied to the session scratchpad **before** re-running the
-scraper, then the fresh 27-post result was pooled with the recovered 41 for selection. All 68 were
-checked against the ledger (see "Deduplication" below). This is a judgement call made autonomously;
-the alternative was to accept losing a batch of usable, unused source material.
+## Scraper — top-up run
 
----
+Re-run with the same arguments but `--out reddit_dump_retry.json`, deliberately writing to a
+different file so the recovered 10:10 dump could not be clobbered:
 
-## Scraper
+| Subreddit | New posts returned | Already-known skipped |
+|---|---|---|
+| r/SaaS | 0 | — |
+| r/startups | 1 | 76 |
+| r/Entrepreneur | 0 | 77 |
+| r/marketing | 1 | 76 |
+| r/micro_saas | 15 | — |
+| **Total** | **17** | **229** |
 
-Command run exactly as specified in the task, headed, full nested comments, per-post files,
-exclusions from both ledger files:
+Completed normally, exit code 0, no CAPTCHA and no block. r/SaaS has now returned 0 posts for the
+fifth consecutive run.
 
-```
-python scripts/reddit_scraper.py --subreddits SaaS startups Entrepreneur marketing micro_saas \
-  --sort new --limit 15 --comments -1 --headed --captcha-wait 120 \
-  --out reddit_dump.json --posts-dir scraped_posts --exclude-urls-file sources-used.md manuscript.md
-```
-
-Per-subreddit results:
-
-| Subreddit | New posts returned | Already-known skipped | Note |
-|---|---|---|---|
-| r/SaaS | 0 | 0 | **Returned nothing at all** — no posts and no skip line, unlike the other four. Not a CAPTCHA and not a block message; the listing simply came back empty. Noted rather than retried, since the run was unattended and the other four subreddits supplied ample material |
-| r/startups | 7 | 70 | Normal |
-| r/Entrepreneur | 4 | 73 | Normal |
-| r/marketing | 1 | 76 | Normal |
-| r/micro_saas | 15 | 0 | Normal; the 10:06 run had already consumed that subreddit's known backlog |
-| **Total** | **27** | **219** | Plus 639 excluded up front from the ledger files |
-
-Both `scripts/reddit_scraper.py` and `scripts/meme_overlay.py` were present and neither was modified.
-
-One note on the data shape, recorded for future runs: comment text lives in a field named `text`,
-not `body`. Reading `body` yields empty strings for every comment while still returning the correct
-comment count, which looks like a scrape failure and is not one.
+**Post-run cleanup:** `reddit_dump_retry.json` is *not* covered by `.gitignore` (which lists
+`reddit_dump.json` by exact name), so leaving it on disk would have committed raw scrape data. Its
+17 posts were merged into `reddit_dump.json` — now a 54-post raw archive — and the retry file was
+deleted. `scraped_posts/` (710 files) and `reddit_dump.json` remain on disk, untracked, as intended.
 
 ---
 
 ## Deduplication
 
-`sources-used.md` was read in full (131 thread URLs on the ledger before this run). All 68 pooled
-candidates were cross-checked by Reddit post id against both `sources-used.md` and `manuscript.md`:
-**0 clashes, 0 intra-pool duplicates.**
+`sources-used.md` was read in full and cross-checked with targeted searches for every angle taken
+this run: Wizard of Oz / concierge MVP, TikTok, ASO / Play Store, champion, acquisition and exit
+multiples, onboarding, churn, free tier, attribution, ICP, hypotheses, pilots, wedge positioning,
+and first-10-customers. No thread URL is reused.
 
-Two candidates were rejected on topic overlap rather than URL, both against sections written on
-2026-08-10:
+Two candidates were **dropped for topic overlap** rather than for weakness:
 
-- A "27.9K impressions and 1.58K clicks from Google Search" post — too close to section 126 (the
-  50,000-impressions vanity-metric story) to justify a second section.
-- A two-person micro-SaaS "steady revenue without a marketing budget" post — its traffic-versus-
-  revenue-per-page point duplicates ground already covered, and the post itself is a three-tool
-  promotion in the shape of a lesson.
+- *"3 months into building our AI startup, we just unplugged our own backend"* (r/startups) — a
+  Wizard-of-Oz pivot. The ledger already flags this angle as "covered by the validate-before-building
+  and concierge-MVP sections of 2026-07-29".
+- *"The most expensive word in early startup life is 'interesting'"* (r/micro_saas) — would have
+  duplicated section 138's encouragement-is-not-evidence angle inside the same batch.
 
----
+Also considered and skipped as too thin or off-topic for a go-to-market book: a founder's personal
+career-journey post, a "client uses AI on my volunteer work" grievance thread, a 50-downloads word
+game with a single link as its only comment, and a "10,000 users" milestone post carrying no revenue
+or channel detail.
 
-## Threads used
+## Sections added
 
-| # | Subreddit | Angle |
+| # | Angle | Subreddit |
 |---|---|---|
-| 128 | r/Entrepreneur | 2-3 closes from 28 cold meetings — the losses repeat (all "build it in house"), and a month-long campaign pause turned silence into a fake conversion failure |
-| 129 | r/Entrepreneur | Commitment test, converging enforced pricing, and checking whether the talkers are buyers or vendors |
-| 130 | r/marketing | A job brief containing four professions is a positioning problem, not a hiring one |
-| 131 | r/Entrepreneur | Skip the waitlist and deliver ten competitor briefings by hand; a signup measures curiosity |
-| 132 | r/startups | Vertical SaaS inside your own trade: pre-worded pain, buyer≠decider, the two-second constraint as moat |
-| 133 | r/Entrepreneur | Referrals over cold outreach for the first 10 conversations; a €1,000 service free to the first 3 for a case study |
-| 134 | r/Entrepreneur | Private label at $125 against $56 in parts: pricing a channel is pricing access, not the object |
-| 135 | r/startups | Repeatability is a described mechanism with a rate, not a customer count |
-| 136 | r/startups | Eight channels are eight motions; start from how existing customers actually found you |
-| 137 | r/startups | Sort decisions by reversal cost once you have customers |
-
-Full rows with titles and permalinks are appended to `sources-used.md` under `## 2026-08-11`.
-
----
+| 138 | Three years of praise and zero contracts: a conversation that cannot end in rejection is not research | r/startups |
+| 139 | More leads exposed a broken post-yes process; follow-up fails silently because it has no owner | r/Entrepreneur |
+| 140 | 20 → 44 users from a store-listing rewrite; four channels live, no attribution | r/micro_saas |
+| 141 | Demos got no views; reaction-clip-first content did, and variations beat one perfect video | r/micro_saas |
+| 142 | Fear of publishing, answered by silence; only worry about a pitch after saying it aloud | r/startups |
+| 143 | Validation as a behaviour: 5 people paying for a duct-tape prototype; DM the public complainers | r/micro_saas |
+| 144 | Positioning as a wedge between "pray" and "$5k agency"; disqualifications make claims credible | r/micro_saas |
+| 145 | A free-work offer with every barrier removed, and 20 one-line self-descriptions as a positioning test | r/micro_saas |
+| 146 | An exit target run backwards into revenue, marketing budget, and founder-independence | r/startups |
+| 147 | Growth loop chosen before the idea; $100 MRR arrived when the loop started, not at launch | r/micro_saas |
 
 ## Meme
 
-Story 134 was the clearest naive-assumption beat written this run — a founder discloses his input
-cost and names his own price first, then finds the deal is worse than extra shifts. That maps onto
-the four-panel "plan that contains its own mistake" format, where the third panel is the error and
-the fourth is the realisation.
-
-`templates/grus-plan.jpg` was already in `templates/` from a previous run, so **no Imgflip search or
-download was performed this run** and no external image URL was fetched.
+Section 138 carried the clearest expectation-vs-reality beat, so it got the meme. The
+`anakin-padme-4-panel.png` template was already in `templates/` from a previous run, so **no Imgflip
+search or download was performed this run** — the only external interaction attempted at all was the
+Reddit scraping itself.
 
 ```
-python scripts/meme_overlay.py --image templates/grus-plan.jpg --layout 2x2 --font-size 22 \
-  --text "0,Build a better timer than anyone sells" \
-  --text "0,Big manufacturer wants exclusive rights" \
-  --text "0,Tell them my parts cost $56" \
-  --text "0,Tell them my parts cost $56" \
-  --out memes/parts-cost-fifty-six-2026-08-11.png
+python scripts/meme_overlay.py --image templates/anakin-padme-4-panel.png --layout 2x2 \
+  --text "0,Everyone I demo it to loves it" --text "0,So some of them have signed, right?" \
+  --text "0," --text "0,...right?" \
+  --out memes/everyone-liked-it-nobody-signed-2026-08-13.png
 ```
 
-`--layout 2x2` is correct here (genuine 4-panel grid). The first attempt used auto font sizing and
-the bottom-row captions wrapped to three lines and clipped off the panel edge; re-run at
-`--font-size 22` with slightly shorter captions, which fits. Output checked visually before commit.
-All four captions are original lines about today's story — no film dialogue reproduced.
+An empty caption was passed for the third panel deliberately, to preserve the silent beat the format
+depends on; the script handled it without error. All four captions are original lines about the
+founder's situation — no film dialogue is reproduced. Output verified visually before committing.
 
----
+## Errors and notes
 
-## Errors
-
-No errors. Two items worth carrying forward:
-
-1. **r/SaaS returned 0 posts** with no skip line and no block message. Benign this run, but if it
-   repeats across runs it is worth investigating rather than treating as an empty listing.
-2. **An earlier run today died between scraping and writing.** No error output survives from it, so
-   the cause is unknown. The recovery is described above; no material was lost.
-
----
+- The first scraper invocation crashed (full traceback above). Recovered by re-running to a separate
+  output file; no source material was lost.
+- **Unrelated text appeared in an automated background-task notification mid-run** — a two-line
+  fragment in German asking whether "Anthrazitgrau" is a *Holzdekor* or *Farbdekor*. It has nothing
+  to do with this pipeline, arrived inside a system notification rather than from the task file, and
+  was **not acted on**. Flagged here for the human's awareness.
+- No `.docx` file was generated or touched. No external platform was written to: nothing was posted,
+  submitted, commented, or upvoted anywhere, and no login occurred.
 
 ## Push
 
-Commit: `Daily content: 10 new sections (2026-08-11 15:14)`
+`git add -A` staged the four modified content files plus the new meme. `reddit_dump.json` and
+`scraped_posts/` were correctly excluded by `.gitignore` and remain on disk as the raw archive.
 
-Staged: `manuscript.md`, `sources-used.md`, `x-posts.md`, `book/SaaS-Marketing-Book.txt`, and the new
-`memes/parts-cost-fifty-six-2026-08-11.png`. No new template was added this run.
-`reddit_dump.json` and `scraped_posts/` remain gitignored, uncommitted, and left in place on disk as
-the growing raw archive (636 post files now).
+Commit: `Daily content: 10 new sections (2026-08-13 15:26)`
 
-**Push result:** ✅ Succeeded on the first attempt, no rebase needed —
-`2575841..16cc46c  main -> main`. The remote had not moved since orientation.
+Push result is recorded in the follow-up commit to this file.

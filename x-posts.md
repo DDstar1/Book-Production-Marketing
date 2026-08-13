@@ -1570,3 +1570,123 @@ More in the book.
 
 ---
 
+## 2026-08-13
+
+**138 — Three years. Zero contracts. Zero complaints.**
+
+Everyone liked the product. Nobody signed.
+
+One reply undid it: in three years, how many times did you put a number in front of someone and ask them to sign?
+
+He'd been collecting encouragement instead of information.
+
+More in the book.
+
+---
+
+**139 — The ads worked and the business got worse**
+
+20 leads a month became 60. Same team. Follow-ups slipped, onboarding stalled, the owner answered "what happens next?" all day.
+
+Marketing amplifies whatever you already do, including the broken parts.
+
+More in the book.
+
+---
+
+**140 — His app store title was just the app's name**
+
+Nobody searches for a name they've never heard.
+
+He rewrote the title and description around what people actually type, added TikTok and Threads, and went 20 → 44 users in three weeks.
+
+Fix the page before you drive traffic to it.
+
+More in the book.
+
+---
+
+**141 — His product demos got no views**
+
+So he stopped making ads.
+
+Reaction clip first, app second, inside something people wanted to watch anyway. Some hit 100k+ views — and they converted.
+
+Then he made variations instead of one perfect video.
+
+More in the book.
+
+---
+
+**142 — He stared at the post button for three hours**
+
+Certain everyone would tear his landing page apart.
+
+He posted. Two days of total silence.
+
+The fear assumes an audience you don't have yet. The rehearsal is always harsher than the call.
+
+More in the book.
+
+---
+
+**143 — Five people said "shut up and take my money"**
+
+At a prototype made of spreadsheets and duct tape.
+
+That's the bar — not five people calling it a good idea.
+
+His first paying users came from DMing people already complaining about the problem in public.
+
+More in the book.
+
+---
+
+**144 — "The demo was the easy part"**
+
+Committed API keys. Webhooks that never verify. The stuff nobody demos.
+
+He priced a scan between "ignore it and pray" and "$5k agency" — and listed everything it does NOT do.
+
+The disqualifications are what made the claims credible.
+
+More in the book.
+
+---
+
+**145 — 20 founders described their product in one sentence**
+
+The ones that landed named a moment: "I saved this somewhere and can't find it now."
+
+The ones that vanished named a category: platform, all-in-one suite, more traffic.
+
+Sell the situation, not the shelf.
+
+More in the book.
+
+---
+
+**146 — He wanted a 7-figure exit in 4 years**
+
+The thread did the arithmetic backwards for him.
+
+~$1M ARR. A 3-4x multiple. Roughly 20% of revenue as marketing budget to get there.
+
+An exit number is a distribution plan wearing a suit.
+
+More in the book.
+
+---
+
+**147 — He hit $100 MRR in the last two weeks of five months**
+
+Not when he launched. When the loop started.
+
+He uses his own tool daily on founder videos, turns the output into posts, and the readers become users.
+
+Pick the loop before you pick the idea.
+
+More in the book.
+
+---
+
