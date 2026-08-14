@@ -1690,3 +1690,127 @@ More in the book.
 
 ---
 
+## 2026-08-14
+
+**148 — 74 users. 1,038 posts. $0 revenue. 14 months.**
+
+He finally audited his own product and found nine features that had never once executed.
+
+The onboarding email. The whole notification system.
+
+Organic traffic, pouring into a funnel with the second stage switched off.
+
+More in the book.
+
+---
+
+**149 — Day 1: two startups, 146 impressions, one click.**
+
+He published the numbers anyway. Every single day.
+
+Flat until day 10. By day 52: 73 startups, 131K impressions.
+
+Nobody watching on day six could have known.
+
+Post the small number.
+
+More in the book.
+
+---
+
+**150 — He was terrified nobody would want it.**
+
+Six months in, that problem does not exist.
+
+Two calls to adjacent professionals, one post to people who already knew him, then word of mouth.
+
+The bottleneck was capital and a lawyer's fees. Never demand.
+
+More in the book.
+
+---
+
+**151 — Half their documents were not written by people.**
+
+Users' coding agents were doing it, through an API they'd shipped as a side request.
+
+Nobody announced it. The dashboard never showed it.
+
+Segment your usage by who initiated the action.
+
+More in the book.
+
+---
+
+**152 — $5,000 for the magazines. $1,000 when he said no budget.**
+
+A price that collapses on contact with your budget was never a price.
+
+"Only pay on publication" means nothing when they define publication.
+
+One founder paid $5-7k. Three years, no article.
+
+More in the book.
+
+---
+
+**153 — After the MVP, building stops being work.**
+
+He'd read that warning many times and decided each time his situation was different.
+
+It wasn't.
+
+The build loop feels productive because it's comfortable.
+
+Go get the first customers by hand.
+
+More in the book.
+
+---
+
+**154 — A dozen founders each described their blocker in one paragraph.**
+
+Almost none of them were product problems.
+
+Testers, pricing, distribution — go-to-market wearing build clothing.
+
+And: fix the page before you send anyone to it.
+
+More in the book.
+
+---
+
+**155 — The traffic came fast, then fell off a cliff.**
+
+Ten days of data and a strong urge to rewrite everything.
+
+New domains get a trial, then get tightened. It's a known shape.
+
+Pick your observation window before you turn the channel on.
+
+More in the book.
+
+---
+
+**156 — "Why can I not just do this in Claude or GPT?"**
+
+Asked twice in one thread. He answered both, politely, in the comments.
+
+Everyone else was thinking it and never typed it.
+
+Concede it on the page, then say what a general tool structurally cannot do.
+
+More in the book.
+
+---
+
+**157 — The busiest page was not the page making money.**
+
+Averaged into one traffic line, they look identical.
+
+High bounce rate, $2.63 per visitor. On a traffic dashboard that's bad news. On revenue per
+visitor it's one of your best assets.
+
+More in the book.
+
+---
