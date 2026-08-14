@@ -137,4 +137,9 @@ Committed as `Daily content: 10 new sections (2026-08-14 15:16)`, covering `manu
 `sources-used.md`, `x-posts.md`, `book/SaaS-Marketing-Book.txt` and the new meme. `reddit_dump.json`
 and `scraped_posts/` are gitignored and were left on disk untouched, as instructed.
 
-Push result is recorded in the follow-up commit to this file.
+**Push succeeded on the first attempt** — no rejection, no rebase needed:
+
+```
+To https://github.com/DDstar1/Book-Production-Marketing.git
+   108960b..267f513  main -> main
+```
