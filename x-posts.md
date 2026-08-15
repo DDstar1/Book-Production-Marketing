@@ -1814,3 +1814,128 @@ visitor it's one of your best assets.
 More in the book.
 
 ---
+
+## 2026-08-15
+
+**158 — People signed up, said nice things, and vanished. No churn reason. Nothing.**
+
+So he messaged every single one and asked. Most ignored him.
+
+The few who answered all said the same thing: the first 10 minutes felt unfamiliar.
+
+He fixed only that. Retention changed.
+
+More in the book.
+
+---
+
+**159 — His best traffic week came from a story: young local founder, free AI law tool.**
+
+It worked. A news site picked it up. The product wasn't ready and the traffic died.
+
+Now it's good. But he's "a bit more corporate," so the story is gone.
+
+You get to spend a launch story once.
+
+More in the book.
+
+---
+
+**160 — Six months hunting the internet for a problem worth solving. Everything was taken.**
+
+Of course it was. A problem you can search for is one someone already wrote down.
+
+The reply that landed: you have no experience of the real world.
+
+The undefended problems live inside trades, where people call their workaround "fine."
+
+More in the book.
+
+---
+
+**161 — "Integrations will fast-track our distribution."**
+
+Integrations do two different jobs with the same word. One removes an objection from a deal you
+already won. One puts you in front of strangers.
+
+Only the second is distribution. And the vendors charge per connected account.
+
+More in the book.
+
+---
+
+**162 — $4k/mo. 90% margins. Third-party verified. Full stack breakdown.**
+
+Top comments: "what's the product?" and "reveal the app sir."
+
+He proved the number and never named the thing.
+
+The only real mechanism in the post — $5 per install — came from testing paywall screens, not from
+any tool on his list.
+
+More in the book.
+
+---
+
+**163 — She has three apps. She built a fourth one to do their TikTok for her.**
+
+Fair enough — the daily posting is a job nobody hired for.
+
+Then commenters asked to see the three apps. "Can I share in DM?"
+
+Tooling removes the labour of distribution. It does not remove the exposure. That was the part
+being avoided.
+
+More in the book.
+
+---
+
+**164 — "What's the one thing I can do every day to get customers?"**
+
+Talk to one person who could buy. Every day.
+
+Then the half everyone drops: write down what they said, in their words.
+
+That transcript is what your landing page is eventually made of. You cannot reconstruct it from
+memory.
+
+More in the book.
+
+---
+
+**165 — "Is nobody signing up because I have no community, or because I have no trust?"**
+
+Neither. There were no screenshots. All promise, no proof.
+
+Same week, he posted a picture of the actual product. A stranger engaged in seconds and had
+opinions.
+
+The product was never the problem. It was missing from its own front page.
+
+More in the book.
+
+---
+
+**166 — "Besides cheaper and prettier, what have you actually got?"**
+
+Everyone answers support and speed. Nobody believes it until they're stuck at 2am.
+
+Those are promises about an event that hasn't happened yet.
+
+The founders getting traction hand you a free artefact about your own product instead.
+
+More in the book.
+
+---
+
+**167 — He designed the event banner, got it approved, and never placed the order.**
+
+Event tomorrow. Every printer in town said no.
+
+The damage was never the banner. It was the hours between noticing and telling them.
+
+He called. The GM was fine about it.
+
+More in the book.
+
+---
